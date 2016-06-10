@@ -14,3 +14,9 @@ RUN apt-get update \
     && mv molgenis-app-1.21.1.war $CATALINA_HOME/webapps/molgenis-app-1.21.1.war \
     && echo 'CATALINA_OPTS="-Xmx2g -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Dmolgenis.home=/opt/molgenis"' > $CATALINA_HOME/bin/setenv.sh' \
     && mkdir /opt/molgenis
+    
+ADD scripts /scripts
+WORKDIR /scripts
+RUN chmod a+x *.sh
+
+ENTRYPOINT [ "/scripts/entrypoint.sh" ]
