@@ -6,12 +6,13 @@ if [[ ! -f "$file" ]]; then
 cat << EOF > $file
 admin.password=${MOLGENIS_ADMIN_PASSWORD}
 admin.email=${MOLGENIS_ADMIN_email}
-db_user=${MYSQL_USER}
-db_password=${MYSQL_PASSWORD}
-db_uri=jdbc\:mysql\://${MOLGENIS-MYSQL_PORT_5432_TCP_ADDR}/${MYSQL_DATABASE}
+db_user=molgenis
+db_password=molgenis
+db_uri=jdbc\:mysql\://molgenisdb/molgenis
+molgenis.version=31
 EOF
 
-
+chown tomcat:tomcat $file
 
 fi
 

@@ -3,7 +3,7 @@ services:
   molgenis-web:
     image: bibbox/molgenis
     links:
-      - molgenis-mysql
+      - molgenis-mysql:molgenisdb
     ports:
      - "7777:8080"
     environment:
