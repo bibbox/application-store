@@ -1,0 +1,25 @@
+# postgresql
+#
+# VERSION 0.0.1
+#
+
+# 0.0.1 : initial creation of image for postgres
+
+FROM debian:jessie
+
+MAINTAINER Robert Reihs <robert.reihs@gmail.com>
+
+
+ADD addRemoteConnectionTo_pg_hba.sh /docker-entrypoint-initdb.d/addRemoteConnectionTo_pg_hba.sh
+ADD setup-bibbox-database.sql /docker-entrypoint-initdb.d/setup-bibbox-database.sql
+RUN apt-get update \
+      && apt-get install -y wget
+RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add - \
+      && echo "deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main" | tee /etc/apt/sources.list.d/pgdg.list \
+      && apt-get update \
+      && apt-get install -y postgresql-9.5 postgresql-server-dev-9.5
+RUN echo "host    all             all             127.0.0.1/32            trust" >> /etc/postgresql/9.5/main/pg_hba.conf \
+      && echo "host    all             all             172.17.0.1/16            trust" >> /etc/postgresql/9.5/main/pg_hba.conf \
+      && psql -a -f /docker-entrypoint-initdb.d/setup-bibbox-database.sql
+
+
