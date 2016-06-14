@@ -1,6 +1,18 @@
+![alt text](http://www.molgenis.org/chrome/site/molgenis_logo2.png "Molgenis Logo")
 # Molgenis
+### Category
+Data Integration / Data Warehouse
+### Demo URL
+Available soon
+### Download
+[Download from maven](http://search.maven.org/#search|gav|1|g%3A%22org.molgenis%22%20AND%20a%3A%22molgenis-app%22)
+### Tool ID
+### Platform
+### License
+### Description
 
-# Environment Variables
+# Docker Image
+## Environment Variables
 MOLGENIS_ADMIN_PASSWORD
 MOLGENIS_ADMIN_email
 MOLGENIS_PORT
