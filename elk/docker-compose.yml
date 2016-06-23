@@ -1,0 +1,17 @@
+version: '2'
+services:
+  logstash:
+    image: logstash
+    container_name: logstash
+  elasticsearch:
+    image: elasticsearch
+    depends_on:
+      - logstash
+    links:
+      - logstash
+  kibana:
+    image: kibana
+    inks:
+      - elasticsearch
+    depends_on:
+      - elasticsearch
