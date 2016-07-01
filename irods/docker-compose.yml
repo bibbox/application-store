@@ -1,10 +1,10 @@
 version: '2'
 services:
   irods-icat:
-    image: pvanheus/irods-icat
+    image: bibbox/irods-icat
     container_name: irods-icat
     volumes_from:
-      - appstack-data
+      - irods-appstack-data
     links:
       - irods-db
     ports:
@@ -12,21 +12,20 @@ services:
     environment:
       - PGSETUP_POSTGRES_PASSWORD=something
     depends_on:
-      - appstack-data
+      - irods-appstack-data
       - irods-db
   irods-db:
     image: postgres:9.3
-#    user: postgres
     environment:
       - POSTGRES_PASSWORD=something
       - PGDATA=/var/lib/pgsql/9.3/data
       - POSTGRES_DB=ICAT
     volumes_from: 
-      - appstack-data
+      - irods-appstack-data
     depends_on:
-      - appstack-data
-  appstack-data:
-    image: pvanheus/appstack-data
+      - irods-appstack-data
+  irods-appstack-data:
+    image: bibbox/irods-appstack-data
     volumes:
       - /srv/java:/opt/java
       - /srv/tomcat:/opt/tomcat
