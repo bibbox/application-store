@@ -8,4 +8,4 @@ The openspecimen.war file built will be placed in openspecimen/build/libs/
 The whole image is available at docker hub.
 
 Docker Pull Command:
-docker pull suyesh
+docker pull suyesh/gradle
