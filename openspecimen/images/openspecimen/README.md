@@ -5,7 +5,7 @@
 The Dockerfile installs JDK 8 and Tomcat 7.0.70.
 Copies tomcat-users.xml and context.xml to /opt/tomcat/conf/
 
-Specifies MySQL MySQL root user (username="root" password="openspecimen")
+Specifies MySQL root user (username="root" password="openspecimen")
 
 Copies openspecimen.war /opt/tomcat/webapps/
 
