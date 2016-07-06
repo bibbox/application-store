@@ -3,7 +3,7 @@ services:
   molgenis-web:
     image: bibbox/molgenis
     links:
-      - molgenis-mysql:molgenisdb
+      - molgenisdb:molgenisdb
     ports:
      - "8096:8080"
     environment:
@@ -13,8 +13,8 @@ services:
      - MYSQL_USER=molgenis
      - MYSQL_PASSWORD=molgenis
     depends_on:
-     - molgenis-mysql
-  molgenis-mysql:
+     - molgenisdb
+  molgenisdb:
     image: mysql
     user: mysql
     environment:
