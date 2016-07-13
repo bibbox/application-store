@@ -8,7 +8,7 @@ services:
     links:
       - irods-db
     ports:
-      - 1247
+      - 1247:1247
     environment:
       - PGSETUP_POSTGRES_PASSWORD=something
     depends_on:
@@ -20,6 +20,11 @@ services:
       - POSTGRES_PASSWORD=something
       - PGDATA=/var/lib/pgsql/9.3/data
       - POSTGRES_DB=ICAT
+    volumes_from: 
+      - irods-appstack-data
+    depends_on:
+      - irods-appstack-data
+  irods-cloudbrowser:
     volumes_from: 
       - irods-appstack-data
     depends_on:
