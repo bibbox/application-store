@@ -29,3 +29,5 @@ echo "$service is running!!!"
 else
 /etc/init.d/$service start
 fi
+
+tail -f /var/lib/tomcat7/logs/catalina.out

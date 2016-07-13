@@ -39,15 +39,3 @@ RUN wget https://raw.githubusercontent.com/BiBBox/bibbox-scripts/master/addproxy
     && chmod a+x *.sh
 
 ENTRYPOINT ["/opt/scripts/entrypoint.sh"]
-    
-    
-
-    
-RUN rm  irods-cloud-backend.war \
-    && 
-    
-#https://github.com/DICE-UNC/irods-cloud-browser/blob/master/INSTALL.md
-
-# entrypoint.sh
-# irods-cloud-frontend/app/components/globals.js on line 17.
-# add hosturl to this file
