@@ -20,18 +20,16 @@ RUN wget https://github.com/DICE-UNC/irods-cloud-browser/releases/download/1.0.1
     && wget https://github.com/DICE-UNC/irods-cloud-browser/releases/download/1.0.1-RELEASE/irods-cloud-frontend.zip
     
 RUN rm -rf /var/lib/tomcat7/webapps/irods-cloud-backend \
-    && mv irods-cloud-backend.war /var/lib/tomcat7/webapps/irods-cloud-backend.war \
-    && echo '<Connector port="8009" protocol="AJP/1.3" />' >> /var/lib/tomcat7/conf/server.xml \
-    && service tomcat7 start
+    && mv irods-cloud-backend.war /var/lib/tomcat7/webapps/irods-cloud-backend.war
 
 RUN rm /var/www/html/index.html \
     && unzip irods-cloud-frontend.zip \
     && mv /opt/install/irods-cloud-frontend/* /var/www/html/ \
     && rm /opt/install/irods-cloud-frontend.zip \
-    && rm /opt/install/irods-cloud-frontend \
+    && rm -r /opt/install/irods-cloud-frontend \
     && a2enmod proxy \
     && a2enmod proxy_ajp \
-    && a2enmod proxy_http \
+    && a2enmod proxy_http 
     
 ADD scripts /opt/scripts
 WORKDIR /opt/scripts
