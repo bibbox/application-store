@@ -1,0 +1,36 @@
+version: '2'
+services:
+  liferay-application:
+    image: bibbox/liferay-application
+    container_name: liferay-application
+    volumes_from:
+      - liferay-data
+    links:
+      - liferay-db
+    ports:
+      - 8080
+    environment:
+      - PGSETUP_POSTGRES_PASSWORD=$$SET_PGSETUP_POSTGRES_PASSWORD
+    depends_on:
+      - liferay-data
+      - liferay-db
+  liferay:
+    image: postgres:9.5
+    environment:
+      - POSTGRES_PASSWORD=$$SET_PGSETUP_POSTGRES_PASSWORD
+      - POSTGRES_USER=liferay
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_DB=lportal
+    volumes_from: 
+      - liferay-data
+    depends_on:
+      - liferay-data
+  liferay-data:
+    image: bibbox/liferay-data
+    volumes:
+      - /opt/liferay/functions:/etc/init.d/functions
+      - /opt/liferay/liferay:/etc/init.d/liferay
+      - /opt/liferay/data:/opt/liferay/data
+      - /opt/liferay/portal-ext.properties:/opt/liferay/portal-ext.properties
+      - /opt/liferay/portal-setup-wizard.properties:/opt/liferay/portal-setup-wizard.properties
+      - /opt/liferay/postgresql/data/pgdata:/var/lib/postgresql/data/pgdata

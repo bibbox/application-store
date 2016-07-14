@@ -4,8 +4,8 @@ file="/etc/irods-cloud-backend-config.groovy"
 ##Setup
 if [[ ! -f "$file" ]]; then
 #Add Proxy
-/opt/script/addproxy.sh -t irods-cloud-backend -s ${CLOUD_BACKEND_SUBDOMAIN} -p ${CLOUD_BACKEND_PORT} -u ${CLOUD_BACKEND_URL} -i ${CLOUD_BACKEND_IP}
-sed -i 's/location.hostname+":8080/${CLOUD_BACKEND_SUBDOMAIN}.${CLOUD_BACKEND_URL}/g' /var/www/html/app/components/
+/opt/scripts/addproxy.sh -t irods-cloud-backend -s ${CLOUD_BACKEND_SUBDOMAIN} -p ${CLOUD_BACKEND_PORT} -u ${CLOUD_BACKEND_URL} -i ${CLOUD_BACKEND_IP}
+sed -i 's/location.hostname+":8080/${CLOUD_BACKEND_SUBDOMAIN}.${CLOUD_BACKEND_URL}/g' /var/www/html/app/components/globals.js
 service apache2 restart
 sed -i "s/beconf.login.preset.host='localhost'/beconf.login.preset.host='irods-icat'" /opt/install/irods-cloud-backend-config.groovy
 mv /opt/install/irods-cloud-backend-config.groovy /etc/irods-cloud-backend-config.groovy

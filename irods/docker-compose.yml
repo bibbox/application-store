@@ -37,8 +37,6 @@ services:
       - CLOUD_BACKEND_SUBDOMAIN=something
       - CLOUD_BACKEND_URL=something
       - CLOUD_BACKEND_IP=something
-    volumes_from: 
-      - irods-appstack-data
     depends_on:
       - irods-appstack-data
   irods-appstack-data:
