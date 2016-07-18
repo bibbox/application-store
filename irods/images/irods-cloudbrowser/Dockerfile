@@ -1,39 +1,27 @@
 # iRODS Cloud Browser
 # 
-# VERSION 0.0.1 
+# VERSION 0.0.2 
 # 
 # 0.0.1 : initial creation of image for iRODS Cloud Browser
+# 0.0.2 : splitting up the iRODS Cloud Browser frontend and backend
 
-FROM debian:jessie 
+FROM httpd:2.4
 
 MAINTAINER Robert Reihs <robert.reihs@gmail.com>
 
 RUN apt-get update \
     && apt-get -y upgrade \
-    && apt-get -y install tomcat7 tomcat7-docs tomcat7-admin tomcat7-user apache2 apache2-utils unzip wget \
-    && mkdir /opt/install
-
-WORKDIR /opt/install
-    
-RUN wget https://github.com/DICE-UNC/irods-cloud-browser/releases/download/1.0.1-RELEASE/irods-cloud-backend-config.groovy \
-    && wget https://github.com/DICE-UNC/irods-cloud-browser/releases/download/1.0.1-RELEASE/irods-cloud-backend.war \
+    && apt-get -y install unzip wget \
     && wget https://github.com/DICE-UNC/irods-cloud-browser/releases/download/1.0.1-RELEASE/irods-cloud-frontend.zip
-    
-RUN rm -rf /var/lib/tomcat7/webapps/irods-cloud-backend \
-    && mv irods-cloud-backend.war /var/lib/tomcat7/webapps/irods-cloud-backend.war
 
-RUN rm /var/www/html/index.html \
+RUN rm /usr/local/apache2/htdocs/index.html \
     && unzip irods-cloud-frontend.zip \
-    && mv /opt/install/irods-cloud-frontend/* /var/www/html/ \
-    && rm /opt/install/irods-cloud-frontend.zip \
-    && rm -r /opt/install/irods-cloud-frontend \
-    && a2enmod proxy \
-    && a2enmod proxy_ajp \
-    && a2enmod proxy_http 
+    && rm irods-cloud-frontend.zip \
+    && mv irods-cloud-frontend/* /usr/local/apache2/htdocs/ \
+    && rm -r irods-cloud-frontend
     
 ADD scripts /opt/scripts
 WORKDIR /opt/scripts
-RUN wget https://raw.githubusercontent.com/BiBBox/bibbox-scripts/master/addproxy.sh \
-    && chmod a+x *.sh
+RUN chmod a+x *.sh
 
 ENTRYPOINT ["/opt/scripts/entrypoint.sh"]
