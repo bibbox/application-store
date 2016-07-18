@@ -16,7 +16,7 @@ RUN apt-get update \
     
 RUN rm -r $CATALINA_HOME/webapps/docs \
     && rm -r $CATALINA_HOME/webapps/examples \
-    && mv irods-cloud-backend.war $CATALINA_HOME/webapps/irods-cloud-backend.war \
+    && mv irods-cloud-backend.war $CATALINA_HOME/webapps/irods-cloud-backend.war
     
 ADD scripts /scripts
 WORKDIR /scripts
