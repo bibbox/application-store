@@ -1,0 +1,18 @@
+version: '2'
+services:
+  oracle:
+    image: wnameless/oracle-xe-11g
+    ports: 
+     - "49160:22"
+     - "49161:1521"
+  i2b2:
+    image: bibbox/i2b2:1.7.07
+    ports:
+     - "80:80"
+    links: 
+     - oracle:oracle
+    depends_on: 
+     - oracle
+    command: ./install-or-start.sh
+    tty: true
+
