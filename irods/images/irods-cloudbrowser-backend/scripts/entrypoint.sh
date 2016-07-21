@@ -5,7 +5,7 @@ file="/etc/irods-cloud-backend-config.groovy"
 
 ##Setup
 if [[ ! -f "$file" ]]; then
-sed -i "s/beconf.login.preset.host='localhost'/beconf.login.preset.host='irods-icat'" /irods-cloud-backend-config.groovy
+sed -i "s/beconf.login.preset.host='localhost'/beconf.login.preset.host='irods-icat'/g" /irods-cloud-backend-config.groovy
 mv /irods-cloud-backend-config.groovy /etc/irods-cloud-backend-config.groovy
 fi 
 

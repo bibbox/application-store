@@ -16,6 +16,7 @@ services:
       - irods-db
   irods-db:
     image: postgres:9.3
+    container_name: irods-db
     environment:
       - POSTGRES_PASSWORD=something
       - PGDATA=/var/lib/pgsql/9.3/data
@@ -29,7 +30,6 @@ services:
     container_name: irods-cloudbrowser
     ports:
       - 8096:80
-      - 8097:8080
     environment:
       - IRODS_HOST_URL=something
       - PGSETUP_POSTGRES_PASSWORD=something
@@ -39,8 +39,16 @@ services:
       - CLOUD_BACKEND_IP=something
     depends_on:
       - irods-appstack-data
+  irods-cloudbrowser-backend:
+    image: bibbox/irods-cloudbrowser-backend
+    container_name: irods-cloudbrowser-backend
+    ports:
+      - 8097:8080
+    depends_on:
+      - irods-appstack-data
   irods-appstack-data:
     image: bibbox/irods-appstack-data
+    container_name: irods-appstack-data
     volumes:
       - /srv/java:/opt/java
       - /srv/tomcat:/opt/tomcat
