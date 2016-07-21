@@ -1,0 +1,167 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides: liferay
+# Required-Start:
+# Should-Start:
+# Required-Stop:
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: liferay
+# Description: Start Liferay Server
+### END INIT INFO
+
+#
+# description: This script is a program to control \
+#              this Tomcat instance. To stop the instance\
+#              the program will be checked and stopped. \
+#              If this was not successfull, than a kill will \
+#              be executed and after that a kill -9 signal send.
+#
+# processname: tc_msaccmgrtest
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+SCRIPT_VERSION=1.0.1
+RUN_USER=liferay
+TOMCAT_DIR=/opt/liferay
+TOMCAT_INSTANCE=TOMCAT_INSTANCE_VERSION_NUMBER
+CATALINA_HOME=$TOMCAT_DIR/$TOMCAT_INSTANCE
+EXEC_PATH=$CATALINA_HOME/bin          #insert the path of the executing programm
+EXEC_PRG=$EXEC_PATH/catalina.sh       #executing program
+EXEC_VERSION=$EXEC_PATH/version.sh    #executing program
+PRG_START=start                       #choose the executing option to start the program
+PRG_STOP=stop                         #choose the executing option to stop the program
+
+RETVAL=0
+
+# function to check the PID`s
+checker () {
+GREP_VAR1=java
+GREP_VAR2=$CATALINA_HOME
+GREP_VAR3=org.apache.catalina.startup.Bootstrap
+
+PID=`ps -ef | grep -v grep | grep $GREP_VAR1 | grep $GREP_VAR2 | grep $GREP_VAR3 | awk '{print($2)}'`
+PID_COUNT=`ps -ef | grep -v grep | grep $GREP_VAR1 | grep $GREP_VAR2 | grep -c $GREP_VAR3`
+}
+
+# function to start the program
+# with a check whether the system starts correctly
+start () {
+  checker
+  if [ $PID_COUNT -eq 0 ]
+  then
+    echo -n "Start of Tomcat instance $TOMCAT_INSTANCE"
+    sleep 1
+    su $RUN_USER -c "cd $CATALINA_HOME/bin;$EXEC_PRG $PRG_START" > /dev/null
+    RETVAL=$?
+    if [ $RETVAL -eq 0 ]
+    then
+     success
+    else
+     failure
+    fi
+    echo
+
+  else
+    echo -n $"Tomcat already running"
+    failure
+    RETVAL=1
+    echo
+  fi
+}
+
+# Stop function to deactivate program
+# With 2 checks whether the program is, stopped via catalina in the 1st check and
+# in the 2nd check whether it`s killed correctly
+stop () {
+  checker
+  if [ $PID_COUNT -gt 0 ] #checking the PID_COUNT for the 1st time
+  then
+    echo -n "Stopping Tomcat instance $TOMCAT_INSTANCE"
+    su $RUN_USER -c "$EXEC_PRG $PRG_STOP" > /dev/null
+    echo
+    sleep 5
+    PID_COUNT=`ps -ef | grep -v grep | grep $GREP_VAR1 | grep $GREP_VAR2 | grep -c $GREP_VAR3`
+      if [ $PID_COUNT -gt 0 ] #checking the PID_COUNT a 2nd time
+      then
+        echo -n "Tomcat instance $TOMCAT_INSTANCE stopped"
+        failure
+        echo
+        kill $PID
+        sleep 2
+          PID_COUNT=`ps -ef | grep -v grep | grep $GREP_VAR1 | grep $GREP_VAR2 | grep -c $GREP_VAR3`
+          if [ $PID_COUNT -gt 0 ] #checking the PID_COUNT a 3rd time
+          then
+            echo -n "Kill Tomcat instance $TOMCAT_INSTANCE"
+            sleep 2
+            kill -9 $PID
+            PID_COUNT=`ps -ef | grep -v grep | grep $GREP_VAR1 | grep $GREP_VAR2 | grep -c $GREP_VAR3`
+            if [ $PID_COUNT -gt 0 ] #checking the PID_COUNT after kill -9
+            then
+              failure
+              RETVAL=1
+            else
+              success
+            fi
+            echo
+          else
+            echo -n "Tomcat instance $TOMCAT_INSTANCE stopped"
+            success
+            echo
+          fi
+      else
+        echo -n "Tomcat instance $TOMCAT_INSTANCE stopped"
+        success
+        echo
+        fi
+  else
+    echo -n $"Tomcat instance $TOMCAT_INSTANCE is stopped"
+    failure
+    RETVAL=1
+    echo
+  fi
+}
+
+# function to check the status
+status () {
+  checker
+  if [ $PID_COUNT -ge 1 ]
+  then
+    echo -n "Tomcat instance $TOMCAT_INSTANCE is running"
+    sleep 1
+    success
+    echo
+  else [ $PID_COUNT -eq 0 ]
+    echo -n "Tomcat instance $TOMCAT_INSTANCE is stopped"
+    failure
+    RETVAL=1
+    echo
+  fi
+}
+
+# function to check the cersion of Catalina
+version () {
+  su $RUN_USER -c "$EXEC_VERSION"
+  RETVAL=$?
+}
+
+# main program entry
+case "$1" in
+
+  start) start
+         ;;
+  status) status
+          ;;
+  stop)  stop
+         ;;
+  restart) stop
+         sleep 3
+         start
+         ;;
+  version) version
+         ;;
+  *) echo "Usage: tc_$TOMCAT_INSTANCE {start|stop|restart|status|version}";
+esac
+exit $RETVAL

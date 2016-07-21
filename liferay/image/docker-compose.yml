@@ -14,8 +14,9 @@ services:
     depends_on:
       - liferay-data
       - liferay-db
-  liferay:
+  liferay-db:
     image: postgres:9.5
+    container_name: liferay-db
     environment:
       - POSTGRES_PASSWORD=$$SET_PGSETUP_POSTGRES_PASSWORD
       - POSTGRES_USER=liferay

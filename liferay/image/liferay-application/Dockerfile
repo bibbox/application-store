@@ -26,6 +26,8 @@ RUN wget -O liferay-portal-tomcat-6.2-ce-ga6.zip  http://downloads.sourceforge.n
     && rm liferay-portal-tomcat-6.2-ce-ga6.zip \
     && mv liferay-portal-6.2-ce-ga6 liferay
       
-COPY entrypoint.sh /opt/entrypoint.sh
+ADD scripts /opt/scripts
+WORKDIR /opt/scripts
+RUN chmod a+x *.sh
 
-ENTRYPOINT ["/opt/entrypoint.sh"]
+ENTRYPOINT ["/opt/scripts/entrypoint.sh"]
