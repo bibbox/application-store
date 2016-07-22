@@ -21,7 +21,7 @@ RUN apt-get update \
     
 WORKDIR /opt
     
-RUN wget -O liferay-portal-tomcat-6.2-ce-ga6.zip  http://downloads.sourceforge.net/project/lportal/Liferay%20Portal/6.2.5%20GA6/liferay-portal-tomcat-6.2-ce-ga6-20160112152609836.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Flportal%2Ffiles%2FLiferay%2520Portal%2F6.2.5%2520GA6%2F&ts=1468093934&use_mirror=ufpr \
+RUN wget -O liferay-portal-tomcat-6.2-ce-ga6.zip  http://downloads.sourceforge.net/project/lportal/Liferay%20Portal/6.2.5%20GA6/liferay-portal-tomcat-6.2-ce-ga6-20160112152609836.zip \
     && unzip liferay-portal-tomcat-6.2-ce-ga6.zip \
     && rm liferay-portal-tomcat-6.2-ce-ga6.zip \
     && mv liferay-portal-6.2-ce-ga6 liferay
