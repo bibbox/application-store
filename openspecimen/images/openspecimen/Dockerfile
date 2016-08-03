@@ -38,6 +38,10 @@ rm -rf /opt/tomcat/webapps/docs && \
 rm -rf /opt/tomcat/webapps/examples
 
 
+#Make appropriate directories for OpenSpecimen
+RUN mkdir -p /opt/openspecimen/os-data
+RUN mkdir -p /opt/openspecimen/os-plugins
+
 # Add admin/admin user
 ADD tomcat-users.xml /opt/tomcat/conf/
 
