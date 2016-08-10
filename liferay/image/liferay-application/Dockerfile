@@ -24,7 +24,8 @@ WORKDIR /opt
 RUN wget -O liferay-portal-tomcat-6.2-ce-ga6.zip  http://downloads.sourceforge.net/project/lportal/Liferay%20Portal/6.2.5%20GA6/liferay-portal-tomcat-6.2-ce-ga6-20160112152609836.zip \
     && unzip liferay-portal-tomcat-6.2-ce-ga6.zip \
     && rm liferay-portal-tomcat-6.2-ce-ga6.zip \
-    && mv liferay-portal-6.2-ce-ga6 liferay
+    && mv liferay-portal-6.2-ce-ga6 liferay \
+    && useradd -r liferay
       
 ADD scripts /opt/scripts
 WORKDIR /opt/scripts
