@@ -1,6 +1,6 @@
 version: '2'
 services:
-  molgenis-web:
+  openspecimen-web:
     image: bibbox/molgenis
     links:
       - molgenisdb:molgenisdb
@@ -14,13 +14,13 @@ services:
      - MYSQL_PASSWORD=molgenis
     depends_on:
      - molgenisdb
-  molgenisdb:
+  openspecimendb:
     image: mysql
-    user: mysql
+    user: root
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=molgenis
+      - MYSQL_ROOT_PASSWORD=openspecimen
+      - MYSQL_DATABASE=openspecimen
       - MYSQL_USER=molgenis
-      - MYSQL_PASSWORD=molgenis
+      - MYSQL_PASSWORD=openspecimen
     volumes:
       - /var/lib/mysql

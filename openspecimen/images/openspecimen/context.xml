@@ -35,7 +35,7 @@
       <Resource name="jdbc/openspecimen" auth="Container" type="javax.sql.DataSource"
       	maxActive="100" maxIdle="30" maxWait="10000"
       	username="root" password="openspecimen" driverClassName="com.mysql.jdbc.Driver"
-      	url="jdbc:mysql://mysql:3306/openspecimen" />
+      	url="jdbc:mysql://openspecimendb:3306/openspecimen" />
 
 
 </Context>
