@@ -59,9 +59,6 @@ ADD openspecimen.war /opt/tomcat/webapps/
 ENV CATALINA_HOME /opt/tomcat
 ENV PATH $PATH:$CATALINA_HOME/bin
 
-
-EXPOSE 8080
-
 VOLUME "/opt/tomcat/webapps"
 WORKDIR /opt/tomcat
 

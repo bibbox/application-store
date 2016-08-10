@@ -1,0 +1,26 @@
+version: '2'
+services:
+  molgenis-web:
+    image: bibbox/molgenis
+    links:
+      - molgenisdb:molgenisdb
+    ports:
+     - "8096:8080"
+    environment:
+     - MOLGENIS_ADMIN_PASSWORD=molgenis
+     - MOLGENIS_ADMIN_email=robert.reihs@gmail.com
+     - MYSQL_DATABASE=molgenis
+     - MYSQL_USER=molgenis
+     - MYSQL_PASSWORD=molgenis
+    depends_on:
+     - molgenisdb
+  molgenisdb:
+    image: mysql
+    user: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=molgenis
+      - MYSQL_USER=molgenis
+      - MYSQL_PASSWORD=molgenis
+    volumes:
+      - /var/lib/mysql
