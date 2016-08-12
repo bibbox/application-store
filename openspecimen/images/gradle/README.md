@@ -11,6 +11,7 @@ the configurations of the file. The war file bundled with this image was built u
 
     app_home = /opt/tomcat
     app_data_dir = /opt/openspecimen/os-data
+    app_log_conf =
 	datasource_jndi = java:/comp/env/jdbc/openspecimen
 	deployment_type = fresh
 	database_type = mysql
