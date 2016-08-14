@@ -2,36 +2,37 @@ version: '2'
 services:
   liferay-application:
     image: bibbox/liferay-application
-    container_name: liferay-application
+    container_name: liferay-application-§§INSTANCE
     volumes_from:
-      - liferay-data
+      - liferay-data-§§INSTANCE
     links:
-      - liferay-db
+      - liferay-db-§§INSTANCE
     ports:
       - 8080
     environment:
-      - PGSETUP_POSTGRES_PASSWORD=$$SET_PGSETUP_POSTGRES_PASSWORD
+      - PGSETUP_POSTGRES_PASSWORD=§§SET_PGSETUP_POSTGRES_PASSWORD
     depends_on:
       - liferay-data
       - liferay-db
   liferay-db:
     image: postgres:9.5
-    container_name: liferay-db
+    container_name: liferay-db-§§INSTANCE
     environment:
-      - POSTGRES_PASSWORD=$$SET_PGSETUP_POSTGRES_PASSWORD
+      - POSTGRES_PASSWORD=§§SET_PGSETUP_POSTGRES_PASSWORD
       - POSTGRES_USER=liferay
       - PGDATA=/var/lib/postgresql/data/pgdata
       - POSTGRES_DB=lportal
     volumes_from: 
-      - liferay-data
+      - liferay-data-§§INSTANCE
     depends_on:
-      - liferay-data
+      - liferay-data-§§INSTANCE
   liferay-data:
     image: bibbox/liferay-data
+    container_name: liferay-data-§§INSTANCE
     volumes:
-      - /opt/liferay/functions:/etc/init.d/functions
-      - /opt/liferay/liferay:/etc/init.d/liferay
-      - /opt/liferay/data:/opt/liferay/data
-      - /opt/liferay/portal-ext.properties:/opt/liferay/portal-ext.properties
-      - /opt/liferay/portal-setup-wizard.properties:/opt/liferay/portal-setup-wizard.properties
-      - /opt/liferay/postgresql/data/pgdata:/var/lib/postgresql/data/pgdata
+      - §§FOLDER/config/functions:/etc/init.d/functions
+      - §§FOLDER/config/liferay:/etc/init.d/liferay
+      - §§FOLDER/config/portal-ext.properties:/opt/liferay/portal-ext.properties
+      - §§FOLDER/config/portal-setup-wizard.properties:/opt/liferay/portal-setup-wizard.properties
+      - §§FOLDER/liferay/data:/opt/liferay/data
+      - §§FOLDER/postgresql/data/pgdata:/var/lib/postgresql/data/pgdata

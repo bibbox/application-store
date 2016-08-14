@@ -8,10 +8,6 @@ FROM debian:jessie
 
 MAINTAINER Robert Reihs <robert.reihs@gmail.com>
 
-ADD config-files /config-files
-
-VOLUME ["/conf", "/var/log", "/var/backup"]
-
 ADD init-config.sh /usr/local/bin/init-config.sh
 
 # Keep container from shutting down until explicitly stopped

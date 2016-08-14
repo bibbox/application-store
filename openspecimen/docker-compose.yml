@@ -2,6 +2,7 @@ version: '2'
 services:
   openspecimen-web:
     image: bibbox/openspecimen
+    container_name: openspecimen-web
     links:
       - openspecimendb:openspecimendb
     ports:
@@ -11,11 +12,12 @@ services:
      - openspecimen-data
   openspecimendb:
     image: mysql
+    container_name: openspecimendb
     user: root
     environment:
       - MYSQL_ROOT_PASSWORD=openspecimen
       - MYSQL_DATABASE=openspecimen
-      - MYSQL_USER=molgenis
+      - MYSQL_USER=openspecimen
       - MYSQL_PASSWORD=openspecimen
     volumes_from: 
       - openspecimen-data
