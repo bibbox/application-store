@@ -11,11 +11,8 @@ cat << EOF > $file
 Liferay 0.0.1 installed
 EOF
 
-sed -i "s/DATABASEPASSWORD/${POSTGRES_PASSWORD}/g" /conf/portal-setup-wizard.properties
-ln /conf/portal-setup-wizard.properties /opt/liferay/portal-setup-wizard.properties
-
-sed -i "s/TOMCAT_INSTANCE_VERSION_NUMBER/$tomcat/g" /conf/liferay
-ln /conf/liferay /etc/init.d/liferay
+sed -i "s/DATABASEPASSWORD/${POSTGRES_PASSWORD}/g" /opt/liferay/portal-setup-wizard.properties
+sed -i "s/TOMCAT_INSTANCE_VERSION_NUMBER/$tomcat/g" /etc/init.d/liferay
 
 chown -r liferay:liferay /opt/liferay
 chmod +x /etc/init.d/functions

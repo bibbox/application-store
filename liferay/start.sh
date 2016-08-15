@@ -104,6 +104,19 @@ runDockerCompose()
     docker-compose up -d
 }
 
+removeContainer()
+{
+    cd ${folder}
+    docker-compose stop
+    cd /opt
+    rm -r "${folder}"
+    docker rm "liferay-application-$instance"
+    docker rm "liferay-data-$instance"
+    docker rm "liferay-db-$instance"
+    docker rmi bibbox/liferay-application
+    docker rmi bibbox/liferay-data
+}
+
 run()
 {
     checkParametersUpdateVariables
