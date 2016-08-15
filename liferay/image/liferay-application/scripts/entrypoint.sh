@@ -1,14 +1,15 @@
 #!/bin/bash
 echo "Starting Liferay Application Container!"
 
-file="/opt/liferay/portal-setup-wizard.properties"
+file="/opt/liferay/setup.done"
 tomcat="tomcat-7.0.62"
 
 #Config
 if [[ ! -f "$file" ]]; then
-
-ln /conf/portal-ext.properties /opt/liferay/portal-ext.properties
-ln /conf/functions /ect/init.d/functions
+    
+cat << EOF > $file
+Liferay 0.0.1 installed
+EOF
 
 sed -i "s/DATABASEPASSWORD/${POSTGRES_PASSWORD}/g" /conf/portal-setup-wizard.properties
 ln /conf/portal-setup-wizard.properties /opt/liferay/portal-setup-wizard.properties
