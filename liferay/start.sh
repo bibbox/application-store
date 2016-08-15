@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 tool="liferay"
 instance="instance"
 folderprefix="/opt/bibbox/"
@@ -73,11 +73,12 @@ checkCreatConfig()
         mkdir -p "${folder}/liferay/data"
         mkdir -p "${folder}/postgresql/data/pgdata"
         cp docker-compose.yml "${folder}/docker-compose.yml"
-        cp config "${folder}/config"
+        cp config "${folder}"
         sed -i "s#§§FOLDER#$folder#g" "${folder}/docker-compose.yml"
         createPassword
         sed -i "s#§§SET_PGSETUP_POSTGRES_PASSWORD#$password#g" "${folder}/docker-compose.yml"
         sed -i "s#§§INSTANCE#$instance#g" "${folder}/docker-compose.yml"
+        sed -i "s#§§PORT#$port#g" "${folder}/docker-compose.yml"
         sed -i "s#liferay-db#liferay-db-$instance#g" "${folder}/config/portal-setup-wizard.properties"
     fi
 }

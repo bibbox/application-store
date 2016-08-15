@@ -1,6 +1,6 @@
 version: '2'
 services:
-  liferay-application:
+  liferay-application-§§INSTANCE:
     image: bibbox/liferay-application
     container_name: liferay-application-§§INSTANCE
     volumes_from:
@@ -8,13 +8,13 @@ services:
     links:
       - liferay-db-§§INSTANCE
     ports:
-      - 8080
+      - §§PORT:8080
     environment:
       - PGSETUP_POSTGRES_PASSWORD=§§SET_PGSETUP_POSTGRES_PASSWORD
     depends_on:
-      - liferay-data
-      - liferay-db
-  liferay-db:
+      - liferay-data-§§INSTANCE
+      - liferay-db-§§INSTANCE
+  liferay-db-§§INSTANCE:
     image: postgres:9.5
     container_name: liferay-db-§§INSTANCE
     environment:
@@ -26,7 +26,7 @@ services:
       - liferay-data-§§INSTANCE
     depends_on:
       - liferay-data-§§INSTANCE
-  liferay-data:
+  liferay-data-§§INSTANCE:
     image: bibbox/liferay-data
     container_name: liferay-data-§§INSTANCE
     volumes:

@@ -17,6 +17,8 @@ sed -i "s/TOMCAT_INSTANCE_VERSION_NUMBER/$tomcat/g" /conf/liferay
 ln /conf/liferay /etc/init.d/liferay
 
 chown -r liferay:liferay /opt/liferay
+chmod +x /etc/init.d/functions
+chmod +x /etc/init.d/liferay
 
 fi
 
