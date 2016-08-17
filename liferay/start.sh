@@ -76,6 +76,7 @@ checkCreatConfig()
         cp config "${folder}"
         sed -i "s#§§FOLDER#$folder#g" "${folder}/docker-compose.yml"
         createPassword
+        echo "Password: $password"
         sed -i "s#§§SET_PGSETUP_POSTGRES_PASSWORD#$password#g" "${folder}/docker-compose.yml"
         sed -i "s#§§INSTANCE#$instance#g" "${folder}/docker-compose.yml"
         sed -i "s#§§PORT#$port#g" "${folder}/docker-compose.yml"

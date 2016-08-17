@@ -10,7 +10,7 @@ services:
     ports:
       - §§PORT:8080
     environment:
-      - PGSETUP_POSTGRES_PASSWORD=§§SET_PGSETUP_POSTGRES_PASSWORD
+      - POSTGRES_PASSWORD=§§SET_PGSETUP_POSTGRES_PASSWORD
     depends_on:
       - liferay-data-§§INSTANCE
       - liferay-db-§§INSTANCE
