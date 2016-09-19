@@ -1,8 +1,23 @@
 #!/bin/bash
-service slapd start
+echo "Starting OpenLdap Container!"
 
-source /setup.sh
+file="/opt/liferay/setup.done"
+if [[ ! -f "$file" ]]; then
+    
+cat << EOF > $file
+OpenLdap 0.0.1 installed
+EOF
 
-service slapd restart
+sed -i "s/#BASE   dc=example,dc=com/BASE   dc=example,dc=com/g" /etc/ldap/ldap.conf
+sed -i "s§#URI    ldap://ldap.example.com ldap://ldap-master.example.com:666§$tomcat§g" /etc/ldap/ldap.conf
 
-tail -f /dev/null
+fi
+
+#Startu Up
+
+
+
+File
+
+#BASE   dc=example,dc=com
+#URI    ldap://ldap.example.com ldap://ldap-master.example.com:666

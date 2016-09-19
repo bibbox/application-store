@@ -6,15 +6,25 @@ ulimit -n 8192
 
 file="/tmp/chrootpw.ldif"
 
-if [[ ! -f "$file" ]]; then
-        echo >&2 "Starting Setup"
+setLdapRootPassword()
+{
+    echo >&2 "Set root ldap password"
+    if [[ -z "$SLAPD_PASSWORD" ]]; then
+        echo -n >&2 "Error: Container not configured and SLAPD_PASSWORD not set. "
+        echo >&2 "You forget to add -e SLAPD_PASSWORD=... ?"
+        SLAPD_PASSWORD=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+        echo >&2 "Password was set to: $SLAPD_PASSWORD"
+    fi
+    
+}
 
-        if [[ -z "$SLAPD_PASSWORD" ]]; then
-                echo -n >&2 "Error: Container not configured and SLAPD_PASSWORD not set. "
-                echo >&2 "You forget to add -e SLAPD_PASSWORD=... ?"
-                SLAPD_PASSWORD=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
-                echo >&2 "Password was set to: $SLAPD_PASSWORD"
-        fi
+
+
+if [[ ! -f "$file" ]]; then
+        
+echo >&2 "Starting OpenLdap Setup"
+
+
 
 adminHashPass="$(slappasswd -s '$SLAPD_PASSWORD')"
 cat > /tmp/chrootpw.ldif <<EOF
