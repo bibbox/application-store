@@ -1,18 +1,28 @@
 version: '2'
 services:
-  openspecimen-web:
+  openspecimen-gradle-§§INSTANCE:
+    image: bibbox/openspecimen-gradle
+    container_name: openspecimen-gradle-§§INSTANCE
+    environment:
+      - RELEASEURL=§§RELEASEURL
+      - TOMCATPATH=§§TOMCATPATH
+      - INSTANCE=§§INSTANCE
+      - MYSQL_DATABASE=openspecimen
+      - MYSQL_USER=openspecimen
+      - MYSQL_PASSWORD=openspecimen
+  openspecimen-web-§§INSTANCE:
     image: bibbox/openspecimen
-    container_name: openspecimen-web
+    container_name: openspecimen-web-§§INSTANCE
     links:
-      - openspecimendb:openspecimendb
+      - openspecimen-db-§§INSTANCE:openspecimen-db-§§INSTANCE
     ports:
      - "8098:8080"
     depends_on:
-     - openspecimendb
-     - openspecimen-data
-  openspecimendb:
+     - openspecimen-db-§§INSTANCE
+     - openspecimen-data-§§INSTANCE
+  openspecimen-db-§§INSTANCE:
     image: mysql
-    container_name: openspecimendb
+    container_name: openspecimen-db-§§INSTANCE
     user: root
     environment:
       - MYSQL_ROOT_PASSWORD=openspecimen
@@ -20,12 +30,12 @@ services:
       - MYSQL_USER=openspecimen
       - MYSQL_PASSWORD=openspecimen
     volumes_from: 
-      - openspecimen-data
+      - openspecimen-data-§§INSTANCE
     depends_on:
-     - openspecimen-data
-  openspecimen-data:
+     - openspecimen-data-§§INSTANCE
+  openspecimen-data-§§INSTANCE:
     image: bibbox/openspecimen-data
-    container_name: openspecimen-data
+    container_name: openspecimen-data-§§INSTANCE
     volumes:
       - /opt/openspecimen/var/lib/mysql:/var/lib/mysql
       - /opt/openspecimen/etc/mysql/conf.d/openspecimen.cnf:/etc/mysql/conf.d/openspecimen.cnf
