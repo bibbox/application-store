@@ -7,35 +7,44 @@ services:
       - RELEASEURL=§§RELEASEURL
       - TOMCATPATH=§§TOMCATPATH
       - INSTANCE=§§INSTANCE
-      - MYSQL_DATABASE=openspecimen
-      - MYSQL_USER=openspecimen
-      - MYSQL_PASSWORD=openspecimen
+      - MYSQL_DATABASE=§§MYSQL_DATABASE
+      - MYSQL_USER=§§MYSQL_USER
+      - MYSQL_PASSWORD=§§MYSQL_PASSWORD
+    depends_on:
+      - openspecimen-data-§§INSTANCE
+      
   openspecimen-web-§§INSTANCE:
     image: bibbox/openspecimen
     container_name: openspecimen-web-§§INSTANCE
     links:
       - openspecimen-db-§§INSTANCE:openspecimen-db-§§INSTANCE
     ports:
-     - "8098:8080"
+      - "8098:8080"
     depends_on:
-     - openspecimen-db-§§INSTANCE
-     - openspecimen-data-§§INSTANCE
+      - openspecimen-db-§§INSTANCE
+      - openspecimen-gradle-§§INSTANCE
+      - openspecimen-data-§§INSTANCE
+    volumes_from: 
+      - openspecimen-data-§§INSTANCE
+      
   openspecimen-db-§§INSTANCE:
     image: mysql
     container_name: openspecimen-db-§§INSTANCE
     user: root
     environment:
-      - MYSQL_ROOT_PASSWORD=openspecimen
-      - MYSQL_DATABASE=openspecimen
-      - MYSQL_USER=openspecimen
-      - MYSQL_PASSWORD=openspecimen
+      - MYSQL_ROOT_PASSWORD=§§MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE=§§MYSQL_DATABASE
+      - MYSQL_USER=§§MYSQL_USER
+      - MYSQL_PASSWORD=§§MYSQL_PASSWORD
     volumes_from: 
       - openspecimen-data-§§INSTANCE
     depends_on:
-     - openspecimen-data-§§INSTANCE
+      - openspecimen-data-§§INSTANCE
+      
   openspecimen-data-§§INSTANCE:
     image: bibbox/openspecimen-data
     container_name: openspecimen-data-§§INSTANCE
     volumes:
-      - /opt/openspecimen/var/lib/mysql:/var/lib/mysql
-      - /opt/openspecimen/etc/mysql/conf.d/openspecimen.cnf:/etc/mysql/conf.d/openspecimen.cnf
+      - §§FOLDER/var/lib/mysql:/var/lib/mysql
+      - §§FOLDER/etc/mysql/conf.d/openspecimen.cnf:/etc/mysql/conf.d/openspecimen.cnf
+      - §§FOLDER/opt/dist:/opt/dist
