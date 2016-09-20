@@ -4,6 +4,7 @@ echo "Starting Gradle Container for OpenSpecimen!"
 file="/opt/dist/openspecimen.war"
 
 if [[ ! -f "$file" ]]; then
+  . /.profile
   cd /opt
   wget -O openspec.zip "$RELEASEURL"
   unzip openspec.zip
