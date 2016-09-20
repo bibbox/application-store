@@ -2,7 +2,7 @@
 echo "Starting Liferay Application Container!"
 
 file="/opt/liferay/setup.done"
-tomcat="tomcat-7.0.62"
+tomcat="tomcat-7.0.42"
 
 #Config
 if [[ ! -f "$file" ]]; then
