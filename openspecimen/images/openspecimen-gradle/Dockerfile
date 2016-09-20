@@ -29,7 +29,7 @@ RUN apt-get update \
     && echo '  export GRADLE_HOME="/opt/gradle"' >> /.profile \
     && echo '  PATH="$PATH:$GRADLE_HOME/bin"' >> /.profile \
     && echo 'fi' >> /.profile \
-    && source /.profile \
+    && . /.profile \
     && curl -sL https://deb.nodesource.com/setup_6.x | bash - \
     && apt-get -y install nodejs \
     && npm install -g bower \
