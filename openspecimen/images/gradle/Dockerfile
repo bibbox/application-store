@@ -36,6 +36,7 @@ RUN apt-get update \
     && npm install -g yo \
     && npm install -g grunt-cli \
     && npm install -g grunt \
+    && mkdir -p /opt/dist
     
     
 ADD scripts /opt/scripts
