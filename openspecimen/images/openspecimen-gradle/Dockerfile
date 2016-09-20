@@ -9,7 +9,7 @@ FROM debian:jessie
 MAINTAINER Robert Reihs <robert.reihs@gmail.com>
 
 RUN apt-get update \
-    & apt-get -y install curl unzip git \
+    && apt-get -y install curl unzip git \
     && echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections \
     && echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list \
     && echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list \
