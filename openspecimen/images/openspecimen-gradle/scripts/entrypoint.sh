@@ -23,4 +23,10 @@ if [[ ! -f "$file" ]]; then
   cd /opt/openspecimen
   gradle build
   mv /opt/openspecimen/build/libs/openspecimen.war "$file"
+  
+  #Cleanup
+  apt-get clean
+  rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+  rm /opt/openspec.zip
+  rm -r /opt/openspecimen
 fi
