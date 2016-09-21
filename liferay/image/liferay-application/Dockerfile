@@ -36,6 +36,6 @@ ADD scripts /opt/scripts
 WORKDIR /opt/scripts
 RUN chmod a+x *.sh \
     && chmod a+x /etc/init.d/functions \
-    && chmod a+x /etc/init.d/liferay \
+    && chmod a+x /etc/init.d/liferay
 
 ENTRYPOINT ["/opt/scripts/entrypoint.sh"]
