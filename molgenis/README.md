@@ -13,13 +13,13 @@ Available soon
 
 # Docker Image
 ## Environment Variables
-MOLGENIS_ADMIN_PASSWORD
-MOLGENIS_ADMIN_email
-MOLGENIS_PORT
+MOLGENIS_ADMIN_PASSWORD		Initial password for the MOLGENIS administrator
+MOLGENIS_ADMIN_email		Initial e-mail address for the MOLGENIS administrator
+MOLGENIS_USE_CAS		Boolean indicating if the instance should use CAS authentication
+MOLGENIS_CAS_BASEURL		Base URL to the CAS server, e.g. https://platform.rd-connect.eu/cas
+MOLGENIS_CAS_CALLBACK_URL	Callback URL from CAS to MOLGENIS, e.g. https://samples.rd-connect.eu/
 MYSQL_ROOT_PASSWORD
 MYSQL_DATABASE
 MYSQL_USER
 MYSQL_PASSWORD
 MYSQL_ALLOW_EMPTY_PASSWORD
-
-docker-compose up -d MOLGENIS_ADMIN_PASSWORD=test MOLGENIS_ADMIN_email=robert.reihs@gmail.com MOLGENIS_PORT=7777 MYSQL_ROOT_PASSWORD=test MYSQL_DATABASE=molgenis MYSQL_USER=molgenis MYSQL_PASSWORD=molgenis MYSQL_ALLOW_EMPTY_PASSWORD=no
