@@ -10,9 +10,17 @@ db_user=${MYSQL_USER}
 db_password=${MYSQL_PASSWORD}
 db_uri=jdbc\:mysql\://molgenisdb/${MYSQL_DATABASE}
 molgenis.version=31
+security.cas.enabled=${MOLGENIS_USE_CAS:=false}
 EOF
 
-chown tomcat:tomcat $file
+if [[ "${MOLGENIS_USE_CAS}" -eq "true" ]]; then
+cat << EOF >> "${file}"
+security.cas.login.url=${MOLGENIS_CAS_BASEURL}/p3
+security.cas.logout.url=${MOLGENIS_CAS_BASEURL}/logout
+security.cas.server.ticket.validator.url=${MOLGENIS_CAS_BASEURL}/p3
+security.cas.callback.base.url=${MOLGENIS_CAS_CALLBACK_URL}
+EOF
+fi
 
 fi
 

@@ -1,0 +1,31 @@
+version: '2'
+services:
+  molgenis-web:
+    image: bibbox/molgenis
+    links:
+      - molgenisdb:molgenisdb
+    ports:
+     - "8096:8080"
+    environment:
+     - MOLGENIS_ADMIN_PASSWORD=admin
+     - MOLGENIS_ADMIN_email=david.van.enckevort@umcg.nl
+     - MYSQL_ROOT_PASSWORD=molgenis
+     - MYSQL_DATABASE=molgenis
+     - MYSQL_USER=molgenis
+     - MYSQL_PASSWORD=molgenis
+     - MYSQL_ALLOW_EMPTY_PASSWORD=no
+     - MOLGENIS_USE_CAS=true
+     - MOLGENIS_CAS_BASEURL=https://platfrom.rd-connect.eu/cas
+     - MOLGENIS_CAS_CALLBACK_URL=http://localhost:8080
+    depends_on:
+     - molgenisdb
+  molgenisdb:
+    image: mysql
+    user: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=molgenis
+      - MYSQL_USER=molgenis
+      - MYSQL_PASSWORD=molgenis
+    volumes:
+      - /var/lib/mysql
