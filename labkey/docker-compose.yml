@@ -1,0 +1,25 @@
+﻿version: '2'
+services:
+ labkey-application:
+  image: labkey16
+  container_name: labkey16
+  links:
+  - labkeydb
+  ports:
+  - "8888:8080"
+  environment:
+  - POSTGRES_USER=labkey
+  - POSTGRES_PASSWORD=labkeypassword
+  - SMTP_HOST=@@smtpHost@@
+  - SMTP_USER=@@smtpUser@@
+  - SMTP_PORT=@@smtpPort@@
+  depends_on:
+  - labkeydb
+ labkeydb:
+  image: postgres:9.5
+  container_name: labkeydb
+  environment:
+  - POSTGRES_PASSWORD=labkeypassword
+  - POSTGRES_USER=labkey
+  - PGDATA=/var/lib/postgresql/data/pgdata
+  - POSTGRES_DB=lportal
