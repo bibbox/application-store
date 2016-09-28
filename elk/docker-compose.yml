@@ -1,22 +1,36 @@
 version: '2'
 services:
-  elasticsearch:
-    image: elasticsearch:latest
-    container_name: elasticsearch
+  elasticsearch-bibbox:
+    image: elasticsearch
+    container_name: elasticsearch-bibbox
+    volumes_from:
+      - elasticsearchData
     ports:
       - "9200:9200"
-      - "9300:9300"
-  kibana:
-    image: kibana:latest
-    container_name: kibana
+      
+  logstash-bibbox:
+    image: logstash
+    container_name: logstash-bibbox
+    environment:
+      TZ: Europe/Vienna
     ports:
-      - "5000:5000"
+      - "12201:12201/udp"
+    volumes:
+      - ./config:/config
     links:
-      - elasticsearch
-  logstash:
-    image: logstash:latest
-    container_name: logstash
+      - elasticsearch-bibbox
+    command: logstash -f /config/gelf.conf
+    
+  kibana-bibbox:
+    image: kibana
+    container_name: kibana-bibbox
     ports:
       - "5601:5601"
     links:
-      - elasticsearch
+      - elasticsearch-bibbox
+
+  elasticsearchData:
+    image: busybox
+    command: "true"
+    volumes:
+        - /usr/share/elasticsearch/data
