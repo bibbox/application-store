@@ -90,10 +90,3 @@ done
 #  (default, '<email address>', '<first name>', '<last name>', '<login name>', 'Active', '<institute_id created above>',
 #   '$2a$10$GOH1.KmElP0ZusLYS6l12ejO.xAIzDUFpIm7LVz9xAcrObyvd3gLC', 'openspecimen', 1, '<address>');
 # password will be Login!@3
-
-checkParameters
-checkConfig
-
-docker-compose up -d
-
-clean_up

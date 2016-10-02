@@ -7,7 +7,7 @@ url="demo.bibbox.org"
 ip="127.0.0.1"
 subdomain="notset"
 
-addproxy="/opt/scripts/addproxy.sh"
+addproxy="/opt/bibbox/bibbox-scripts/addproxy.sh"
 
 PROGNAME=$(basename $0)
 
