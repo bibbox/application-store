@@ -1,0 +1,15 @@
+<bibbox_application>
+    <name>Molgenis</name>
+    <short_name>Molgenis</short_name>
+    <version>5.1.28</version>
+    <application_topics>Data Warehouse; Data Integration; Catalogue</application_topics> 
+    <eb3kit_group>BIOBANKAPPS</eb3kit_group> 
+    <release_state>ALPHA</release_state>
+    <description> MOLGENIS is two things:
+
+    For biologists MOLGENIS is a suite of web databases for genotype, phenotype, QTL and analysis pipelines.
+    For bioinformaticians MOLGENIS is software generator to rapidly build web databases that make your biologists happy. </description>
+    <catalogue_url></catalogue_url>
+    <application_url>http://www.molgenis.org</application_url>
+    <kit>eB3kit</kit>
+</bibbox_application>
