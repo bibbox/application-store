@@ -59,26 +59,8 @@
  ENV CATALINA_HOME /opt/tomcat
  ENV PATH $PATH:$CATALINA_HOME/bin
  
--
--EXPOSE 8080
--
- VOLUME "/opt/tomcat/webapps"
+
  WORKDIR /opt/tomcat
- 
- 
- # Install Gradle
- 
- #ENV GRADLE_VERSION 2.13
- 
- #RUN wget https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-all.zip -O /tmp/gradle.zip \
- #&& unzip /tmp/gradle.zip \
- #&& mv /tmp/gradle-${GRADLE_VERSION} /opt \
- #&& rm /tmp/gradle.zip
- 
- # Set Appropriate Environmental Variables
- #ENV GRADLE_HOME /opt/gradle
- #ENV PATH $PATH:$GRADLE_HOME/bin
- 
- 
+
  # Launch Tomcat
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
