@@ -26,16 +26,16 @@
  # Install tomcat
  
  ENV TOMCAT_MAJOR 7
- ENV TOMCAT_VERSION 7.0.70
+ ENV TOMCAT_VERSION 7.0.72
  
  
  
- RUN wget --quiet --no-cookies https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz -O /tmp/tomcat.tgz && \
- tar xzvf /tmp/tomcat.tgz -C /opt && \
- mv /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat && \
- rm /tmp/tomcat.tgz && \
- rm -rf /opt/tomcat/webapps/docs && \
- rm -rf /opt/tomcat/webapps/examples
+ RUN wget --quiet --no-cookies https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz -O /tmp/tomcat.tgz \
+     && tar xzvf /tmp/tomcat.tgz -C /opt \
+     && mv /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat \
+     && rm /tmp/tomcat.tgz \
+     && rm -rf /opt/tomcat/webapps/docs \
+     && rm -rf /opt/tomcat/webapps/examples
  
  
  #Make appropriate directories for OpenSpecimen
