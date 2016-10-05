@@ -3,10 +3,10 @@
     <short_name>PhenoTips</short_name>
     <version>1.2.3</version>
     <application_topics>Phenotyping</application_topics> 
-    <eb3kit_group>BIOBANKAPPS</eb3kit_group> 
+    <eb3kit_group>biobank</eb3kit_group> 
     <release_state>ALPHA</release_state>
     <description>PhenoTips® is a software tool for collecting and analyzing phenotypic information for patients with genetic disorders.</description>
     <catalogue_url></catalogue_url>
     <application_url>https://phenotips.org/</application_url>
-    <kit>eB3kit</kit>
+    <kit>eB3Kit</kit>
 </bibbox_application>
