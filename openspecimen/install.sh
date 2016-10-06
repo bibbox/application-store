@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Starting OpenSpecimen Containers"
 
-folder="/opt/openspecimen"
-instance="instance"
+folder="/Users/mue/dockerdata/openspecimen"
+instance="DEV"
 
 usage()
 {
@@ -41,11 +41,13 @@ error_exit()
 
 checkConfig()
 {
+
+    echo "check config"
     if [[ ! -d "$folder" ]]; then
-        mkdir -p /opt/openspecimen/var/lib/mysql
-        mkdir -p /opt/openspecimen/etc/mysql/conf.d
+        mkdir -p "$folder/var/lib/mysql"
+        mkdir -p "$folder/etc/mysql/conf.d"
     
-        cp config/openspecimen.cnf /opt/openspecimen/etc/mysql/conf.d/openspecimen.cnf
+        cp config/openspecimen.cnf "$folder/etc/mysql/conf.d/openspecimen.cnf"
     fi
 }
 
@@ -56,6 +58,8 @@ checkParameters()
     fi
 }
 
+
+checkConfig
 
 while [ "$1" != "" ]; do
     case $1 in

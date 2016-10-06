@@ -1,50 +1,36 @@
 version: '2'
 services:
-  openspecimen-gradle-§§INSTANCE:
-    image: bibbox/openspecimen-gradle
-    container_name: openspecimen-gradle-§§INSTANCE
-    environment:
-      - RELEASEURL=§§RELEASEURL
-      - TOMCATPATH=§§TOMCATPATH
-      - INSTANCE=§§INSTANCE
-      - MYSQL_DATABASE=§§MYSQL_DATABASE
-      - MYSQL_USER=§§MYSQL_USER
-      - MYSQL_PASSWORD=§§MYSQL_PASSWORD
-    depends_on:
-      - openspecimen-data-§§INSTANCE
-      
-  openspecimen-web-§§INSTANCE:
+
+  openspecimen-web-DEV:
     image: bibbox/openspecimen
-    container_name: openspecimen-web-§§INSTANCE
+    container_name: openspecimen-web-DEV
     links:
-      - openspecimen-db-§§INSTANCE:openspecimen-db-§§INSTANCE
+      - openspecimendb:openspecimendb
     ports:
       - "8098:8080"
     depends_on:
-      - openspecimen-db-§§INSTANCE
-      - openspecimen-gradle-§§INSTANCE
-      - openspecimen-data-§§INSTANCE
+      - openspecimendb
+      - openspecimen-data-DEV
     volumes_from: 
-      - openspecimen-data-§§INSTANCE
-      
-  openspecimen-db-§§INSTANCE:
+      - openspecimen-data-DEV
+
+  openspecimendb:
     image: mysql
-    container_name: openspecimen-db-§§INSTANCE
+    container_name: openspecimendb
     user: root
     environment:
-      - MYSQL_ROOT_PASSWORD=§§MYSQL_ROOT_PASSWORD
-      - MYSQL_DATABASE=§§MYSQL_DATABASE
-      - MYSQL_USER=§§MYSQL_USER
-      - MYSQL_PASSWORD=§§MYSQL_PASSWORD
+      - MYSQL_ROOT_PASSWORD=openspecimen
+      - MYSQL_DATABASE=openspecimen
+      - MYSQL_USER=openspecimen
+      - MYSQL_PASSWORD=openspecimen
     volumes_from: 
-      - openspecimen-data-§§INSTANCE
+      - openspecimen-data-DEV
     depends_on:
-      - openspecimen-data-§§INSTANCE
-      
-  openspecimen-data-§§INSTANCE:
+      - openspecimen-data-DEV
+
+  openspecimen-data-DEV:
     image: bibbox/openspecimen-data
-    container_name: openspecimen-data-§§INSTANCE
+    container_name: openspecimen-data-DEV
     volumes:
-      - §§FOLDER/var/lib/mysql:/var/lib/mysql
-      - §§FOLDER/etc/mysql/conf.d/openspecimen.cnf:/etc/mysql/conf.d/openspecimen.cnf
-      - §§FOLDER/opt/dist:/opt/dist
+      - /Users/mue/dockerdata/openspecimen/var/lib/mysql:/var/lib/mysql
+      - /Users/mue/dockerdata/openspecimen/etc/mysql/conf.d/openspecimen.cnf:/etc/mysql/conf.d/openspecimen.cnf
