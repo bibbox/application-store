@@ -26,16 +26,16 @@
  # Install tomcat
  
  ENV TOMCAT_MAJOR 7
- ENV TOMCAT_VERSION 7.0.70
+ ENV TOMCAT_VERSION 7.0.72
  
  
  
- RUN wget --quiet --no-cookies https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz -O /tmp/tomcat.tgz && \
- tar xzvf /tmp/tomcat.tgz -C /opt && \
- mv /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat && \
- rm /tmp/tomcat.tgz && \
- rm -rf /opt/tomcat/webapps/docs && \
- rm -rf /opt/tomcat/webapps/examples
+ RUN wget --quiet --no-cookies https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz -O /tmp/tomcat.tgz \
+     && tar xzvf /tmp/tomcat.tgz -C /opt \
+     && mv /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat \
+     && rm /tmp/tomcat.tgz \
+     && rm -rf /opt/tomcat/webapps/docs \
+     && rm -rf /opt/tomcat/webapps/examples
  
  
  #Make appropriate directories for OpenSpecimen
@@ -59,26 +59,8 @@
  ENV CATALINA_HOME /opt/tomcat
  ENV PATH $PATH:$CATALINA_HOME/bin
  
--
--EXPOSE 8080
--
- VOLUME "/opt/tomcat/webapps"
+
  WORKDIR /opt/tomcat
- 
- 
- # Install Gradle
- 
- #ENV GRADLE_VERSION 2.13
- 
- #RUN wget https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-all.zip -O /tmp/gradle.zip \
- #&& unzip /tmp/gradle.zip \
- #&& mv /tmp/gradle-${GRADLE_VERSION} /opt \
- #&& rm /tmp/gradle.zip
- 
- # Set Appropriate Environmental Variables
- #ENV GRADLE_HOME /opt/gradle
- #ENV PATH $PATH:$GRADLE_HOME/bin
- 
- 
+
  # Launch Tomcat
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
