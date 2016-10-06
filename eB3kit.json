@@ -1,0 +1,46 @@
+ [ 
+    {
+		"group_name":"Biobank Applications", 
+		"group_members" : [
+				{ "app_name":"app-bika", 
+                  "app_dispay_name":"BIKA.biobank", 		  
+				  "versions": [ 
+                                {"docker_version":"v1.0", "version":"v2.2","tooltip":""}, 
+                                {"docker_version":"v1.1", "version":"v2.3","tooltip":""},
+                                {"docker_version":"v2.0", "version":"v2.3","tooltip":""}]	
+                },
+                { "app_name":"app-openspecimen", 
+                  "app_dispay_name":"Open Specimen", 		  
+				  "versions": [ 
+                                {"docker_version":"v1.0", "version":"v3.3","tooltip":""}, 
+                                {"docker_version":"v1.1", "version":"v3.3","tooltip":""},
+                                {"docker_version":"v2.0", "version":"v2.3","tooltip":""}]	
+                },
+                { "app_name":"app-phenotios", 
+                  "app_dispay_name":"Phenotips", 		  
+				  "versions": [ 
+                                {"docker_version":"v1.0", "version":"v1.2.5","tooltip":""}, 
+                                {"docker_version":"v1.1", "version":"v1.2.5","tooltip":""},
+                                {"docker_version":"v1.2", "version":"v1.2.5","tooltip":""}]	
+                }
+                           ]
+    },
+    {
+		"group_name":"Bioinformatics Applications", 
+		"group_members" : [
+				{ "app_name":"app-galaxy", 
+                  "app_dispay_name":"Galaxy", 		  
+				  "versions": [ {"app_version":"v1.0", "version":"v1.1","tooltip":""}]	
+                }
+            ]
+    },
+    {
+		"group_name":"Helper Applications", 
+		"group_members" : [
+				{ "app_name":"app-orientdb", 
+                  "app_dispay_name":"OrientDB", 		  
+				  "versions": [ {"app_version":"v1.0", "version":"v2.2","tooltip":""}]	
+                }
+            ]
+    }
+]
