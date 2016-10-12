@@ -17,9 +17,8 @@
                 "app_dispay_name": "Open Specimen",
                 "tags": ["Sample Management"],
 				"versions": [
-                    {"docker_version": "v1.0", "version": "v3.3", "tooltip": ""},
-                    {"docker_version": "v1.1", "version": "v3.3", "tooltip": ""},
-                    {"docker_version": "v2.0", "version": "v2.3", "tooltip": ""}
+                    {"docker_version": "v0.1-alpha", "version": "v2.3", "tooltip": ""},
+                    {"docker_version": "v0.2-alpha", "version": "v3.3", "tooltip": ""}
                 ]
             },
             {
