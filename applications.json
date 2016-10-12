@@ -1,6 +1,5 @@
 [ 
   {"name":"Open Specimen", "github_name":"app-openspecimen"},
-  {"name":"Phenotips",     "github_name":"app-phenotips"},
-  {"name":"OrientDB",      "github_name":"app-orientdb"}
+  {"name":"Phenotips",     "github_name":"app-phenotips"}
 ]
 
