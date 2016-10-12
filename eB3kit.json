@@ -1,33 +1,33 @@
- [ 
+ [
      {
-		"group_name": "Biobank Applications", 
+		"group_name": "Biobank Applications",
 		"group_members": [
             {
-                "app_name": "app-bika", 
+                "app_name": "app-bika",
                 "app_dispay_name": "BIKA.biobank",
                 "tags": ["Genetic Disorders"],
                 "versions": [
-                    {"docker_version": "v1.0", "version": "v2.2", "tooltip": ""}, 
+                    {"docker_version": "v1.0", "version": "v2.2", "tooltip": ""},
                     {"docker_version": "v1.1", "version": "v2.3", "tooltip": ""},
                     {"docker_version": "v2.0", "version": "v2.3", "tooltip": ""}
                 ]
             },
             {
-                "app_name": "app-openspecimen", 
-                "app_dispay_name": "Open Specimen", 
+                "app_name": "app-openspecimen",
+                "app_dispay_name": "Open Specimen",
                 "tags": ["Sample Management"],
-				"versions": [ 
-                    {"docker_version": "v1.0", "version": "v3.3", "tooltip": ""}, 
+				"versions": [
+                    {"docker_version": "v1.0", "version": "v3.3", "tooltip": ""},
                     {"docker_version": "v1.1", "version": "v3.3", "tooltip": ""},
                     {"docker_version": "v2.0", "version": "v2.3", "tooltip": ""}
                 ]
             },
             {
-                "app_name": "app-phenotips", 
-                "app_dispay_name": "Phenotips", 	
+                "app_name": "app-phenotips",
+                "app_dispay_name": "Phenotips",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
-                    {"docker_version": "v1.0", "version": "v1.2.5", "tooltip": ""}, 
+                    {"docker_version": "v1.0", "version": "v1.2.5", "tooltip": ""},
                     {"docker_version": "v1.1", "version": "v1.2.5", "tooltip": ""},
                     {"docker_version": "v1.2", "version": "v1.2.5", "tooltip": ""}
                 ]
@@ -35,24 +35,24 @@
         ]
     },
     {
-		"group_name": "Bioinformatics Applications", 
+		"group_name": "Bioinformatics Applications",
 		"group_members": [
             {
                 "app_name": "app-galaxy",
                 "app_dispay_name": "Galaxy",
                 "tags": ["Phenotyping", "Genetic Disorders"],
-                "versions": [{"app_version": "v1.0", "version": "v1.1", "tooltip": ""}]	
+                "versions": [{"docker_version": "v1.0", "version": "v1.1", "tooltip": ""}]
             }
         ]
     },
     {
-		"group_name": "Helper Applications", 
+		"group_name": "Helper Applications",
 		"group_members": [
             {
-                "app_name": "app-orientdb", 
-                "app_dispay_name": "OrientDB", 	
+                "app_name": "app-orientdb",
+                "app_dispay_name": "OrientDB",
                 "tags": ["Database", "Data Storage"],
-                "versions": [{"app_version": "v1.0", "version": "v2.2", "tooltip": ""}]	
+                "versions": [{"docker_version": "v1.0", "version": "v2.2", "tooltip": ""}]
             }
         ]
     }
