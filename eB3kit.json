@@ -5,7 +5,7 @@
             {
                 "app_name": "app-bika", 
                 "app_dispay_name": "BIKA.biobank",
-                "tags": ["Phenotyping", "Genetic Disorders"],
+                "tags": ["Genetic Disorders"],
                 "versions": [
                     {"docker_version": "v1.0", "version": "v2.2", "tooltip": ""}, 
                     {"docker_version": "v1.1", "version": "v2.3", "tooltip": ""},
@@ -15,7 +15,7 @@
             {
                 "app_name": "app-openspecimen", 
                 "app_dispay_name": "Open Specimen", 
-                "tags": ["Phenotyping", "Genetic Disorders"],
+                "tags": ["Sample Management"],
 				"versions": [ 
                     {"docker_version": "v1.0", "version": "v3.3", "tooltip": ""}, 
                     {"docker_version": "v1.1", "version": "v3.3", "tooltip": ""},
@@ -23,7 +23,7 @@
                 ]
             },
             {
-                "app_name": "app-phenotios", 
+                "app_name": "app-phenotips", 
                 "app_dispay_name": "Phenotips", 	
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
@@ -51,7 +51,7 @@
             {
                 "app_name": "app-orientdb", 
                 "app_dispay_name": "OrientDB", 	
-                "tags": ["Phenotyping", "Genetic Disorders"],
+                "tags": ["Database", "Data Storage"],
                 "versions": [{"app_version": "v1.0", "version": "v2.2", "tooltip": ""}]	
             }
         ]
