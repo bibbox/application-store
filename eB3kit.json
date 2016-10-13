@@ -42,8 +42,8 @@
                 "app_dispay_name": "Liferay",
                 "tags": ["Framework", "CMS", "Document Management"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
-                    {"docker_version": "v0.1-alpha", "version": "v6.2 GA6", "tooltip": ""}
+                    {"docker_version": "development", "version": "v6.2. GA6", "tooltip": ""},
+                    {"docker_version": "v0.2-alpha", "version": "v6.2 GA6", "tooltip": ""}
                 ]
             }
         ]
