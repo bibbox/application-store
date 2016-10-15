@@ -46,6 +46,15 @@
                     {"docker_version": "v0.2-alpha", "version": "v6.2 GA6", "tooltip": ""}
                 ]
             }
+             {
+                "app_name": "app-wordpress",
+                "app_dispay_name": "Wordpress",
+                "tags": ["Blog", "CMS"],
+                "versions": [
+                    {"docker_version": "alpha-v0.2",  "version": "latest", "tooltip": ""},
+                    {"docker_version": "alpha-v0.1",  "version": "latest", "tooltip": ""}
+                ]
+            }
         ]
     }
 ]
