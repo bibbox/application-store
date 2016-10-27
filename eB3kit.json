@@ -5,7 +5,8 @@
             {
                 "app_name": "app-bika",
                 "app_dispay_name": "BIKA.biobank",
-                "release_state": "coming soon",
+                "installable": true,
+                "decoration": "announced",
                 "tags": ["Sample Management"],
 				"versions": [
                     {"docker_version": "development", "version": "v3.3", "tooltip": ""},
