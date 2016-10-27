@@ -17,7 +17,7 @@
                 "app_name": "app-openspecimen",
                 "app_dispay_name": "Open Specimen",
                 "installable": true,
-                "decoration": "announced",
+                "decoration": "new",
                 "tags": ["Sample Management"],
 				"versions": [
                     {"docker_version": "development", "version": "v3.3", "tooltip": ""},
