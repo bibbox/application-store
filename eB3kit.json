@@ -27,7 +27,7 @@
             {
                 "app_name": "app-phenotips",
                 "app_dispay_name": "Phenotips",
-                "installable": true,
+                "installable": false,
                 "decoration": "announced",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
@@ -42,7 +42,7 @@
             {
                 "app_name": "app-phenotips",
                 "app_dispay_name": "Phenotips",
-                "installable": true,
+                "installable": false,
                 "decoration": "announced",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
@@ -57,7 +57,7 @@
             {
                 "app_name": "app-liferay",
                 "app_dispay_name": "Liferay",
-                "installable": true,
+                "installable": false,
                 "decoration": "announced",
                 "tags": ["Framework", "CMS", "Document Management"],
                 "versions": [
@@ -68,7 +68,7 @@
             {
                 "app_name": "app-wordpress",
                 "app_dispay_name": "Wordpress",
-                "installable": true,
+                "installable": false,
                 "decoration": "announced",
                 "tags": ["Blog", "CMS"],
                 "versions": [
