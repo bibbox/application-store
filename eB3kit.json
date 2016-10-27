@@ -3,6 +3,16 @@
 		"group_name": "Biobank Applications",
 		"group_members": [
             {
+                "app_name": "app-bika",
+                "app_dispay_name": "BIKA.biobank",
+                "release_state": "coming soon",
+                "tags": ["Sample Management"],
+				"versions": [
+                    {"docker_version": "development", "version": "v3.3", "tooltip": ""},
+                    {"docker_version": "v0.2-alpha", "version": "v3.3", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-openspecimen",
                 "app_dispay_name": "Open Specimen",
                 "release_state": "coming soon",
