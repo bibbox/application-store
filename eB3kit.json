@@ -58,7 +58,7 @@
                 "app_name": "app-liferay",
                 "app_dispay_name": "Liferay",
                 "installable": false,
-                "decoration": "announced",
+                "decoration": "",
                 "tags": ["Framework", "CMS", "Document Management"],
                 "versions": [
                     {"docker_version": "development", "version": "v6.2. GA6", "tooltip": ""},
