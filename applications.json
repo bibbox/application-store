@@ -2,6 +2,7 @@
   {"name":"Open Specimen", "github_name":"app-openspecimen"},
   {"name":"Phenotips",     "github_name":"app-phenotips"},
   {"name":"BIKA",          "github_name":"app-bika"},
+  {"name":"Molgenis",      "github_name":"app-molgenis"},
   {"name":"Wordpress",     "github_name":"app-wordpress"},
   {"name":"Liferay",       "github_name":"app-liferay"}
 ]

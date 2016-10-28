@@ -24,6 +24,17 @@
                     {"docker_version": "v0.3-alpha", "version": "v3.3", "tooltip": ""}
                 ]
             },
+             {
+                "app_name": "app-molgenis",
+                "app_dispay_name": "Molgenis",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Data Integration"],
+				"versions": [
+                    {"docker_version": "development", "version": "v3.3", "tooltip": ""},
+                    {"docker_version": "v0.3-alpha", "version": "v3.3", "tooltip": ""}
+                ]
+            },
             {
                 "app_name": "app-phenotips",
                 "app_dispay_name": "Phenotips",
