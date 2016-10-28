@@ -32,7 +32,8 @@
                 "tags": ["Data Integration"],
 				"versions": [
                     {"docker_version": "development", "version": "v1.8", "tooltip": ""},
-                    {"docker_version": "v0.3-alpha", "version": "v1.8", "tooltip": ""}
+                    {"docker_version": "v0.4-alpha",  "version": "v1.8", "tooltip": ""},
+                    {"docker_version": "v0.3-alpha",  "version": "v1.8", "tooltip": ""}
                 ]
             },
             {
