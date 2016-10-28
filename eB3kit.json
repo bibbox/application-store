@@ -27,12 +27,12 @@
             {
                 "app_name": "app-molgenis",
                 "app_dispay_name": "Molgenis",
-                "installable": true,
+                "installable": false,
                 "decoration": "announced",
                 "tags": ["Data Integration"],
 				"versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""},
-                    {"docker_version": "v0.3-alpha", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.8", "tooltip": ""},
+                    {"docker_version": "v0.3-alpha", "version": "v1.8", "tooltip": ""}
                 ]
             },
             {
