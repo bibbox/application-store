@@ -28,7 +28,7 @@
                 "app_name": "app-molgenis",
                 "app_dispay_name": "Molgenis",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "announced",
                 "tags": ["Data Integration"],
 				"versions": [
                     {"docker_version": "development", "version": "v3.3", "tooltip": ""},
