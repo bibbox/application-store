@@ -45,7 +45,7 @@
                     {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
                 ]
             },
-             {
+            {
                 "app_name": "app-odk",
                 "app_dispay_name": "Open Data Kit (ODK)",
                 "installable": false,
@@ -53,6 +53,16 @@
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-opal",
+                "app_dispay_name": "OPAL",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Management", "Data Warehouse"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
                 ]
             }
         ]
