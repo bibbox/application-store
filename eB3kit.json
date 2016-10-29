@@ -9,8 +9,7 @@
                 "decoration": "announced",
                 "tags": ["Sample Management"],
 				"versions": [
-                    {"docker_version": "development", "version": "v3.3", "tooltip": ""},
-                    {"docker_version": "v0.2-alpha", "version": "v3.3", "tooltip": ""}
+                    {"docker_version": "development", "version": "v3.3", "tooltip": ""}
                 ]
             },
             {
