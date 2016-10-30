@@ -90,11 +90,21 @@
                 "app_dispay_name": "Agate",
                 "installable": false,
                 "decoration": "announced",
-                "tags": ["Authenication", "E-mail Servver"],
+                "tags": ["Authenication", "E-mail Server"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
                 ]
-            }        
+            },     
+                            {
+                "app_name": "app-omero",
+                "app_dispay_name": "Omero",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Imaging", "Digital Pathology", "Microscopy"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            }
         ]
     },
     {

@@ -6,6 +6,7 @@
   {"name":"Onyx",          "github_name":"app-onyx"},
   {"name":"Mica",          "github_name":"app-mica"},
   {"name":"Agate",         "github_name":"app-agate"},
+  {"name":"Omero",         "github_name":"app-omero"},
   {"name":"Molgenis",      "github_name":"app-molgenis"},
   {"name":"Wordpress",     "github_name":"app-wordpress"},
   {"name":"Liferay",       "github_name":"app-liferay"}
