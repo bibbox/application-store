@@ -2,6 +2,10 @@
   {"name":"Open Specimen", "github_name":"app-openspecimen"},
   {"name":"Phenotips",     "github_name":"app-phenotips"},
   {"name":"BIKA",          "github_name":"app-bika"},
+  {"name":"Opal",          "github_name":"app-opal"},
+  {"name":"Onyx",          "github_name":"app-onyx"},
+  {"name":"Mica",          "github_name":"app-mica"},
+  {"name":"Agate",         "github_name":"app-agate"},
   {"name":"Molgenis",      "github_name":"app-molgenis"},
   {"name":"Wordpress",     "github_name":"app-wordpress"},
   {"name":"Liferay",       "github_name":"app-liferay"}

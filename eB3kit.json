@@ -56,6 +56,16 @@
                 ]
             },
             {
+                "app_name": "app-onyx",
+                "app_dispay_name": "Onyx",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Aquisition", "Interviews"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-opal",
                 "app_dispay_name": "OPAL",
                 "installable": false,
@@ -64,7 +74,27 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
                 ]
-            }
+            },
+                        {
+                "app_name": "app-mica",
+                "app_dispay_name": "Mica",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Web Portal", "Epidemiological Studies"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            },
+                        {
+                "app_name": "app-agate",
+                "app_dispay_name": "Agate",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Authenication", "E-mail Servver"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            }        
         ]
     },
     {
