@@ -5,6 +5,7 @@
             {
                 "app_name": "app-bika",
                 "app_dispay_name": "BIKA.biobank",
+                "short_description": "Sample Management, Biobank Information Management System",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Sample Management", "LIMS"],
@@ -15,6 +16,7 @@
             {
                 "app_name": "app-openspecimen",
                 "app_dispay_name": "Open Specimen",
+                "short_description": "Sample Management",
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Sample Management"],
@@ -26,6 +28,7 @@
             {
                 "app_name": "app-molgenis",
                 "app_dispay_name": "Molgenis",
+                "short_description": "EXCEL in the Web",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Data Integration"],
@@ -38,6 +41,7 @@
             {
                 "app_name": "app-phenotips",
                 "app_dispay_name": "Phenotips",
+                "short_description": "Phenotyp Editor for the HPO ontology",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Phenotyping", "Genetic Disorders"],
@@ -48,6 +52,7 @@
             {
                 "app_name": "app-odk",
                 "app_dispay_name": "Open Data Kit (ODK)",
+                "short_description": "Mobile data collection solution",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
@@ -78,6 +83,7 @@
                         {
                 "app_name": "app-mica",
                 "app_dispay_name": "Mica",
+                "short_description": "Authentication server for OBiBa",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Web Portal", "Epidemiological Studies"],
