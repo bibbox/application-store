@@ -63,6 +63,7 @@
             {
                 "app_name": "app-onyx",
                 "app_dispay_name": "Onyx",
+                "short_description": "Interviews and Data Collection in Clinics (O",                
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Data Aquisition", "Interviews"],
@@ -73,6 +74,7 @@
             {
                 "app_name": "app-opal",
                 "app_dispay_name": "OPAL",
+                "short_description": "Data warehouse (OBiBa)",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Data Management", "Data Warehouse"],
@@ -83,7 +85,7 @@
                         {
                 "app_name": "app-mica",
                 "app_dispay_name": "Mica",
-                "short_description": "Authentication server for OBiBa",
+                "short_description": "Portal for epidemiological studies (OBiBa)",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Web Portal", "Epidemiological Studies"],
@@ -96,7 +98,7 @@
                 "app_dispay_name": "Agate",
                 "installable": false,
                 "decoration": "announced",
-                "short_description": "Authentication server for OBiBa",
+                "short_description": "Authentication server (OBiBa)",
                 "tags": ["Authenication", "E-mail Server"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
