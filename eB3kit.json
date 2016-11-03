@@ -172,5 +172,22 @@
                 ]
             }
         ]
+    },
+    {
+		"group_name": "Admin Dashboard",
+		"group_members": [
+            {
+                "app_name": "app-bibbox-monitoring",
+                "app_dispay_name": "Monitoring",
+                "short_description": "Monitoring of Apps and Containers",
+                "installable": false,
+                "decoration": "",
+                "tags": ["Admin"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""},
+                    {"docker_version": "v0.1-alpha", "version": "v1.0", "tooltip": ""}
+                ]
+            }
+        ]
     }
 ]
