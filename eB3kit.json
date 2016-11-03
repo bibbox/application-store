@@ -181,7 +181,7 @@
                 "app_dispay_name": "Monitoring",
                 "short_description": "Monitoring of Apps and Containers",
                 "installable": false,
-                "decoration": "",
+                "decoration": "announced",
                 "tags": ["Admin"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
