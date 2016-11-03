@@ -96,6 +96,7 @@
                 "app_dispay_name": "Agate",
                 "installable": false,
                 "decoration": "announced",
+                "short_description": "Authentication server for OBiBa",
                 "tags": ["Authenication", "E-mail Server"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
@@ -106,6 +107,7 @@
                 "app_dispay_name": "Omero",
                 "installable": false,
                 "decoration": "announced",
+                "short_description": "Digital microscopy & pathology tool",
                 "tags": ["Imaging", "Digital Pathology", "Microscopy"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
@@ -119,6 +121,7 @@
             {
                 "app_name": "app-phenotips",
                 "app_dispay_name": "Phenotips",
+                "short_description": "Genotyping Tool",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Phenotyping", "Genetic Disorders"],
@@ -129,6 +132,7 @@
             {
                 "app_name": "app-stategraems",
                 "app_dispay_name": "STATegraEMS",
+                 "short_description": "Experiment Management",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Experiment Management System", "Bioinformatics"],
@@ -144,6 +148,7 @@
             {
                 "app_name": "app-liferay",
                 "app_dispay_name": "Liferay",
+                "short_description": "Portal Framework & EMS",
                 "installable": false,
                 "decoration": "",
                 "tags": ["Framework", "CMS", "Document Management"],
@@ -155,6 +160,7 @@
             {
                 "app_name": "app-wordpress",
                 "app_dispay_name": "Wordpress",
+                "short_description": "Blog, Simple Webportal",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Blog", "CMS"],
