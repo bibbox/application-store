@@ -63,7 +63,7 @@
             {
                 "app_name": "app-onyx",
                 "app_dispay_name": "Onyx",
-                "short_description": "Interviews and Data Collection in Clinics (O",                
+                "short_description": "Interviews and Data Collection (OBiBa)",                
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Data Aquisition", "Interviews"],
