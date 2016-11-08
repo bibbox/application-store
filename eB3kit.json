@@ -167,8 +167,7 @@
                 "decoration": "new",
                 "tags": ["Blog", "CMS"],
                 "versions": [
-                    {"docker_version": "alpha-v0.2",  "version": "latest", "tooltip": ""},
-                    {"docker_version": "alpha-v0.1",  "version": "latest", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }
         ]
