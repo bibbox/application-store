@@ -42,7 +42,7 @@
                 "app_name": "app-phenotips",
                 "app_dispay_name": "Phenotips",
                 "short_description": "Phenotyp Editor for the HPO ontology",
-                "installable": false,
+                "installable": new,
                 "decoration": "announced",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
@@ -164,7 +164,7 @@
                 "app_dispay_name": "Wordpress",
                 "short_description": "Blog, Simple Webportal",
                 "installable": false,
-                "decoration": "announced",
+                "decoration": "new",
                 "tags": ["Blog", "CMS"],
                 "versions": [
                     {"docker_version": "alpha-v0.2",  "version": "latest", "tooltip": ""},
