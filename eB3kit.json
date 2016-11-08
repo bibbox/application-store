@@ -124,8 +124,8 @@
                 "app_name": "app-phenotips",
                 "app_dispay_name": "Phenotips",
                 "short_description": "Genotyping Tool",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "new",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
