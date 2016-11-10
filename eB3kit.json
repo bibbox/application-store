@@ -179,8 +179,8 @@
                 "app_name": "app-bibbox-monitoring",
                 "app_dispay_name": "Monitoring",
                 "short_description": "Monitoring of Apps and Containers",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "",
                 "tags": ["Admin"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
