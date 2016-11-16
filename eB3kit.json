@@ -29,8 +29,8 @@
                 "app_name": "app-molgenis",
                 "app_dispay_name": "Molgenis",
                 "short_description": "EXCEL in the Web",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "",
                 "tags": ["Data Integration"],
 				"versions": [
                     {"docker_version": "development", "version": "v1.8", "tooltip": ""},
