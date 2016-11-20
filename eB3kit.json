@@ -50,7 +50,7 @@
                 ]
             },
                {
-                "app_name": "app-jupyter-datascience-notebookapp",
+                "app_name": "app-jupyter-datascience-notebook",
                 "app_dispay_name": "Jupyter Notebook",
                 "short_description": "Interactive data science and scientific computing",
                 "installable": true,
