@@ -10,6 +10,7 @@
   {"name":"Molgenis",      "github_name":"app-molgenis"},
   {"name":"Wordpress",     "github_name":"app-wordpress"},
   {"name":"Liferay",       "github_name":"app-liferay"},
-  {"name":"BIBBOX Monitoring",       "github_name":"app-bibbox-monitoring"}    
+  {"name":"BIBBOX Monitoring",       "github_name":"app-bibbox-monitoring"},    
+  {"name":"Jupyter Datascience Notebook",       "github_name":"app-jupyter-datascience-notebook"}    
 ]
 
