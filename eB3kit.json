@@ -196,6 +196,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-barcuda",
+                "app_dispay_name": "Backup",
+                "short_description": "Backup BIBBOX apps",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Backup", "Admin"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             }
         ]
     }
