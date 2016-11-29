@@ -198,7 +198,7 @@
                 ]
             },
             {
-                "app_name": "app-barcuda",
+                "app_name": "app-bacula",
                 "app_dispay_name": "Backup",
                 "short_description": "Backup BIBBOX apps",
                 "installable": false,
