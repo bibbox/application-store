@@ -146,8 +146,8 @@
                 "app_name": "app-stategraems",
                 "app_dispay_name": "STATegraEMS",
                  "short_description": "Experiment Management",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "",
                 "tags": ["Experiment Management System", "Bioinformatics"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
