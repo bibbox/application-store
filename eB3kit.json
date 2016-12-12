@@ -18,7 +18,7 @@
                 "app_dispay_name": "Open Specimen",
                 "short_description": "Sample Management",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Sample Management"],
 				"versions": [
                     {"docker_version": "development", "version": "v3.3", "tooltip": ""},
@@ -54,7 +54,7 @@
                 "app_dispay_name": "Jupyter Notebook",
                 "short_description": "Interactive data science and scientific computing",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Data Integration", "Data Analysis"],
                 "versions": [
                     {"docker_version": "development", "version": "v4.2", "tooltip": ""}
