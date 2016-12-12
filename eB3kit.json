@@ -191,18 +191,7 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            }, 
-            {
-                "app_name": "sys-test",
-                "app_dispay_name": "InstallTesting",
-                "short_description": "ERROR Testing",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Test"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }
+            } 
         ]
     },
     {
