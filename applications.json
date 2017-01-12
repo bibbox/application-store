@@ -13,6 +13,7 @@
   {"name":"BIBBOX Monitoring",       "github_name":"app-bibbox-monitoring"},    
   {"name":"Jupyter Datascience Notebook",       "github_name":"app-jupyter-datascience-notebook"},    
   {"name":"Bacula",       "github_name":"app-bacula"}, 
-  {"name":"Droppy",       "github_name":"app-droppy"}        
+  {"name":"Droppy",       "github_name":"app-droppy"},
+  {"name":"Open Data Kit (ODK)",      "github_name":"app-odk"},
+  {"name":"STATegraEMS",      "github_name":"app-stategraems"}
 ]
-
