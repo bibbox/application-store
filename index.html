@@ -3,28 +3,16 @@
 		<title>BIBBOX Setup</title>
 		
 		<script>
-			function readTextFile(file)
-			{
-				var rawFile = new XMLHttpRequest();
-				rawFile.open("GET", file, false);
-				rawFile.onreadystatechange = function ()
-				{
-					if(rawFile.readyState === 4)
-					{
-						if(rawFile.status === 200 || rawFile.status == 0)
-						{
-							var allText = rawFile.responseText;
-							console.log(allText);
-						}
-					}
-				}
-				rawFile.send(null);
-			}
-			
 			setInterval(function() {
-				var container = document.getElementById('log-container');
-				container.innerHTML = readTextFile("./log.out");
-			}, 2000);
+				var xhr= new XMLHttpRequest();
+				xhr.open('GET', 'log.out', true);
+				xhr.onreadystatechange= function() {
+					if (this.readyState!==4) return;
+					if (this.status!==200) return; // or whatever error handling you want
+					document.getElementById('log-container').innerHTML= this.responseText;
+				};
+				xhr.send();
+			}, 5000);
 		</script>
 	</head>
 	
