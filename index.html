@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>BIBBOX Setup</title>
+		
+		<script>
+			function readTextFile(file)
+			{
+				var rawFile = new XMLHttpRequest();
+				rawFile.open("GET", file, false);
+				rawFile.onreadystatechange = function ()
+				{
+					if(rawFile.readyState === 4)
+					{
+						if(rawFile.status === 200 || rawFile.status == 0)
+						{
+							var allText = rawFile.responseText;
+							alert(allText);
+						}
+					}
+				}
+				rawFile.send(null);
+			}
+			
+			setInterval(function() {
+				var container = document.getElementById('log-container');
+				container.innerHTML = readTextFile("./log.out");
+			}, 2000);
+		</script>
+	</head>
+	
+	<body>
+		<h1>Welcome to BIBBOX</h1>
+		<p>Your BIBBOX will now be set up for you. Please hang on just a little longer.</p>
+		<div id="log-container"></div>
+	</body>
+</html>
