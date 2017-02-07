@@ -184,6 +184,17 @@
                 ]
             }, 
             {
+                "app_name": "app-seeddms",
+                "app_dispay_name": "SeedDMS",
+                "short_description": "Self-hosted file storage",
+                "installable": false,
+                "decoration": "new",
+                "tags": ["Files", "Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
                 "app_name": "app-droppy",
                 "app_dispay_name": "Droppy",
                 "short_description": "Self-hosted file storage",
