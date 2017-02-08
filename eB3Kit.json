@@ -187,7 +187,7 @@
                 "app_name": "app-seeddms",
                 "app_dispay_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
-                "installable": false,
+                "installable": true,
                 "decoration": "new",
                 "tags": ["Files", "Storage"],
                 "versions": [
