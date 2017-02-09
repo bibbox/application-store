@@ -154,6 +154,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-redcap",
+                "app_dispay_name": "RedCap",
+                "short_description": "Survey Management System",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             }
         ]
     },
