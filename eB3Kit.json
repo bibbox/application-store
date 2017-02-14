@@ -242,7 +242,18 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            }
+            }, 
+            {
+                "app_name": "app-elasticstack",
+                "app_dispay_name": "Elastic Stack",
+                "short_description": "Elastic Search Stack",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Search"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            } 
         ]
     }
 ]
