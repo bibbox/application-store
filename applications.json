@@ -17,5 +17,6 @@
   {"name":"Open Data Kit (ODK)",      "github_name":"app-odk"},
   {"name":"STATegraEMS",      "github_name":"app-stategraems"},
   {"name":"SeedDMS",      "github_name":"app-seeddms"},
-  {"name":"RedCap",      "github_name":"app-redcap"}
+  {"name":"RedCap",      "github_name":"app-redcap"},
+  {"name":"Elastic Stack",      "github_name":"app-elasticstack"}
 ]
