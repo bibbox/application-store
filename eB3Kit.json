@@ -215,6 +215,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            }, 
+            {
+                "app_name": "app-mycollab",
+                "app_dispay_name": "MyCollab",
+                "short_description": "Project Management System",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Project Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             } 
         ]
     },
