@@ -186,7 +186,7 @@
             {
                 "app_name": "app-orientdb",
                 "app_dispay_name": "OrientDB",
-                "short_description": "NoSQL Database with a Graph Database Engine",
+                "short_description": "NoSQL Graph/ Document Database",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Database", "NoSQL", "Graph Database"],
