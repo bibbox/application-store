@@ -19,5 +19,6 @@
   {"name":"SeedDMS",      "github_name":"app-seeddms"},
   {"name":"RedCap",      "github_name":"app-redcap"},
   {"name":"Elastic Stack",      "github_name":"app-elasticstack"},
-  {"name":"MyCollab",      "github_name":"app-mycollab"}
+  {"name":"MyCollab",      "github_name":"app-mycollab"}, 
+  {"name":"OrientDB",      "github_name":"app-orientdb"}
 ]
