@@ -184,6 +184,17 @@
                 ]
             },
             {
+                "app_name": "app-orientdb",
+                "app_dispay_name": "OrientDB",
+                "short_description": "NoSQL Database with a Graph Database Engine",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "NoSQL", "Graph Database"],
+                "versions": [
+                    {"docker_version": "development", "version": "2.2.17", "tooltip": ""},
+                ]
+            },
+            {
                 "app_name": "app-wordpress",
                 "app_dispay_name": "Wordpress",
                 "short_description": "Blog, Simple Webportal",
