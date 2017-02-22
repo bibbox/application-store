@@ -243,8 +243,8 @@
                 "app_name": "app-limesurvey",
                 "app_dispay_name": "LimeSurvey CE",
                 "short_description": "Survey Management System",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "new",
                 "tags": ["Survey"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
