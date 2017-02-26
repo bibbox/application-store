@@ -298,9 +298,18 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            }
-			
-			
+            },	
+            {
+                "app_name": "app-adminer",
+                "app_dispay_name": "Adminer",
+                "short_description": "Adminer",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "Administration"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }		
         ]
     }
 ]
