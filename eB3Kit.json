@@ -276,7 +276,20 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            } 
+            },
+            {
+                "app_name": "app-dbninja",
+                "app_dispay_name": "DbNinja for MySQL",
+                "short_description": "DbNinja",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "Administration"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }
+			
+			
         ]
     }
 ]

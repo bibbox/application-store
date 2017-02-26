@@ -20,5 +20,8 @@
   {"name":"RedCap",      "github_name":"app-redcap"},
   {"name":"Elastic Stack",      "github_name":"app-elasticstack"},
   {"name":"MyCollab",      "github_name":"app-mycollab"}, 
-  {"name":"OrientDB",      "github_name":"app-orientdb"}
+  {"name":"OrientDB",      "github_name":"app-orientdb"},
+  {"name":"DbNinja",      "github_name":"app-dbninja"}  
 ]
+
+
