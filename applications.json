@@ -19,8 +19,9 @@
   {"name":"SeedDMS",      "github_name":"app-seeddms"},
   {"name":"RedCap",      "github_name":"app-redcap"},
   {"name":"Elastic Stack",      "github_name":"app-elasticstack"},
-  {"name":"MyCollab",      "github_name":"app-mycollab"}, 
-  {"name":"OrientDB",      "github_name":"app-orientdb"},
+  {"name":"MyCollab CE",   "github_name":"app-mycollab"}, 
+  {"name":"OrientDB",      "github_name":"app-orientdb"}, 
+  {"name":"LimeSurvey CE", "github_name":"app-limesurvey"},
   {"name":"DbNinja",      "github_name":"app-dbninja"}  
 ]
 
