@@ -249,6 +249,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            }, 
+            {
+                "app_name": "app-owncloud",
+                "app_dispay_name": "OwnCloud",
+                "short_description": "File sync and share server.",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             } 
         ]
     },
