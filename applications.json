@@ -23,7 +23,8 @@
   {"name":"OrientDB",      "github_name":"app-orientdb"}, 
   {"name":"LimeSurvey CE", "github_name":"app-limesurvey"},
   {"name":"DbNinja",      "github_name":"app-dbninja"},
-  {"name":"Adminer",      "github_name":"app-adminer"}    
+  {"name":"Adminer",      "github_name":"app-adminer"},
+  {"name":"OwnCloud",      "github_name":"app-owncloud"} 
 ]
 
 
