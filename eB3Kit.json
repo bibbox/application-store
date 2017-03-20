@@ -47,7 +47,7 @@
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
                     {"docker_version": "V1-0-7", "version": "v1.2.6", "tooltip": "stable version"},
-       		        {"docker_version": "development", "version": "v1.3 milestone 5", "tooltip": "not for prodcution !"}
+       		        {"docker_version": "development", "version": "v1.3 RC 1", "tooltip": "not for prodcution !"}
                 ]
             },
                {
