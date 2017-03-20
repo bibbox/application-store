@@ -40,8 +40,8 @@
             },
             {
                 "app_name": "app-phenotips",
-                "app_dispay_name": "Phenotips",
-                "short_description": "Phenotyp Editor for the HPO ontology",
+                "app_dispay_name": "PhenoTips",
+                "short_description": "Phenotype Editor for the HPO ontology",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Phenotyping", "Genetic Disorders"],
