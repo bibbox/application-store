@@ -155,7 +155,7 @@
                 "app_dispay_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
