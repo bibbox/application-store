@@ -24,7 +24,8 @@
   {"name":"LimeSurvey CE", "github_name":"app-limesurvey"},
   {"name":"DbNinja",      "github_name":"app-dbninja"},
   {"name":"Adminer",      "github_name":"app-adminer"},
-  {"name":"OwnCloud",      "github_name":"app-owncloud"} 
+  {"name":"OwnCloud",      "github_name":"app-owncloud"},
+  {"name":"Galaxy",      "github_name":"app-galaxy"} 
 ]
 
 
