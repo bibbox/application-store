@@ -109,6 +109,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-galaxy",
+                "app_dispay_name": "Galaxy",
+                "short_description": "Galaxy",
+                "installable": true,
+                "decoration": "announced",
+                "tags": ["Galaxy"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             }
         ]
     },
