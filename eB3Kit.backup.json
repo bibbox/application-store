@@ -71,6 +71,61 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-onyx",
+                "app_dispay_name": "Onyx",
+                "short_description": "Interviews and Data Collection (OBiBa)",                
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Aquisition", "Interviews"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-opal",
+                "app_dispay_name": "OPAL",
+                "short_description": "Data warehouse (OBiBa)",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Management", "Data Warehouse"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            },
+                        {
+                "app_name": "app-mica",
+                "app_dispay_name": "Mica",
+                "short_description": "Portal for epidemiological studies (OBiBa)",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Web Portal", "Epidemiological Studies"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            },
+                        {
+                "app_name": "app-agate",
+                "app_dispay_name": "Agate",
+                "installable": false,
+                "decoration": "announced",
+                "short_description": "Authentication server (OBiBa)",
+                "tags": ["Authenication", "E-mail Server"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            },     
+                            {
+                "app_name": "app-omero",
+                "app_dispay_name": "Omero",
+                "installable": false,
+                "decoration": "announced",
+                "short_description": "Digital microscopy & pathology tool",
+                "tags": ["Imaging", "Digital Pathology", "Microscopy"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
             }
         ]
     },
@@ -82,7 +137,7 @@
                 "app_dispay_name": "Phenotips",
                 "short_description": "Genotyping Tool",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
@@ -144,7 +199,7 @@
                 "app_dispay_name": "Wordpress",
                 "short_description": "Blog, Simple Webportal",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Blog", "CMS"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
@@ -162,11 +217,22 @@
                 ]
             }, 
             {
+                "app_name": "app-droppy",
+                "app_dispay_name": "Droppy",
+                "short_description": "Self-hosted file storage",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Files", "Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
                 "app_name": "app-mycollab",
                 "app_dispay_name": "MyCollab CE",
                 "short_description": "Project Management System",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Project Management"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
@@ -177,7 +243,7 @@
                 "app_dispay_name": "LimeSurvey CE",
                 "short_description": "Survey Management System",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Survey"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
@@ -188,7 +254,7 @@
                 "app_dispay_name": "OwnCloud",
                 "short_description": "File sync and share server.",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Storage"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
@@ -226,7 +292,7 @@
                 "app_dispay_name": "Elastic Stack",
                 "short_description": "Elastic Search Stack",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Search"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
