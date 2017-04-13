@@ -197,7 +197,7 @@
             {
                 "app_name": "app-owncloud",
                 "app_dispay_name": "OwnCloud",
-                "short_description": "File sync and share server.",
+                "short_description": "File sync and share server",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Storage"],
@@ -208,7 +208,7 @@
             {
                 "app_name": "app-youtrack",
                 "app_dispay_name": "YouTrack",
-                "short_description": "Project management and issue tracking tool.",
+                "short_description": "Project management and issue tracking",
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Project Management", "Issue Tracking"],
