@@ -204,6 +204,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            }, 
+            {
+                "app_name": "app-youtrack",
+                "app_dispay_name": "YouTrack",
+                "short_description": "Project management and issue tracking tool.",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Project Management", "Issue Tracking"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             } 
         ]
     },
