@@ -88,6 +88,17 @@
                 ]
             },
             {
+                "app_name": "app-scaleus",
+                "app_dispay_name": "Scaleus",
+                "short_description": "Semantic Web Services Integration for Biomedical Applications",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Management", "Linked Data"],
+				"versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-stategraems",
                 "app_dispay_name": "STATegraEMS",
                  "short_description": "Experiment Management",
