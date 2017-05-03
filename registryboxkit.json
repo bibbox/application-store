@@ -1,0 +1,302 @@
+ [
+     {
+		"group_name": "Biobank Applications",
+		"group_members": [
+            {
+                "app_name": "app-bika",
+                "app_dispay_name": "BIKA.biobank",
+                "short_description": "Biobank Information Management System (BIMS)",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Sample Management", "LIMS"],
+				"versions": [
+                    {"docker_version": "development", "version": "v3.3", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-openspecimen",
+                "app_dispay_name": "Open Specimen",
+                "short_description": "Sample Management",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Sample Management"],
+				"versions": [
+                    {"docker_version": "development", "version": "v3.3", "tooltip": ""},
+                    {"docker_version": "v0.3-alpha", "version": "v3.3", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-molgenis",
+                "app_dispay_name": "Molgenis",
+                "short_description": "EXCEL in the Web",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration"],
+				"versions": [
+                    {"docker_version": "development", "version": "v3.0.1", "tooltip": ""},
+                    {"docker_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-phenotips",
+                "app_dispay_name": "PhenoTips",
+                "short_description": "Phenotype Editor for the HPO ontology",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Phenotyping", "Genetic Disorders"],
+                "versions": [
+                    {"docker_version": "V1-0-10",      "version": "v1.2.6", "tooltip": "stable version"},
+       		        {"docker_version": "development", "version": "v1.3 RC 1", "tooltip": "not for prodcution !"}
+                ]
+            },
+            {
+                "app_name": "app-jupyter-datascience-notebook",
+                "app_dispay_name": "Jupyter Notebook",
+                "short_description": "Interactive data science and scientific computing",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration", "Data Analysis"],
+                "versions": [
+                    {"docker_version": "development", "version": "v4.2", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-rdrf",
+                "app_dispay_name": "RDRF",
+                "short_description": "Rare Disease Registry Framework",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Registry", "Database"],
+                "versions": [
+                    {"docker_version": "development", "version": "v2.0.6", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-odk",
+                "app_dispay_name": "Open Data Kit (ODK)",
+                "short_description": "Mobile data collection solution",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Management", "Data Integration", "Data Collection"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
+                ]
+            }
+        ]
+    },
+    {
+		"group_name": "Bioinformatics Applications",
+		"group_members": [
+            {
+                "app_name": "app-phenotips",
+                "app_dispay_name": "Phenotips",
+                "short_description": "Genotyping Tool",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Phenotyping", "Genetic Disorders"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-scaleus",
+                "app_dispay_name": "Scaleus",
+                "short_description": "Semantic Web Services Integration for Biomedical Applications",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Management", "Linked Data"],
+				"versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-stategraems",
+                "app_dispay_name": "STATegraEMS",
+                 "short_description": "Experiment Management",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Experiment Management System", "Bioinformatics"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-redcap",
+                "app_dispay_name": "RedCap",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-galaxy",
+                "app_dispay_name": "Galaxy",
+                "short_description": "Galaxy",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Galaxy"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }
+        ]
+    },
+    {
+		"group_name": "Helper Applications",
+		"group_members": [
+            {
+                "app_name": "app-liferay",
+                "app_dispay_name": "Liferay",
+                "short_description": "Portal Framework & EMS",
+                "installable": false,
+                "decoration": "",
+                "tags": ["Framework", "CMS", "Document Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "v6.2. GA6", "tooltip": ""},
+                    {"docker_version": "v0.2-alpha", "version": "v6.2 GA6", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-orientdb",
+                "app_dispay_name": "OrientDB",
+                "short_description": "NoSQL Graph/ Document Database",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "NoSQL", "Graph Database"],
+                "versions": [
+                    {"docker_version": "development", "version": "2.2.17", "tooltip": ""},
+		    		{"docker_version": "V2-1-25-01", "version": "v2.1.25", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-wordpress",
+                "app_dispay_name": "Wordpress",
+                "short_description": "Blog, Simple Webportal",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Blog", "CMS"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-seeddms",
+                "app_dispay_name": "SeedDMS",
+                "short_description": "Self-hosted file storage",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Files", "Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-mycollab",
+                "app_dispay_name": "MyCollab CE",
+                "short_description": "Project Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Project Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-limesurvey",
+                "app_dispay_name": "LimeSurvey CE",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-owncloud",
+                "app_dispay_name": "OwnCloud",
+                "short_description": "File sync and share server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-youtrack",
+                "app_dispay_name": "YouTrack",
+                "short_description": "Project management and issue tracking",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Project Management", "Issue Tracking"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            } 
+        ]
+    },
+    {
+		"group_name": "Admin Dashboard",
+		"group_members": [
+            {
+                "app_name": "app-bibbox-monitoring",
+                "app_dispay_name": "Monitoring",
+                "short_description": "Monitoring of Apps and Containers",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Admin"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-bacula",
+                "app_dispay_name": "Backup",
+                "short_description": "Backup BIBBOX apps",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Backup", "Admin"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-elasticstack",
+                "app_dispay_name": "Elastic Stack",
+                "short_description": "Elastic Search Stack",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Search"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-dbninja",
+                "app_dispay_name": "DbNinja for MySQL",
+                "short_description": "DbNinja",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "Administration"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },	
+            {
+                "app_name": "app-adminer",
+                "app_dispay_name": "Adminer",
+                "short_description": "Adminer",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "Administration"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }		
+        ]
+    }
+]
