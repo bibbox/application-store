@@ -33,9 +33,8 @@
                 "decoration": "",
                 "tags": ["Data Integration"],
 				"versions": [
-                    {"docker_version": "development", "version": "v1.8", "tooltip": ""},
-                    {"docker_version": "v0.4-alpha",  "version": "v1.8", "tooltip": ""},
-                    {"docker_version": "v0.3-alpha",  "version": "v1.8", "tooltip": ""}
+                    {"docker_version": "development", "version": "v3.0.1", "tooltip": ""},
+                    {"docker_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
                 ]
             },
             {
@@ -46,7 +45,7 @@
                 "decoration": "",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
-                    {"docker_version": "V1-0-9",      "version": "v1.2.6", "tooltip": "stable version"},
+                    {"docker_version": "V1-0-10",      "version": "v1.2.6", "tooltip": "stable version"},
        		        {"docker_version": "development", "version": "v1.3 RC 1", "tooltip": "not for prodcution !"}
                 ]
             },
@@ -100,6 +99,17 @@
                 ]
             },
             {
+                "app_name": "app-scaleus",
+                "app_dispay_name": "Scaleus",
+                "short_description": "Semantic Web Services Integration for Biomedical Applications",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Management", "Linked Data"],
+				"versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-stategraems",
                 "app_dispay_name": "STATegraEMS",
                  "short_description": "Experiment Management",
@@ -114,9 +124,20 @@
                 "app_name": "app-redcap",
                 "app_dispay_name": "RedCap",
                 "short_description": "Survey Management System",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "new",
                 "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-galaxy",
+                "app_dispay_name": "Galaxy",
+                "short_description": "Galaxy",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Galaxy"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
@@ -197,10 +218,21 @@
             {
                 "app_name": "app-owncloud",
                 "app_dispay_name": "OwnCloud",
-                "short_description": "File sync and share server.",
+                "short_description": "File sync and share server",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-youtrack",
+                "app_dispay_name": "YouTrack",
+                "short_description": "Project management and issue tracking",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Project Management", "Issue Tracking"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
