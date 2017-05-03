@@ -62,8 +62,8 @@
             },
             {
                 "app_name": "app-rdrf",
-                "app_dispay_name": "Rare Disease Registry Framework",
-                "short_description": "RDRF",
+                "app_dispay_name": "RDRF",
+                "short_description": "Rare Disease Registry Framework",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Registry", "Database"],
