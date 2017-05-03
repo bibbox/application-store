@@ -50,7 +50,7 @@
        		        {"docker_version": "development", "version": "v1.3 RC 1", "tooltip": "not for prodcution !"}
                 ]
             },
-               {
+            {
                 "app_name": "app-jupyter-datascience-notebook",
                 "app_dispay_name": "Jupyter Notebook",
                 "short_description": "Interactive data science and scientific computing",
@@ -59,6 +59,17 @@
                 "tags": ["Data Integration", "Data Analysis"],
                 "versions": [
                     {"docker_version": "development", "version": "v4.2", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-rdrf",
+                "app_dispay_name": "Rare Disease Registry Framework",
+                "short_description": "RDRF",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Registry", "Database"],
+                "versions": [
+                    {"docker_version": "development", "version": "v2.0.6", "tooltip": ""}
                 ]
             },
             {
