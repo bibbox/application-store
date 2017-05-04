@@ -50,19 +50,8 @@
         ]
     },
     {
-		"group_name": "Bioinformatics Applications",
+		"group_name": "Data Analytics and Visualization",
 		"group_members": [
-            {
-                "app_name": "app-phenotips",
-                "app_dispay_name": "Phenotips",
-                "short_description": "Genotyping Tool",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Phenotyping", "Genetic Disorders"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
-                ]
-            },
             {
                 "app_name": "app-scaleus",
                 "app_dispay_name": "Scaleus",
@@ -75,34 +64,12 @@
                 ]
             },
             {
-                "app_name": "app-stategraems",
-                "app_dispay_name": "STATegraEMS",
-                 "short_description": "Experiment Management",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Experiment Management System", "Bioinformatics"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-redcap",
                 "app_dispay_name": "RedCap",
                 "short_description": "Survey Management System",
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Survey"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-galaxy",
-                "app_dispay_name": "Galaxy",
-                "short_description": "Galaxy",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Galaxy"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
