@@ -28,7 +28,9 @@
   {"name":"OwnCloud",      "github_name":"app-owncloud"},
   {"name":"Galaxy",      "github_name":"app-galaxy"} ,
   {"name":"YouTrack",      "github_name":"app-youtrack"},
-  {"name":"Scaleus",      "github_name":"app-scaleus"} 
+  {"name":"Scaleus",      "github_name":"app-scaleus"}, 
+  {"name":"OSSE",      "github_name":"app-osse"} 
+  
 ]
 
 

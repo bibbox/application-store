@@ -14,6 +14,17 @@
                 ]
             },
             {
+                "app_name": "app-osse",
+                "app_dispay_name": "OSSE",
+                "short_description": "Open Source Registry System for Rare Diseases",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Registry", "Database"],
+                "versions": [
+                    {"docker_version": "development", "version": "v0.0.9", "tooltip": "Open Source Registry System for Rare Diseases"}
+                ]
+            },
+            {
                 "app_name": "app-phenotips",
                 "app_dispay_name": "PhenoTips",
                 "short_description": "Phenotype Editor for the HPO ontology",
