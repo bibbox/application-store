@@ -47,16 +47,26 @@
                     {"docker_version": "development", "version": "v4.2", "tooltip": ""}
                 ]
             },
-            
             {
-                "app_name": "app-odk",
-                "app_dispay_name": "Open Data Kit (ODK)",
-                "short_description": "Mobile data collection solution",
-                "installable": false,
-                "decoration": "announced",
-                "tags": ["Data Management", "Data Integration", "Data Collection"],
+                "app_name": "app-redcap",
+                "app_dispay_name": "RedCap",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Survey"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-limesurvey",
+                "app_dispay_name": "LimeSurvey CE",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }
         ]
@@ -76,16 +86,17 @@
                 ]
             },
             {
-                "app_name": "app-redcap",
-                "app_dispay_name": "RedCap",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Survey"],
+                "app_name": "app-odk",
+                "app_dispay_name": "Open Data Kit (ODK)",
+                "short_description": "Mobile data collection solution",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
                 ]
             }
+           
         ]
     },
     {
@@ -148,17 +159,7 @@
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
-            {
-                "app_name": "app-limesurvey",
-                "app_dispay_name": "LimeSurvey CE",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Survey"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
+            
             {
                 "app_name": "app-owncloud",
                 "app_dispay_name": "OwnCloud",
