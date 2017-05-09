@@ -136,30 +136,7 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            }, 
-            {
-                "app_name": "app-seeddms",
-                "app_dispay_name": "SeedDMS",
-                "short_description": "Self-hosted file storage",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Files", "Storage"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-mycollab",
-                "app_dispay_name": "MyCollab CE",
-                "short_description": "Project Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Project Management"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            
+            },  
             {
                 "app_name": "app-owncloud",
                 "app_dispay_name": "OwnCloud",
