@@ -247,6 +247,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            }, 
+            {
+                "app_name": "app-plone",
+                "app_dispay_name": "Plone",
+                "short_description": "Content Management System",
+                "installable": true,
+                "decoration": "announced",
+                "tags": ["Content Management System"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             } 
         ]
     },
