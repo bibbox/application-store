@@ -29,8 +29,8 @@
   {"name":"Galaxy",      "github_name":"app-galaxy"} ,
   {"name":"YouTrack",      "github_name":"app-youtrack"},
   {"name":"Scaleus",      "github_name":"app-scaleus"}, 
-  {"name":"OSSE",      "github_name":"app-osse"} 
-  
+  {"name":"OSSE",      "github_name":"app-osse"}, 
+  {"name":"I2B2",      "github_name":"app-i2b2"} 
 ]
 
 
