@@ -30,7 +30,7 @@
   {"name":"YouTrack",      "github_name":"app-youtrack"},
   {"name":"Scaleus",      "github_name":"app-scaleus"}, 
   {"name":"OSSE",      "github_name":"app-osse"}, 
-  {"name":"I2B2",      "github_name":"app-i2b2"} 
+  {"name":"i2b2",      "github_name":"app-i2b2"}
 ]
 
 
