@@ -81,6 +81,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-i2b2",
+                "app_dispay_name": "i2b2",
+                "short_description": "Data Warhouse",
+                "installable": true,
+                "decoration": "announced",
+                "tags": ["Data Warehouse"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                ]
             }
         ]
     },
