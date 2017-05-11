@@ -258,6 +258,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            }, 
+            {
+                "app_name": "app-drupal",
+                "app_dispay_name": "Drupal",
+                "short_description": "Content Management System",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Content Management System"],
+                "versions": [
+                    {"docker_version": "development", "version": "v8.3.2", "tooltip": ""}
+                ]
             } 
         ]
     },
