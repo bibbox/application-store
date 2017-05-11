@@ -136,7 +136,7 @@
                 "app_dispay_name": "RedCap",
                 "short_description": "Survey Management System",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Survey"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
@@ -147,7 +147,7 @@
                 "app_dispay_name": "Galaxy",
                 "short_description": "Galaxy",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Galaxy"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
@@ -242,7 +242,7 @@
                 "app_dispay_name": "YouTrack",
                 "short_description": "Project management and issue tracking",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Project Management", "Issue Tracking"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
