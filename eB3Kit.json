@@ -254,7 +254,7 @@
                 "short_description": "Content Management System",
                 "installable": true,
                 "decoration": "announced",
-                "tags": ["Content Management System"],
+                "tags": ["CMS"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
@@ -265,7 +265,7 @@
                 "short_description": "Content Management System",
                 "installable": true,
                 "decoration": "new",
-                "tags": ["Content Management System"],
+                "tags": ["CMS"],
                 "versions": [
                     {"docker_version": "development", "version": "v8.3.2", "tooltip": ""}
                 ]
