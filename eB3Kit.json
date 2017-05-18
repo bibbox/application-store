@@ -4,12 +4,12 @@
 		"group_members": [
             {
                 "app_name": "app-bika",
-                "app_dispay_name": "BIKA.biobank",
+                "app_dispay_name": "BIKA LIMS",
                 "short_description": "Biobank Information Management System (BIMS)",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "new",
                 "tags": ["Sample Management", "LIMS"],
-				"versions": [
+		"versions": [
                     {"docker_version": "development", "version": "v3.3", "tooltip": ""}
                 ]
             },
