@@ -32,7 +32,8 @@
   {"name":"OSSE",      "github_name":"app-osse"}, 
   {"name":"i2b2",      "github_name":"app-i2b2"}, 
   {"name":"plone",      "github_name":"app-plone"}, 
-  {"name":"drupal",      "github_name":"app-drupal"}
+  {"name":"drupal",      "github_name":"app-drupal"}, 
+  {"name":"baobab",      "github_name":"app-baobab"}
 ]
 
 
