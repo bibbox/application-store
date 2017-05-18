@@ -92,6 +92,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-baobab",
+                "app_dispay_name": "Baobab",
+                "short_description": "Biobank Information Management System (BIMS)",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Sample Management", "LIMS"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             }
         ]
     },
@@ -253,7 +264,7 @@
                 "app_dispay_name": "Plone",
                 "short_description": "Content Management System",
                 "installable": true,
-                "decoration": "announced",
+                "decoration": "new",
                 "tags": ["CMS"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
