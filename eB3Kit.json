@@ -352,6 +352,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            },	
+            {
+                "app_name": "dev-app-checker",
+                "app_dispay_name": "App Checker",
+                "short_description": "App Checkcer",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Development", "Administration"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             }		
         ]
     }
