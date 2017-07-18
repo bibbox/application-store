@@ -21,9 +21,6 @@
     "created": {
       "ui:widget": "hidden"
     },
-    "last_update": {
-      "ui:widget": "hidden"
-    },
     "description": {
       "ui:widget": "textarea"
     }
