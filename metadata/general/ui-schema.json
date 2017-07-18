@@ -1,0 +1,31 @@
+{
+                        "common": {
+                            "machine_id": {
+                                "ui:widget": "hidden"
+                            },
+                            "instance_id": {
+                                "ui:widget": "hidden"
+                            },
+                            "app_id": {
+                                "ui:widget": "hidden"
+                            },
+                            "app_name": {
+                                "ui:widget": "hidden"
+                            },
+                            "version": {
+                                "ui:widget": "hidden"
+                            },
+                            "url": {
+                                "ui:widget": "hidden"
+                            },
+                            "created": {
+                                "ui:widget": "hidden"
+                            },
+                            "last_update": {
+                                "ui:widget": "hidden"
+                            },
+                            "description": {
+                                "ui:widget": "textarea"
+                            }
+                        }
+                    }
