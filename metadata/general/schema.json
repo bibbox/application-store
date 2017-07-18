@@ -45,9 +45,6 @@
         "created": {
           "type": "string"
         },
-        "last_update": {
-          "type": "string"
-        },
         "data_type": {
           "type": "string",
           "title": "Data type",
