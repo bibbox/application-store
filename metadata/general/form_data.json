@@ -1,5 +1,6 @@
 {
-  "general": {
+  "contact": {},
+  "common": {
     "data_type": "generic",
     "data_visibility": "private"
   }
