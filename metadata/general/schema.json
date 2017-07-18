@@ -2,15 +2,6 @@
                         "title": "Metadata",
                         "type": "object",
                         "properties": {
-                            "visibility": {
-                                "type": "string",
-                                "title": "Visibility",
-                                "enum": [
-                                    "public",
-                                    "private"
-                                ],
-                                "default": "public"
-                            },
                             "contact": {
                                 "type": "object",
                                 "title": "Contact person",
