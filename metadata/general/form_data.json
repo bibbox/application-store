@@ -1,15 +1,14 @@
 {
-                        "visibility": "public",
                         "contact": {},
                         "common": {
-                            "machine_id": '',
-                            "instance_id": '',
-                            "app_id": '',
-                            "app_name": '',
-                            "version": '',
-                            "url": '',
-                            "created": '',
-                            "last_update": '',
+                            "machine_id": "",
+                            "instance_id": "",
+                            "app_id": "",
+                            "app_name": "",
+                            "version": "",
+                            "url": "",
+                            "created": "",
+                            "last_update": "",
                             "data_type": "generic",
                             "data_visibility": "private"
                         }
