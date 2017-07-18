@@ -1,21 +1,26 @@
 {
   "type": "object",
-  "title": "Contact person",
   "properties": {
-    "foaf:firstName": {
-      "type": "string",
-      "title": "First name"
+    "contact": {
+      "type": "object",
+      "title": "Contact person",
+      "properties": {
+        "foaf:firstName": {
+          "type": "string",
+          "title": "First name"
+        },
+        "foaf:familyName": {
+          "type": "string",
+          "title": "Last name"
+        },
+        "foaf:mbox": {
+          "type": "string",
+          "format": "email",
+          "title": "E-Mail"
+        }
+      }
     },
-    "foaf:familyName": {
-      "type": "string",
-      "title": "Last name"
-    },
-    "foaf:mbox": {
-      "type": "string",
-      "format": "email",
-      "title": "E-Mail"
-    },
-    "general": {
+    "common": {
       "type": "object",
       "title": "General information",
       "properties": {
