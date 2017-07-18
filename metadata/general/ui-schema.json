@@ -1,5 +1,5 @@
 {
-  "general": {
+  "common": {
     "machine_id": {
       "ui:widget": "hidden"
     },
