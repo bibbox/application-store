@@ -59,8 +59,8 @@
           "type": "string",
           "title": "Data visibility",
           "enum": [
-            "public",
             "private",
+            "public",
             "restricted"
           ],
           "default": "private"
