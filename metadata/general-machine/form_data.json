@@ -1,14 +1,16 @@
 {
+  "privacy": {
+    "share": "yes"
+  },
   "contact": {},
-  "common": {
+  "configuration": {
+    "hypervisor": "not specified",
+    "status": "not specified",
+    "network": "not specified",
+    "availability": "not specified"
+  },
+  "context": {
     "machine_id": "§§MACHINE_ID",
-    "instance_id": "§§INSTANCE_ID",
-    "app_id": "§§APP_ID",
-    "app_name": "§§APP_NAME",
-    "version": "§§VESRION",
-    "url": "§§URL",
-    "created": "§§CREATED",
-    "data_type": "generic",
-    "data_visibility": "private"
+    "machine_name": "§§MACHINE_NAME"
   }
 }
