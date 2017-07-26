@@ -1,9 +1,24 @@
 {
   "type": "object",
   "properties": {
+    "privacy": {
+      "type": "object",
+      "title": "Privacy",
+      "properties": {
+        "share": {
+          "type": "string",
+          "title": "Share metadata",
+          "enum": [
+            "yes",
+            "no"
+          ],
+          "default": "yes"
+        }
+      }
+    },
     "contact": {
       "type": "object",
-      "title": "Contact person",
+      "title": "Main Contact",
       "properties": {
         "foaf:firstName": {
           "type": "string",
@@ -17,57 +32,43 @@
           "type": "string",
           "format": "email",
           "title": "E-Mail"
+        },
+        "institution": {
+          "type": "string",
+          "title": "Institution"
+        },
+        "department": {
+          "type": "string",
+          "title": "Department"
+        },
+        "street": {
+          "type": "string",
+          "title": "Street"
+        },
+        "zip": {
+          "type": "string",
+          "title": "ZIP Code"
+        },
+        "city": {
+          "type": "string",
+          "title": "City"
+        },
+        "country": {
+          "type": "string",
+          "title": "Country"
+        },
+        "phone": {
+          "type": "string",
+          "title": "Phone"
         }
       }
     },
-    "common": {
+    "context": {
       "type": "object",
-      "title": "General information",
+      "title": "",
       "properties": {
         "machine_id": {
           "type": "string"
-        },
-        "instance_id": {
-          "type": "string"
-        },
-        "app_id": {
-          "type": "string"
-        },
-        "app_name": {
-          "type": "string"
-        },
-        "version": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        },
-        "created": {
-          "type": "string"
-        },
-        "data_type": {
-          "type": "string",
-          "title": "Data type",
-          "enum": [
-            "generic",
-            "beta",
-            "gamma"
-          ],
-          "default": "generic"
-        },
-        "data_visibility": {
-          "type": "string",
-          "title": "Data visibility",
-          "enum": [
-            "private",
-            "public",
-            "restricted"
-          ],
-          "default": "private"
-        },
-        "description": {
-          "type": "string",
-          "title": "Description"
         }
       }
     }
