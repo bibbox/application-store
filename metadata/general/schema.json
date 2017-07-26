@@ -128,9 +128,6 @@
       "properties": {
         "machine_id": {
           "type": "string"
-        },
-        "machine_name": {
-          "type": "string"
         }
       }
     }
