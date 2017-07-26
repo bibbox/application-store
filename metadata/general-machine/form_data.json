@@ -10,7 +10,6 @@
     "availability": "not specified"
   },
   "context": {
-    "machine_id": "§§MACHINE_ID",
-    "machine_name": "§§MACHINE_NAME"
+    "machine_id": "§§MACHINE_ID"
   }
 }
