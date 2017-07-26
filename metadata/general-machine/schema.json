@@ -1,9 +1,24 @@
 {
   "type": "object",
   "properties": {
+    "privacy": {
+      "type": "object",
+      "title": "Privacy",
+      "properties": {
+        "share": {
+          "type": "string",
+          "title": "Share metadata",
+          "enum": [
+            "yes",
+            "no"
+          ],
+          "default": "yes"
+        }
+      }
+    },
     "contact": {
       "type": "object",
-      "title": "Contact person",
+      "title": "Technical Contact Point (System Admin)",
       "properties": {
         "foaf:firstName": {
           "type": "string",
@@ -17,57 +32,85 @@
           "type": "string",
           "format": "email",
           "title": "E-Mail"
+        },
+        "foaf:skypeID": {
+          "type": "string",
+          "title": "Skype ID"
         }
       }
     },
-    "common": {
+    "configuration": {
       "type": "object",
-      "title": "General information",
+      "title": "Configuration",
+      "properties": {
+        "hypervisor": {
+          "type": "string",
+          "title": "Hypervisor System",
+          "enum": [
+            "VirtualBox",
+            "VMware",
+            "Parallels",
+            "Microsoft Hyper V",
+            "XEN",
+            "KVM",
+            "VMware ESXi",
+            "other",
+            "not specified"
+          ],
+          "default": "not specified"
+        },
+        "status": {
+          "type": "string",
+          "title": "Status",
+          "enum": [
+            "test",
+            "demo",
+            "production",
+            "not specified"
+          ],
+          "default": "not specified"
+        },
+        "network": {
+          "type": "string",
+          "title": "Network Bandwidth",
+          "enum": [
+            "below 1 MBit/s",
+            "1 to 5 MBit/s",
+            "6 to 15 MBit/s",
+            "16 to 100 MBit/s",
+            "more than 100 MBit/s",
+            "unknown",
+            "not specified",
+            "not applicable"
+          ],
+          "default": "not specified"
+        },
+        "availability": {
+          "type": "string",
+          "title": "Service Availability",
+          "enum": [
+            "90%",
+            "99%",
+            "99,9%",
+            "99,999%",
+            "99,99999%",
+            "unknown",
+            "not specified",
+            "not applicable"
+          ],
+          "default": "not specified"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "title": "",
       "properties": {
         "machine_id": {
           "type": "string"
         },
-        "instance_id": {
+        "machine_name": {
           "type": "string"
-        },
-        "app_id": {
-          "type": "string"
-        },
-        "app_name": {
-          "type": "string"
-        },
-        "version": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        },
-        "created": {
-          "type": "string"
-        },
-        "data_type": {
-          "type": "string",
-          "title": "Data type",
-          "enum": [
-            "generic",
-            "beta",
-            "gamma"
-          ],
-          "default": "generic"
-        },
-        "data_visibility": {
-          "type": "string",
-          "title": "Data visibility",
-          "enum": [
-            "private",
-            "public",
-            "restricted"
-          ],
-          "default": "private"
-        },
-        "description": {
-          "type": "string",
-          "title": "Description"
         }
       }
     }
