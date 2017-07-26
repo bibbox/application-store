@@ -1,9 +1,4 @@
 {
-  "privacy": {
-    "share": {
-      "ui:widget": "radio"
-    }
-  },
   "description": {
     "description": {
       "ui:widget": "textarea"
