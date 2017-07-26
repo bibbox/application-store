@@ -1,4 +1,11 @@
 {
+  "ui:order": [
+    "privacy",
+    "contact",
+    "description",
+    "app_description",
+    "context"
+  ],
   "description": {
     "description": {
       "ui:widget": "textarea"
