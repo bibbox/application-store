@@ -34,9 +34,6 @@
   "context": {
     "machine_id": {
       "ui:widget": "hidden"
-    },
-    "machine_name": {
-      "ui:widget": "hidden"
     }
   }
 }
