@@ -1,9 +1,19 @@
 {
   "type": "object",
   "properties": {
+    "privacy": {
+      "type": "object",
+      "title": "Privacy",
+      "properties": {
+        "share": {
+          "type": "boolean",
+          "title": "Share metadata"
+        }
+      }
+    },
     "contact": {
       "type": "object",
-      "title": "Contact person",
+      "title": "Technical Contact Point (Admin)",
       "properties": {
         "foaf:firstName": {
           "type": "string",
@@ -17,16 +27,58 @@
           "type": "string",
           "format": "email",
           "title": "E-Mail"
+        },
+        "foaf:skypeID": {
+          "type": "string",
+          "title": "Skype ID"
         }
       }
     },
-    "common": {
+    "description": {
       "type": "object",
-      "title": "General information",
+      "title": "Description",
       "properties": {
-        "machine_id": {
-          "type": "string"
+        "topic": {
+          "type": "string",
+          "title": "Topic",
+          "enum": [
+            "Biology",
+            "Biomedical science",
+            "Sample collections",
+            "Biobank",
+            "Cell culture collection",
+            "Chemistry",
+            "Computational biology",
+            "Computer science",
+            "Experimental design and studies",
+            "Informatics",
+            "Laboratory techniques",
+            "Literature and language",
+            "Mathematics",
+            "Medicine",
+            "Omics",
+            "Physics"
+          ]
         },
+        "description": {
+          "type": "string",
+          "title": "Textual Description (max. 500 characters)",
+          "maxLength": 500
+        },
+        "tags": {
+          "type": "array",
+          "title": "",
+          "description": "Tags",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "app_description": {
+      "type": "object",
+      "title": "",
+      "properties": {
         "instance_id": {
           "type": "string"
         },
@@ -44,30 +96,18 @@
         },
         "created": {
           "type": "string"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "title": "",
+      "properties": {
+        "machine_id": {
+          "type": "string"
         },
-        "data_type": {
-          "type": "string",
-          "title": "Data type",
-          "enum": [
-            "generic",
-            "beta",
-            "gamma"
-          ],
-          "default": "generic"
-        },
-        "data_visibility": {
-          "type": "string",
-          "title": "Data visibility",
-          "enum": [
-            "private",
-            "public",
-            "restricted"
-          ],
-          "default": "private"
-        },
-        "description": {
-          "type": "string",
-          "title": "Description"
+        "machine_name": {
+          "type": "string"
         }
       }
     }
