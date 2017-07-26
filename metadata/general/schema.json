@@ -6,8 +6,13 @@
       "title": "Privacy",
       "properties": {
         "share": {
-          "type": "boolean",
-          "title": "Share metadata"
+          "type": "string",
+          "title": "Share metadata",
+          "enum": [
+            "yes",
+            "no"
+          ],
+          "default": "yes"
         }
       }
     },
@@ -42,6 +47,24 @@
           "type": "string",
           "title": "Topic",
           "enum": [
+            "http://edamontology.org/topic_3070",
+            "http://edamontology.org/topic_3344",
+            "http://edamontology.org/topic_3277",
+            "http://edamontology.org/topic_3337",
+            "http://edamontology.org/topic_3340",
+            "http://edamontology.org/topic_3314",
+            "http://edamontology.org/topic_3307",
+            "http://edamontology.org/topic_3316",
+            "http://edamontology.org/topic_3678",
+            "http://edamontology.org/topic_0605",
+            "http://edamontology.org/topic_3361",
+            "http://edamontology.org/topic_3068",
+            "http://edamontology.org/topic_3315",
+            "http://edamontology.org/topic_3303",
+            "http://edamontology.org/topic_3391",
+            "http://edamontology.org/topic_3318"
+          ],
+          "enumNames": [
             "Biology",
             "Biomedical science",
             "Sample collections",
