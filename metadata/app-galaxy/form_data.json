@@ -1,0 +1,23 @@
+{
+  "privacy": {
+    "share": "yes"
+  },
+  "contact": {},
+  "description": {
+    "tags": []
+  },
+  "bioinformatics_operations": {
+    "edam_operation": "not specified"
+  },
+  "app_description": {
+    "instance_id": "§§INSTANCE_ID",
+    "app_id": "§§APP_ID",
+    "app_name": "§§APP_NAME",
+    "version": "§§VESRION",
+    "url": "§§URL",
+    "created": "§§CREATED"
+  },
+  "context": {
+    "machine_id": "§§MACHINE_ID"
+  }
+}
