@@ -9,13 +9,13 @@
       "foaf:firstName",
       "foaf:familyName",
       "foaf:mbox",
+      "phone",
       "institution",
       "department",
       "street",
       "zip",
       "city",
-      "country",
-      "phone"
+      "country"
     ]
   },
   "context": {
