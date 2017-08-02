@@ -1,0 +1,211 @@
+{
+  "type": "object",
+  "properties": {
+    "privacy": {
+      "type": "object",
+      "title": "Privacy",
+      "properties": {
+        "share": {
+          "type": "string",
+          "title": "Share metadata",
+          "enum": [
+            "yes",
+            "no"
+          ],
+          "default": "yes"
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "title": "Technical Contact Point (Admin)",
+      "properties": {
+        "foaf:firstName": {
+          "type": "string",
+          "title": "First name"
+        },
+        "foaf:familyName": {
+          "type": "string",
+          "title": "Last name"
+        },
+        "foaf:mbox": {
+          "type": "string",
+          "format": "email",
+          "title": "E-Mail"
+        },
+        "foaf:skypeID": {
+          "type": "string",
+          "title": "Skype ID"
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "title": "Description",
+      "properties": {
+        "topic": {
+          "type": "string",
+          "title": "Topic",
+          "enum": [
+            "http://edamontology.org/topic_3070",
+            "http://edamontology.org/topic_3344",
+            "http://edamontology.org/topic_3277",
+            "http://edamontology.org/topic_3337",
+            "http://edamontology.org/topic_3340",
+            "http://edamontology.org/topic_3314",
+            "http://edamontology.org/topic_3307",
+            "http://edamontology.org/topic_3316",
+            "http://edamontology.org/topic_3678",
+            "http://edamontology.org/topic_0605",
+            "http://edamontology.org/topic_3361",
+            "http://edamontology.org/topic_3068",
+            "http://edamontology.org/topic_3315",
+            "http://edamontology.org/topic_3303",
+            "http://edamontology.org/topic_3391",
+            "http://edamontology.org/topic_3318"
+          ],
+          "enumNames": [
+            "Biology",
+            "Biomedical science",
+            "Sample collections",
+            "Biobank",
+            "Cell culture collection",
+            "Chemistry",
+            "Computational biology",
+            "Computer science",
+            "Experimental design and studies",
+            "Informatics",
+            "Laboratory techniques",
+            "Literature and language",
+            "Mathematics",
+            "Medicine",
+            "Omics",
+            "Physics"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "title": "Textual Description (max. 500 characters)",
+          "maxLength": 500
+        },
+        "tags": {
+          "type": "array",
+          "title": "",
+          "description": "Tags",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "bioinformatics_operations": {
+      "type": "object",
+      "title": "Bioinformatics Operations",
+      "properties": {
+        "external_hpc": {
+          "type": "string",
+          "title": "Makes use of external HPC server",
+          "enum": [
+            "yes",
+            "no",
+            "unknown",
+            "not specified",
+            "not applicable"
+          ],
+          "default": "not specified"
+        },
+        "edam_operation": {
+          "type": "string",
+          "title": "EDAM Operation",
+          "enum": [
+            "http://edamontology.org/operation_2928", 
+            "http://edamontology.org/operation_2945", 
+            "http://edamontology.org/operation_0226", 
+            "http://edamontology.org/operation_3283", 
+            "http://edamontology.org/operation_3433", 
+            "http://edamontology.org/operation_3438", 
+            "http://edamontology.org/operation_2990", 
+            "http://edamontology.org/operation_3432", 
+            "http://edamontology.org/operation_2424", 
+            "http://edamontology.org/operation_3434", 
+            "http://edamontology.org/operation_3465", 
+            "http://edamontology.org/operation_2409", 
+            "http://edamontology.org/operation_3431", 
+            "http://edamontology.org/operation_2430", 
+            "http://edamontology.org/operation_3429", 
+            "http://edamontology.org/operation_0227", 
+            "http://edamontology.org/operation_2429", 
+            "http://edamontology.org/operation_2426", 
+            "http://edamontology.org/operation_2425", 
+            "http://edamontology.org/operation_2423", 
+            "http://edamontology.org/operation_3799", 
+            "http://edamontology.org/operation_3797", 
+            "http://edamontology.org/operation_3760", 
+            "http://edamontology.org/operation_2428", 
+            "http://edamontology.org/operation_0337" 
+          ],
+          "enumNames": [
+            "Alignment",
+            "Analysis",
+            "Annotation",
+            "Anonymisation",
+            "Assembly",
+            "Calculation",
+            "Classification",
+            "Clustering",
+            "Comparison",
+            "Conversion",
+            "Correlation",
+            "Data handling",
+            "Deposition",
+            "Design",
+            "Generation",
+            "Indexing",
+            "Mapping",
+            "Modelling and simulation",
+            "Optimisation and refinement",
+            "Prediction and recognition",
+            "Quantification",
+            "Rarefaction",
+            "Service management",
+            "Validation",
+            "Visualisation"  
+          ]
+        }
+      }
+    },
+    "app_description": {
+      "type": "object",
+      "title": "",
+      "properties": {
+        "instance_id": {
+          "type": "string"
+        },
+        "app_id": {
+          "type": "string"
+        },
+        "app_name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "title": "",
+      "properties": {
+        "machine_id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
