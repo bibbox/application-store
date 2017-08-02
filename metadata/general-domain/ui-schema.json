@@ -5,16 +5,18 @@
     "context"
   ],
   "contact": {
-    "foaf:firstName",
-    "foaf:familyName",
-    "foaf:mbox",
-    "institution",
-    "department",
-    "street",
-    "zip",
-    "city",
-    "country",
-    "phone"
+    "ui:order": [
+      "foaf:firstName",
+      "foaf:familyName",
+      "foaf:mbox",
+      "institution",
+      "department",
+      "street",
+      "zip",
+      "city",
+      "country",
+      "phone"
+    ]
   },
   "context": {
     "machine_id": {
