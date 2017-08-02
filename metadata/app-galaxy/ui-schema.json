@@ -12,6 +12,12 @@
       "ui:widget": "textarea"
     }
   },
+  "bioinformatics_operations": {
+    "ui:order": [
+      "external_hpc",
+      "edam_operation"
+    ]
+  },
   "app_description": {
     "instance_id": {
       "ui:widget": "hidden"
