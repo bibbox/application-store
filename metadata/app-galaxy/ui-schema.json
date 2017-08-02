@@ -1,0 +1,40 @@
+{
+  "ui:order": [
+    "privacy",
+    "contact",
+    "description",
+    "bioinformatics_operations",
+    "app_description",
+    "context"
+  ],
+  "description": {
+    "description": {
+      "ui:widget": "textarea"
+    }
+  },
+  "app_description": {
+    "instance_id": {
+      "ui:widget": "hidden"
+    },
+    "app_id": {
+      "ui:widget": "hidden"
+    },
+    "app_name": {
+      "ui:widget": "hidden"
+    },
+    "version": {
+      "ui:widget": "hidden"
+    },
+    "url": {
+      "ui:widget": "hidden"
+    },
+    "created": {
+      "ui:widget": "hidden"
+    }
+  },
+  "context": {
+    "machine_id": {
+      "ui:widget": "hidden"
+    }
+  }
+}
