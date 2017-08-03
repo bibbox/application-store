@@ -6,7 +6,7 @@
     "app_description",
     "context"
   ],
-  "description": {
+  "general_description": {
     "description": {
       "ui:widget": "textarea"
     }
