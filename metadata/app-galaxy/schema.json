@@ -39,7 +39,7 @@
         }
       }
     },
-    "description": {
+    "general_description": {
       "type": "object",
       "title": "Description",
       "properties": {
