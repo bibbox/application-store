@@ -1,9 +1,22 @@
 {
   "ui:order": [
     "privacy",
+    "catalogue_information",
     "contact",
+    "administrative_details",
+    "networks",
     "context"
   ],
+  "catalogue_information": {
+    "ui:order": [
+      "name",
+      "acronym",
+      "url",
+      "country",
+      "description",
+      "biobank_type"
+    ]
+  },
   "contact": {
     "ui:order": [
       "foaf:firstName",
@@ -16,6 +29,23 @@
       "zip",
       "city",
       "country"
+    ]
+  },
+  "administrative_details": {
+    "ui:order": [
+      "host_institution_type",
+      "juridical_person",
+      "target_population",
+      "establishment_year",
+      "commercial_partnership",
+      "non_profit_partnership",
+      "charter_signed"
+    ]
+  },
+  "networks": {
+    "ui:order": [
+      "network_name",
+      "membership_status"
     ]
   },
   "context": {
