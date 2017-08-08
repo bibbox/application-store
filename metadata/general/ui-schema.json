@@ -2,7 +2,7 @@
   "ui:order": [
     "privacy",
     "contact",
-    "description",
+    "general_description",
     "app_description",
     "context"
   ],
