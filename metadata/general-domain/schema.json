@@ -16,6 +16,44 @@
         }
       }
     },
+    "catalogue_information": {
+      "type": "object",
+      "title": "Catalogue Information",
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "Name"
+        },
+        "acronym": {
+          "type": "string",
+          "title": "Acronym"
+        },
+        "url": {
+          "type": "string",
+          "title": "URL"
+        },
+        "country": {
+          "type": "string",
+          "title": "Country"
+        },
+        "description": {
+          "type": "string",
+          "title": "Description"
+        },
+        "biobank_type": {
+          "type": "string",
+          "title": "Biobank Type",
+          "enum": [
+            "Clinical",
+            "Population",
+            "Research study",
+            "Non-human",
+            "Human",
+            "Other"
+          ]
+        }
+      }
+    },
     "contact": {
       "type": "object",
       "title": "Main Contact",
@@ -60,6 +98,96 @@
         "phone": {
           "type": "string",
           "title": "Phone"
+        }
+      }
+    },
+    "administrative_details": {
+      "type": "object",
+      "title": "Administrative Details",
+      "properties": {
+        "host_institution_type": {
+          "type": "string",
+          "title": "Type of Host Institution",
+          "enum": [
+            "University",
+            "Public Body",
+            "Foundation",
+            "Industrial",
+            "Other",
+            "not specified"
+          ]
+        },
+        "juridical_person": {
+          "type": "string",
+          "title": "Juridical Person"
+        },
+        "target_population": {
+          "type": "string",
+          "title": "Target Population",
+          "enum": [
+            "Local",
+            "Global",
+            "Other",
+            "not specified"
+          ]
+        },
+        "establishment_year": {
+          "type": "number",
+          "title": "Year of Establishment"
+        },
+        "commercial_partnership": {
+          "type": "string",
+          "title": "Comercial Partnership possible",
+          "enum": [
+            "yes",
+            "no",
+            "unknown",
+            "not specified",
+            "not applicable"
+          ]
+        },
+        "non_profit_partnership": {
+          "type": "string",
+          "title": "Non-profit Partnership possible",
+          "enum": [
+            "yes",
+            "no",
+            "unknown",
+            "not specified",
+            "not applicable"
+          ]
+        },
+        "charter_signed": {
+          "type": "string",
+          "title": "BBMRI-ERIC charter signed",
+          "enum": [
+            "yes",
+            "no",
+            "unknown",
+            "not specified",
+            "not applicable"
+          ]
+        }
+      }
+    },
+    "networks": {
+      "type": "object",
+      "title": "Networks",
+      "properties": {
+        "network_name": {
+          "type": "string",
+          "title": "Network Name"
+        },
+        "membership_status": {
+          "type": "string",
+          "title": "Membership status",
+          "enum": [
+            "full member",
+            "associated",
+            "observer",
+            "not specified",
+            "not applicable"
+          ]
         }
       }
     },
