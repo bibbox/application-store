@@ -2,8 +2,21 @@
   "privacy": {
     "share": "yes"
   },
+  "catalogue_information": {
+    "biobank_type": "Clinical"
+  },
   "contact": {},
   "context": {
     "machine_id": "§§MACHINE_ID"
+  },
+  "administrative_details": {
+    "host_institution_type": "not specified",
+    "target_population": "not specified",
+    "commercial_partnership": "not specified",
+    "non_profit_partnership": "not specified",
+    "charter_signed": "not specified"
+  },
+  "networks": {
+    "membership_status": "not specified"
   }
 }
