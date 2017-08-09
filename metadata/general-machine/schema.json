@@ -108,6 +108,15 @@
       "properties": {
         "machine_id": {
           "type": "string"
+        },
+        "cpus": {
+          "type": "string"
+        },
+        "memory": {
+          "type": "string"
+        },
+        "storage": {
+          "type": "string"
         }
       }
     }
