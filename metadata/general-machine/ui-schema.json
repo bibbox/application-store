@@ -8,6 +8,15 @@
   "context": {
     "machine_id": {
       "ui:widget": "hidden"
+    },
+    "cpus": {
+      "ui:widget": "hidden"
+    },
+    "memory": {
+      "ui:widget": "hidden"
+    },
+    "storage": {
+      "ui:widget": "hidden"
     }
   }
 }
