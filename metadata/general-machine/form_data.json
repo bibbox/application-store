@@ -10,6 +10,9 @@
     "availability": "not specified"
   },
   "context": {
-    "machine_id": "§§MACHINE_ID"
+    "machine_id": "§§MACHINE_ID",
+    "cpus": "§§CPUS",
+    "memory": "§§MEMORY",
+    "storage": "§§STORAGE"
   }
 }
