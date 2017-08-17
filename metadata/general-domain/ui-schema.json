@@ -15,7 +15,10 @@
       "country",
       "description",
       "biobank_type"
-    ]
+    ],
+    "description": {
+      "ui:widget": "textarea"
+    }
   },
   "contact": {
     "ui:order": [
