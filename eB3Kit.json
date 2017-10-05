@@ -63,17 +63,6 @@
                 ]
             },
             {
-                "app_name": "app-rdrf",
-                "app_dispay_name": "RDRF",
-                "short_description": "Rare Disease Registry Framework",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Registry", "Database"],
-                "versions": [
-                    {"docker_version": "development", "version": "v2.0.6", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-odk",
                 "app_dispay_name": "Open Data Kit (ODK)",
                 "short_description": "Mobile data collection solution",
