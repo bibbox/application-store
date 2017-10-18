@@ -3,6 +3,17 @@
 		"group_name": "Biobank Applications",
 		"group_members": [
             {
+                "app_name": "app-baobab",
+                "app_dispay_name": "Baobab",
+                "short_description": "Biobank Information Management System (BIMS)",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Sample Management", "LIMS"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-bika",
                 "app_dispay_name": "BIKA LIMS",
                 "short_description": "Biobank Information Management System (BIMS)",
@@ -105,18 +116,8 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
-            },
-            {
-                "app_name": "app-baobab",
-                "app_dispay_name": "Baobab",
-                "short_description": "Biobank Information Management System (BIMS)",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Sample Management", "LIMS"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
             }
+            
         ]
     },
     {
