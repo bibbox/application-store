@@ -35,6 +35,7 @@
   {"name":"plone",      "github_name":"app-plone"}, 
   {"name":"drupal",      "github_name":"app-drupal"}, 
   {"name":"baobab",      "github_name":"app-baobab"}, 
+  {"name":"XNAT",      "github_name":"app-xnat"}, 
   {"name":"App Checker",      "github_name":"dev-app-checker"}
 ]
 
