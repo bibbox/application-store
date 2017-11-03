@@ -330,9 +330,9 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Search"],
-               "versions": [
+                "versions": [
                     {"docker_version": "V1-0-0",      "version": "5.6.3",   "tooltip": "stable version"},
-       		        {"docker_version": "development", "version": "6.0 RC2, "tooltip":  "Not for production"}
+       		        {"docker_version": "development", "version": "6.0 RC2", "tooltip":  "Not for production"}
                 ]
             },
             {
