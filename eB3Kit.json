@@ -100,7 +100,7 @@
                 "app_dispay_name": "Omero",
                 "short_description": "Digital Microscopy",
                 "installable": false,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
@@ -111,7 +111,7 @@
                 "app_dispay_name": "XNAT",
                 "short_description": "Open Source Imaging Framework",
                 "installable": false,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
