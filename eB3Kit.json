@@ -74,14 +74,14 @@
                 ]
             },
             {
-                "app_name": "app-odk",
-                "app_dispay_name": "Open Data Kit (ODK)",
+                "app_name": "app-azizi-amp",
+                "app_dispay_name": "Azizi AMP",
                 "short_description": "Mobile data collection solution",
-                "installable": false,
-                "decoration": "announced",
+                "installable": true,
+                "decoration": "",
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.2.5", "tooltip": ""}
+                    {"docker_version": "development", "version": "v0.8.0", "tooltip": ""}
                 ]
             },
             {

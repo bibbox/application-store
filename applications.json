@@ -14,7 +14,7 @@
   {"name":"Jupyter Datascience Notebook",       "github_name":"app-jupyter-datascience-notebook"},    
   {"name":"Bacula",       "github_name":"app-bacula"}, 
   {"name":"Droppy",       "github_name":"app-droppy"},
-  {"name":"Open Data Kit (ODK)",      "github_name":"app-odk"},
+  {"name":"Azizi Amp",      "github_name":"app-azizi-amp"},
   {"name":"STATegraEMS",      "github_name":"app-stategraems"},
   {"name":"SeedDMS",      "github_name":"app-seeddms"},
   {"name":"RedCap",      "github_name":"app-redcap"},
