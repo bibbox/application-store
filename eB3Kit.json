@@ -35,7 +35,7 @@
 		    {"docker_version": "v2-1-4", "version": "v4.2.9", "tooltip": ""},
 		    {"docker_version": "v2-0-14", "version": "v4.0", "tooltip": ""},
                     {"docker_version": "v1-0-4", "version": "v3.3", "tooltip": ""},
-		    {"docker_version": "development", "version": "v4.3 BETA (not for production)", "tooltip": ""}
+		    {"docker_version": "development", "version": "v4.3 BETA ", "tooltip": ""}
                 ]
             },
             {
