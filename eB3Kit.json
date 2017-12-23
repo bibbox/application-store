@@ -109,7 +109,7 @@
                 "app_name": "app-xnat",
                 "app_dispay_name": "XNAT",
                 "short_description": "Open Source Imaging Framework",
-                "installable": false,
+                "installable": true,
                 "decoration": "new",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
