@@ -51,6 +51,39 @@
                 ]
             },
             {
+                "app_name": "app-seeddms",
+                "app_dispay_name": "SeedDMS",
+                "short_description": "Self-hosted file storage",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Files", "Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-limesurvey",
+                "app_dispay_name": "LimeSurvey CE",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-owncloud",
+                "app_dispay_name": "OwnCloud",
+                "short_description": "File sync and share server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
                 "app_name": "app-jupyter-datascience-notebook",
                 "app_dispay_name": "Jupyter Notebook",
                 "short_description": "Interactive data science and scientific computing",
@@ -207,17 +240,7 @@
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
-            {
-                "app_name": "app-seeddms",
-                "app_dispay_name": "SeedDMS",
-                "short_description": "Self-hosted file storage",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Files", "Storage"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
+            
             {
                 "app_name": "app-mycollab",
                 "app_dispay_name": "MyCollab CE",
@@ -225,28 +248,6 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Project Management"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-limesurvey",
-                "app_dispay_name": "LimeSurvey CE",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Survey"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-owncloud",
-                "app_dispay_name": "OwnCloud",
-                "short_description": "File sync and share server",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Storage"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
