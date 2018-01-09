@@ -61,17 +61,7 @@
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
-            {
-                "app_name": "app-limesurvey",
-                "app_dispay_name": "LimeSurvey CE",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Survey"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
+            
             {
                 "app_name": "app-owncloud",
                 "app_dispay_name": "OwnCloud",
@@ -84,17 +74,6 @@
                 ]
             }, 
             {
-                "app_name": "app-jupyter-datascience-notebook",
-                "app_dispay_name": "Jupyter Notebook",
-                "short_description": "Interactive data science and scientific computing",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Integration", "Data Analysis"],
-                "versions": [
-                    {"docker_version": "development", "version": "v4.2", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-azizi-amp",
                 "app_dispay_name": "Azizi AMP",
                 "short_description": "Mobile data collection solution",
@@ -103,6 +82,39 @@
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
                     {"docker_version": "development", "version": "v0.8.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-xnat",
+                "app_dispay_name": "XNAT",
+                "short_description": "Open Source Imaging Framework",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Imaging", "Digital Pathology"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-limesurvey",
+                "app_dispay_name": "LimeSurvey CE",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
+            {
+                "app_name": "app-redcap",
+                "app_dispay_name": "RedCap",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -125,28 +137,6 @@
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-xnat",
-                "app_dispay_name": "XNAT",
-                "short_description": "Open Source Imaging Framework",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Imaging", "Digital Pathology"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-redcap",
-                "app_dispay_name": "RedCap",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Survey"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }
             
@@ -290,6 +280,17 @@
     {
 		"group_name": "Admin Dashboard",
 		"group_members": [
+             {
+                "app_name": "app-jupyter-datascience-notebook",
+                "app_dispay_name": "Jupyter Notebook",
+                "short_description": "Interactive data science and scientific computing",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration", "Data Analysis"],
+                "versions": [
+                    {"docker_version": "development", "version": "v4.2", "tooltip": ""}
+                ]
+            },
             {
                 "app_name": "app-bibbox-monitoring",
                 "app_dispay_name": "Monitoring",
