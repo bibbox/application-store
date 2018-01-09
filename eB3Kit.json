@@ -14,17 +14,6 @@
                 ]
             },
             {
-                "app_name": "app-bika",
-                "app_dispay_name": "BIKA LIMS",
-                "short_description": "Biobank Information Management System (BIMS)",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Sample Management", "LIMS"],
-		"versions": [
-                    {"docker_version": "development", "version": "v3.3", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-openspecimen",
                 "app_dispay_name": "Open Specimen",
                 "short_description": "Sample Management",
@@ -87,8 +76,8 @@
                 "app_name": "app-i2b2",
                 "app_dispay_name": "i2b2",
                 "short_description": "Data Warhouse",
-                "installable": true,
-                "decoration": "new",
+                "installable": false,
+                "decoration": "announced",
                 "tags": ["Data Warehouse"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
@@ -99,7 +88,7 @@
                 "app_dispay_name": "Omero",
                 "short_description": "Digital Microscopy",
                 "installable": false,
-                "decoration": "new",
+                "decoration": "announced",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
