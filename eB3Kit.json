@@ -91,45 +91,11 @@
                 "short_description": "Open Source Imaging Framework",
                 "installable": true,
                 "decoration": "new",
-<<<<<<< HEAD
-                "tags": ["Data Warehouse"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-omero",
-                "app_dispay_name": "Omero",
-                "short_description": "Digital Microscopy",
-                "installable": false,
-                "decoration": "",
-=======
->>>>>>> origin/master
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
-            {
-<<<<<<< HEAD
-                "app_name": "app-xnat",
-                "app_dispay_name": "XNAT",
-                "short_description": "Open Source Imaging Framework",
-                "installable": false,
-                "decoration": "",
-                "tags": ["Imaging", "Digital Pathology"],
-=======
-                "app_name": "app-limesurvey",
-                "app_dispay_name": "LimeSurvey CE",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Survey"],
->>>>>>> origin/master
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
             {
                 "app_name": "app-redcap",
                 "app_dispay_name": "RedCap",
