@@ -14,17 +14,6 @@
                 ]
             },
             {
-                "app_name": "app-bika",
-                "app_dispay_name": "BIKA LIMS",
-                "short_description": "Biobank Information Management System (BIMS)",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Sample Management", "LIMS"],
-		"versions": [
-                    {"docker_version": "development", "version": "v3.3", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-openspecimen",
                 "app_dispay_name": "Open Specimen",
                 "short_description": "Sample Management",
@@ -63,16 +52,28 @@
                 ]
             },
             {
-                "app_name": "app-jupyter-datascience-notebook",
-                "app_dispay_name": "Jupyter Notebook",
-                "short_description": "Interactive data science and scientific computing",
+                "app_name": "app-seeddms",
+                "app_dispay_name": "SeedDMS",
+                "short_description": "Self-hosted file storage",
                 "installable": true,
                 "decoration": "",
-                "tags": ["Data Integration", "Data Analysis"],
+                "tags": ["Files", "Storage"],
                 "versions": [
-                    {"docker_version": "development", "version": "v4.2", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },
+            }, 
+            
+            {
+                "app_name": "app-owncloud",
+                "app_dispay_name": "OwnCloud",
+                "short_description": "File sync and share server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }, 
             {
                 "app_name": "app-azizi-amp",
                 "app_dispay_name": "Azizi AMP",
@@ -85,11 +86,12 @@
                 ]
             },
             {
-                "app_name": "app-i2b2",
-                "app_dispay_name": "i2b2",
-                "short_description": "Data Warhouse",
+                "app_name": "app-xnat",
+                "app_dispay_name": "XNAT",
+                "short_description": "Open Source Imaging Framework",
                 "installable": true,
                 "decoration": "new",
+<<<<<<< HEAD
                 "tags": ["Data Warehouse"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
@@ -101,22 +103,33 @@
                 "short_description": "Digital Microscopy",
                 "installable": false,
                 "decoration": "",
+=======
+>>>>>>> origin/master
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
             {
+<<<<<<< HEAD
                 "app_name": "app-xnat",
                 "app_dispay_name": "XNAT",
                 "short_description": "Open Source Imaging Framework",
                 "installable": false,
                 "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
+=======
+                "app_name": "app-limesurvey",
+                "app_dispay_name": "LimeSurvey CE",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+>>>>>>> origin/master
                 "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },
+            }, 
             {
                 "app_name": "app-redcap",
                 "app_dispay_name": "RedCap",
@@ -126,6 +139,28 @@
                 "tags": ["Survey"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-i2b2",
+                "app_dispay_name": "i2b2",
+                "short_description": "Data Warhouse",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Data Warehouse"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-omero",
+                "app_dispay_name": "Omero",
+                "short_description": "Digital Microscopy",
+                "installable": false,
+                "decoration": "announced",
+                "tags": ["Imaging", "Digital Pathology"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
             }
             
@@ -219,17 +254,7 @@
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
-            {
-                "app_name": "app-seeddms",
-                "app_dispay_name": "SeedDMS",
-                "short_description": "Self-hosted file storage",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Files", "Storage"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
+            
             {
                 "app_name": "app-mycollab",
                 "app_dispay_name": "MyCollab CE",
@@ -237,28 +262,6 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Project Management"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-limesurvey",
-                "app_dispay_name": "LimeSurvey CE",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Survey"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-owncloud",
-                "app_dispay_name": "OwnCloud",
-                "short_description": "File sync and share server",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Storage"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
@@ -301,6 +304,17 @@
     {
 		"group_name": "Admin Dashboard",
 		"group_members": [
+             {
+                "app_name": "app-jupyter-datascience-notebook",
+                "app_dispay_name": "Jupyter Notebook",
+                "short_description": "Interactive data science and scientific computing",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration", "Data Analysis"],
+                "versions": [
+                    {"docker_version": "development", "version": "v4.2", "tooltip": ""}
+                ]
+            },
             {
                 "app_name": "app-bibbox-monitoring",
                 "app_dispay_name": "Monitoring",
