@@ -58,7 +58,8 @@
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"},
+                    {"docker_version": "development", "version": "v5.5.4.", "tooltip": "development version"}
                 ]
             }, 
             
