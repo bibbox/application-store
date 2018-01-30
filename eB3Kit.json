@@ -350,5 +350,21 @@
                 ]
             }		
         ]
+    },
+   {
+		"group_name": "Development and Testing (DON'T USER FOR PRODUCTION)",
+		"group_members": [
+             {
+                "app_name": "app-template",
+                "app_dispay_name": "Application Template",
+                "short_description": "A Template of an APP, can not be installed",
+                "installable": false,
+                "decoration": "",
+                "tags": ["Development"],
+                "versions": [
+                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
+                ]
+            }
+        ]
     }
 ]
