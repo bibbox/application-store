@@ -363,6 +363,22 @@
         ]
     },
    {
+		"group_name": "Training",
+		"group_members": [
+             {
+                "app_name": "app-training",
+                "app_dispay_name": "B3Africa Training",
+                "short_description": "B3Africa Trainings Platform",
+                "installable": true,
+                "decoration": "",
+                "tags": ["trainings"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            }
+        ]
+    },
+   {
 		"group_name": "Development and Testing (NOT FOR PRODUCTION)",
 		"group_members": [
              {
