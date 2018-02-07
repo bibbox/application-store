@@ -36,7 +36,9 @@
   {"name":"drupal",      "github_name":"app-drupal"}, 
   {"name":"baobab",      "github_name":"app-baobab"}, 
   {"name":"XNAT",      "github_name":"app-xnat"}, 
-  {"name":"App Checker",      "github_name":"dev-app-checker"}
+  {"name":"App Checker",      "github_name":"dev-app-checker"},
+  {"name":"B3Africa Training",      "github_name":"app-training"},
+  {"name":"ELN",      "github_name":"app-eln"}
 ]
 
 
