@@ -391,6 +391,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v0.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-i2b2box",
+                "app_dispay_name": "i2b2box",
+                "short_description": "lightweight deployment of i2b2 hive",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Development"],
+                "versions": [
+                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
+                ]
             }
         ]
     }
