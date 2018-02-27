@@ -123,7 +123,7 @@
                 "app_name": "app-omero",
                 "app_dispay_name": "Omero",
                 "short_description": "Digital Microscopy",
-                "installable": false,
+                "installable": true,
                 "decoration": "announced",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
