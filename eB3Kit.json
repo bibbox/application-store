@@ -22,7 +22,7 @@
                 "tags": ["Sample Management"],
 				"versions": [
                     {"docker_version": "development", "version": "v2-0-14", "tooltip": ""},
-		    {"docker_version": "v2-0-14", "version": "v4.0", "tooltip": ""}
+		    {"docker_version": "v2-0-14", "version": "v4.2", "tooltip": ""}
                 ]
             },
             {
