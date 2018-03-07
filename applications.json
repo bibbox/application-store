@@ -39,7 +39,8 @@
   {"name":"App Checker",      "github_name":"dev-app-checker"},
   {"name":"B3Africa Training",      "github_name":"app-training"},
   {"name":"ELN",      "github_name":"app-eln"},
-  {"name":"i2b2box",        "github_name":"app-i2b2box"}
+  {"name":"i2b2box",        "github_name":"app-i2b2box"},
+  {"name":"BBMRI-ERIC Directory",   "github_name":"app-bbmri-eric-directory"}
 ]
 
 
