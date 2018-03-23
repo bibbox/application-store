@@ -349,9 +349,9 @@
                 ]
             },	
             {
-                "app_name": "app-querytree,
-                "app_dispay_name": "Query Tree ",
-                "short_description": "Ad-hoc reporting too",
+                "app_name": "app-querytree",
+                "app_dispay_name": "Query Tree",
+                "short_description": "Ad-hoc reporting tool",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Database", "Visualization"],
