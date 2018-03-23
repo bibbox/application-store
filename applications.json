@@ -25,6 +25,7 @@
   {"name":"DbNinja",      "github_name":"app-dbninja"},
   {"name":"Adminer",      "github_name":"app-adminer"},
   {"name":"Query Tree",   "github_name":"app-querytree"},
+  {"name":"Knowage",      "github_name":"app-knowage"},
   {"name":"RDRF",      "github_name":"app-rdrf"},
   {"name":"OwnCloud",      "github_name":"app-owncloud"},
   {"name":"Galaxy",      "github_name":"app-galaxy"} ,

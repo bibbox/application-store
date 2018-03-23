@@ -360,6 +360,17 @@
                 ]
             },	
             {
+                "app_name": "app-knowage",
+                "app_dispay_name": "Knowage",
+                "short_description": "Open Source Business Analytics",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "BI"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },	
+            {
                 "app_name": "dev-app-checker",
                 "app_dispay_name": "App Checker",
                 "short_description": "App Checkcer",
