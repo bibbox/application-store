@@ -434,6 +434,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "v0.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-bbmri-eric-negotiator",
+                "app_dispay_name": "BBMRI-ERIC Negotiator",
+                "short_description": "BBMRI-ERIC Negotiator",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Biobank", "Data Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "dev", "tooltip": ""}
+                ]
             }
         ]
     }
