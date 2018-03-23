@@ -349,6 +349,17 @@
                 ]
             },	
             {
+                "app_name": "app-querytree,
+                "app_dispay_name": "Query Tree ",
+                "short_description": "Ad-hoc reporting too",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "Visualization"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },	
+            {
                 "app_name": "dev-app-checker",
                 "app_dispay_name": "App Checker",
                 "short_description": "App Checkcer",
