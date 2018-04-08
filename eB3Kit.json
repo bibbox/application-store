@@ -349,28 +349,6 @@
                 ]
             },	
             {
-                "app_name": "app-querytree",
-                "app_dispay_name": "Query Tree",
-                "short_description": "Ad-hoc reporting tool",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Database", "Visualization"],
-                "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },	
-            {
-                "app_name": "app-knowage",
-                "app_dispay_name": "Knowage",
-                "short_description": "Open Source Business Analytics",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Database", "BI"],
-                "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },	
-            {
                 "app_name": "dev-app-checker",
                 "app_dispay_name": "App Checker",
                 "short_description": "App Checkcer",
@@ -444,6 +422,28 @@
                 "tags": ["Biobank", "Data Management"],
                 "versions": [
                     {"docker_version": "development", "version": "dev", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-querytree",
+                "app_dispay_name": "Query Tree",
+                "short_description": "Ad-hoc reporting tool",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "Visualization"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },	
+            {
+                "app_name": "app-knowage",
+                "app_dispay_name": "Knowage",
+                "short_description": "Open Source Business Analytics",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database", "BI"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
             }
         ]
