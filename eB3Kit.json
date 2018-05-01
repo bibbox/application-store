@@ -436,6 +436,17 @@
                 ]
             },	
             {
+                "app_name": "app-girder",
+                "app_dispay_name": "Girder",
+                "short_description": "Data management platform for the web, developed by Kitware",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },	
+            {
                 "app_name": "app-knowage",
                 "app_dispay_name": "Knowage",
                 "short_description": "Open Source Business Analytics",
