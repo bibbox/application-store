@@ -128,8 +128,29 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
-            }
-            
+            },
+            {
+                "app_name": "app-bbmri-eric-directory",
+                "app_dispay_name": "BBMRI-ERIC Directory",
+                "short_description": "BBMRI-ERIC Directory",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Directory", "Biobank", "Data Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-bbmri-eric-negotiator",
+                "app_dispay_name": "BBMRI-ERIC Negotiator",
+                "short_description": "BBMRI-ERIC Negotiator",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Biobank", "Data Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "dev", "tooltip": ""}
+                ]
+            }            
         ]
     },
     {
@@ -402,28 +423,7 @@
                     {"docker_version": "development", "version": "v0.0", "tooltip": ""}
                 ]
             },
-            {
-                "app_name": "app-bbmri-eric-directory",
-                "app_dispay_name": "BBMRI-ERIC Directory",
-                "short_description": "BBMRI-ERIC Directory",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Directory", "Biobank", "Data Management"],
-                "versions": [
-                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-bbmri-eric-negotiator",
-                "app_dispay_name": "BBMRI-ERIC Negotiator",
-                "short_description": "BBMRI-ERIC Negotiator",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Biobank", "Data Management"],
-                "versions": [
-                    {"docker_version": "development", "version": "dev", "tooltip": ""}
-                ]
-            },
+            
             {
                 "app_name": "app-querytree",
                 "app_dispay_name": "Query Tree",
