@@ -135,31 +135,6 @@
                 ]
             },
             {
-                "app_name": "app-seeddms",
-                "app_dispay_name": "SeedDMS",
-                "short_description": "Self-hosted file storage",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Files", "Storage"],
-                "versions": [
-   		    {"docker_version": "development", "version": "v5.1.6", "tooltip": "development version"},
-                    {"docker_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"}
-                    
-                ]
-            }, 
-            
-            {
-                "app_name": "app-owncloud",
-                "app_dispay_name": "OwnCloud",
-                "short_description": "File sync and share server",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Storage"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
                 "app_name": "app-azizi-amp",
                 "app_dispay_name": "Azizi AMP",
                 "short_description": "Mobile data collection solution",
@@ -360,6 +335,30 @@
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
+            {
+                "app_name": "app-seeddms",
+                "app_dispay_name": "SeedDMS",
+                "short_description": "Self-hosted file storage",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Files", "Storage"],
+                "versions": [
+   		    {"docker_version": "development", "version": "v5.1.6", "tooltip": "development version"},
+                    {"docker_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"}
+                    
+                ]
+            }, 
+            {
+                "app_name": "app-owncloud",
+                "app_dispay_name": "OwnCloud",
+                "short_description": "File sync and share server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            } 
         ]
     },
     {
