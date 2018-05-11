@@ -86,17 +86,6 @@
                 ]
             },
             {
-                "app_name": "app-xnat",
-                "app_dispay_name": "XNAT",
-                "short_description": "Open Source Imaging Framework",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Imaging", "Digital Pathology"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-redcap",
                 "app_dispay_name": "RedCap",
                 "short_description": "Survey Management System",
@@ -114,17 +103,6 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Warehouse"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-omero",
-                "app_dispay_name": "Omero",
-                "short_description": "Digital Microscopy",
-                "installable": true,
-                "decoration": "announced",
-                "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
@@ -151,6 +129,91 @@
                     {"docker_version": "development", "version": "dev", "tooltip": ""}
                 ]
             }            
+        ]
+    },
+    {
+		"group_name": "Digital Pathology Applications",
+		"group_members": [
+            {
+                "app_name": "app-girder",
+                "app_dispay_name": "Girder",
+                "short_description": "Data management platform for the web, developed by Kitware",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Management", "Digital Pathology"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },	
+            {
+                "app_name": "app-omero",
+                "app_dispay_name": "Omero",
+                "short_description": "Digital Microscopy",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Imaging", "Digital Pathology"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-histomicstk",
+                "app_dispay_name": "Histomics TK",
+                "short_description": "Toolkit for the analysis of Histopathology images in association with clinical and genomic data developed by Kitware",
+                "installable": false,
+                "decoration": "",
+                "tags": ["Imaging", "Digital Pathology"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-xnat",
+                "app_dispay_name": "XNAT",
+                "short_description": "Open Source Imaging Framework",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Imaging", "Digital Pathology"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-molgenis",
+                "app_dispay_name": "Molgenis",
+                "short_description": "EXCEL in the Web",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration"],
+				"versions": [
+                    {"docker_version": "development", "version": "v3.0.1", "tooltip": ""},
+                    {"docker_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-seeddms",
+                "app_dispay_name": "SeedDMS",
+                "short_description": "Self-hosted file storage",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Files", "Storage"],
+                "versions": [
+   		    {"docker_version": "development", "version": "v5.1.6", "tooltip": "development version"},
+                    {"docker_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"}
+                    
+                ]
+            }, 
+            {
+                "app_name": "app-owncloud",
+                "app_dispay_name": "OwnCloud",
+                "short_description": "File sync and share server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            } 
         ]
     },
     {
