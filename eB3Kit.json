@@ -29,7 +29,7 @@
                 "app_dispay_name": "Histomics TK",
                 "short_description": "Toolkit for the analysis of Histopathology images in association with clinical and genomic data developed by Kitware",
                 "installable": false,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
@@ -40,7 +40,7 @@
                 "app_dispay_name": "XNAT",
                 "short_description": "Open Source Imaging Framework",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
@@ -103,7 +103,7 @@
                 "app_dispay_name": "Open Specimen",
                 "short_description": "Sample Management",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Sample Management"],
 				"versions": [
                     {"docker_version": "development", "version": "v2-1-5", "tooltip": ""},
