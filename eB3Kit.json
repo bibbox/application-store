@@ -147,7 +147,7 @@
                 "app_dispay_name": "Histomics TK",
                 "short_description": "Toolkit for the analysis of Histopathology images in association with clinical and genomic data developed by Kitware",
                 "installable": false,
-                "decoration": "new",
+                "decoration": "announced",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
