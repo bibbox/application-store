@@ -52,12 +52,23 @@
             {
                 "app_name": "app-azizi-amp",
                 "app_dispay_name": "Azizi AMP",
-                "short_description": "Mobile data collection solution",
+                "short_description": "A downstream mobile data processing solution",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
-                    {"docker_version": "development", "version": "v0.8.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-azizi-onadata",
+                "app_dispay_name": "Azizi ODK Server",
+                "short_description": "A data collection server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Collection", "Data Management", ],
+                "versions": [
+                    {"docker_version": "development", "version": "v0.1", "tooltip": ""}
                 ]
             },
             {
@@ -74,7 +85,7 @@
             {
                 "app_name": "app-i2b2",
                 "app_dispay_name": "i2b2",
-                "short_description": "Data Warhouse",
+                "short_description": "Data Warehouse",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Warehouse"],
