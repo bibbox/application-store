@@ -517,6 +517,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
+            },	
+            {
+                "app_name": "app-cytomine",
+                "app_dispay_name": "Cytomine",
+                "short_description": "Open-source rich internet application for collaborative analysis of multi-gigapixel images using machine learning.",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Digital Pathology", "Slide Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
             }
         ]
     }
