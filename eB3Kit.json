@@ -225,7 +225,7 @@
                 "tags": ["Galaxy"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""},
-		    {"docker_version": "RNA-Workbench", "version": "v1.0", "tooltip": ""}
+		    {"docker_version": "rna-workbench", "version": "v1.0", "tooltip": ""}
                 ]
             },
              {
