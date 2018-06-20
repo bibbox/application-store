@@ -229,7 +229,7 @@
 	    },
             {
                 "app_name": "app-rna-workbench",
-                "app_dispay_name": "RNA-workbench",
+                "app_dispay_name": "RNA workbench",
                 "short_description": "Galaxy instance running RNA workbench",
                 "installable": true,
                 "decoration": "",
