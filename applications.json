@@ -30,6 +30,7 @@
   {"name":"RDRF",                     		"github_name":"app-rdrf"},
   {"name":"OwnCloud",                 		"github_name":"app-owncloud"},
   {"name":"Galaxy",                   		"github_name":"app-galaxy"} ,
+  {"name":"RNA-workbench",                "github_name":"app-rna-workbench"} ,
   {"name":"Galaksio",                 		"github_name":"app-galaksio"} ,
   {"name":"YouTrack",                 		"github_name":"app-youtrack"},
   {"name":"Scaleus",                  		"github_name":"app-scaleus"}, 
