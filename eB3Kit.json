@@ -224,17 +224,16 @@
                 "decoration": "",
                 "tags": ["Galaxy"],
                 "versions": [
-                    {"docker_version": "Docker-stable", "version": "v18.05", "tooltip": ""},
-		    {"docker_version": "rna-workbench", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "Docker-stable", "version": "v18.05", "tooltip": ""}
                 ]
             },
             {
                 "app_name": "app-rna-workbench",
                 "app_dispay_name": "RNA-workbench",
-                "short_description": "Galaxy instance running Galaxy workbench",
+                "short_description": "Galaxy instance running RNA workbench",
                 "installable": true,
                 "decoration": "",
-                "tags": ["Galaxy"],
+                "tags": ["Galaxy", "RNA"],,
                 "versions": [
                     {"docker_version": "development", "version": "v18.05", "tooltip": ""}
                 ]
