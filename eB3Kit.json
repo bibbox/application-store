@@ -224,7 +224,7 @@
                 "decoration": "",
                 "tags": ["Galaxy"],
                 "versions": [
-                    {"docker_version": "Docker-stable", "version": "v18.05", "tooltip": ""}
+                    {"docker_version": "Docker stable", "version": "v18.05", "tooltip": ""}
                 ]
             },
             {
@@ -235,7 +235,7 @@
                 "decoration": "",
                 "tags": ["Galaxy", "RNA"],
                 "versions": [
-                    {"docker_version": "RNA-workbench", "version": "v18.05", "tooltip": ""}
+                    {"docker_version": "RNA workbench", "version": "v18.05", "tooltip": ""}
                 ]
 	     },	
              {
