@@ -233,9 +233,9 @@
                 "short_description": "Galaxy instance running RNA workbench",
                 "installable": true,
                 "decoration": "",
-                "tags": ["Galaxy", "RNA"],,
+                "tags": ["Galaxy", "RNA"],
                 "versions": [
-                    {"docker_version": "development", "version": "v18.05", "tooltip": ""}
+                    {"docker_version": "RNA-workbench", "version": "v18.05", "tooltip": ""}
                 ]
 	     },	
              {
