@@ -224,9 +224,9 @@
                 "decoration": "",
                 "tags": ["Galaxy"],
                 "versions": [
-                    {"docker_version": "Docker stable", "version": "v18.05", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },
+	    },
             {
                 "app_name": "app-rna-workbench",
                 "app_dispay_name": "RNA-workbench",
@@ -235,9 +235,9 @@
                 "decoration": "",
                 "tags": ["Galaxy", "RNA"],
                 "versions": [
-                    {"docker_version": "RNA workbench", "version": "v18.05", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-	     },	
+             },	
              {
                 "app_name": "app-scaleus",
                 "app_dispay_name": "Scaleus",
