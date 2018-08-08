@@ -39,6 +39,7 @@
   {"name":"baobab",      "github_name":"app-baobab"}, 
   {"name":"XNAT",      "github_name":"app-xnat"}, 
   {"name":"App Checker",      "github_name":"dev-app-checker"},
+  {"name":"Mantis",      "github_name":"app-mantis"},
   {"name":"B3Africa Training",      "github_name":"app-training"},
   {"name":"ELN",      "github_name":"app-eln"},
   {"name":"i2b2box",        "github_name":"app-i2b2box"},

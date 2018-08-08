@@ -420,6 +420,17 @@
                 ]
             },	
             {
+                "app_name": "app-mantis",
+                "app_dispay_name": "Mantis",
+                "short_description": "Mantis Bugtracker",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Bugtracker", "Administration"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },	
+            {
                 "app_name": "dev-app-checker",
                 "app_dispay_name": "App Checker",
                 "short_description": "App Checkcer",
