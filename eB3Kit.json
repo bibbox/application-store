@@ -52,12 +52,23 @@
             {
                 "app_name": "app-azizi-amp",
                 "app_dispay_name": "Azizi AMP",
-                "short_description": "Mobile data collection solution",
+                "short_description": "A downstream mobile data processing solution",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
-                    {"docker_version": "development", "version": "v0.8.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-azizi-onadata",
+                "app_dispay_name": "Azizi ODK Server",
+                "short_description": "A data collection server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Collection", "Data Management", ],
+                "versions": [
+                    {"docker_version": "development", "version": "v0.1", "tooltip": ""}
                 ]
             },
             {
@@ -74,7 +85,7 @@
             {
                 "app_name": "app-i2b2",
                 "app_dispay_name": "i2b2",
-                "short_description": "Data Warhouse",
+                "short_description": "Data Warehouse",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Warehouse"],
@@ -215,7 +226,18 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },
+	    },
+            {
+                "app_name": "app-rna-workbench",
+                "app_dispay_name": "RNA workbench",
+                "short_description": "Galaxy instance running RNA workbench",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Galaxy", "RNA"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+             },	
              {
                 "app_name": "app-scaleus",
                 "app_dispay_name": "Scaleus",
@@ -514,6 +536,17 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Database", "BI"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },	
+            {
+                "app_name": "app-cytomine",
+                "app_dispay_name": "Cytomine",
+                "short_description": "Open-source rich internet application for collaborative analysis of multi-gigapixel images using machine learning.",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Digital Pathology", "Slide Storage"],
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
