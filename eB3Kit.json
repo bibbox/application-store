@@ -184,7 +184,7 @@
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-   		    {"docker_version": "development", "version": "v5.1.7", "tooltip": "development version"}
+   		    {"docker_version": "development", "version": "v5.1.8", "tooltip": "development version (5.1.8)"}
                     
                 ]
             }
