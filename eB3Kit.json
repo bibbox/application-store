@@ -373,6 +373,17 @@
     {
 		"group_name": "Admin Dashboard",
 		"group_members": [
+            {
+                "app_name": "app-openldap",
+                "app_dispay_name": "OpenLDAP",
+                "short_description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol",
+                "installable": true,
+                "decoration": "",
+                "tags": ["User Integration", "Administration"],
+                "versions": [
+                    {"docker_version": "development", "version": "vx.x", "tooltip": ""}
+                ]
+            },
              {
                 "app_name": "app-jupyter-datascience-notebook",
                 "app_dispay_name": "Jupyter Notebook",

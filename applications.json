@@ -49,7 +49,8 @@
   {"name":"HistomicsTK",              		"github_name":"app-histomicstk"},
   {"name":"BBMRI-ERIC Directory",     		"github_name":"app-bbmri-eric-directory"},
   {"name":"BBMRI-ERIC Negotiator",    		"github_name":"app-bbmri-eric-negotiator"},
-  {"name":"Cytomine",                       "github_name":"app-cytomine"}
+  {"name":"Cytomine",                       "github_name":"app-cytomine"},
+  {"name":"OpenLDAO",                       "github_name":"app-openldap"}
 ]
 
 
