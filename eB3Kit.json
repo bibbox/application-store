@@ -114,7 +114,18 @@
                 "versions": [
                     {"docker_version": "development", "version": "dev", "tooltip": ""}
                 ]
-            }            
+            },
+            {
+                "app_name": "app-bbmri-eric-connector",
+                "app_dispay_name": "BBMRI-ERIC Connector",
+                "short_description": "BBMRI-ERIC Connector",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Biobank", "Data Management"],
+                "versions": [
+                    {"docker_version": "development", "version": "dev", "tooltip": ""}
+                ]
+            }      
         ]
     },
      {
