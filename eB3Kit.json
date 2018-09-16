@@ -378,7 +378,19 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-nextcloud",
+                "app_dispay_name": "Nextcloud",
+                "short_description": "File sync and share server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Storage"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
             } 
+
         ]
     },
     {

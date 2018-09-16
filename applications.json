@@ -29,6 +29,7 @@
   {"name":"Knowage",                  		"github_name":"app-knowage"},
   {"name":"RDRF",                     		"github_name":"app-rdrf"},
   {"name":"OwnCloud",                 		"github_name":"app-owncloud"},
+  {"name":"Nextcloud",                 		"github_name":"app-nextcloud"},
   {"name":"Galaxy",                   		"github_name":"app-galaxy"} ,
   {"name":"RNA-workbench",                "github_name":"app-rna-workbench"} ,
   {"name":"Galaksio",                 		"github_name":"app-galaksio"} ,
