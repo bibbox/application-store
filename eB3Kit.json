@@ -234,7 +234,8 @@
                 "decoration": "",
                 "tags": ["Galaxy"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""},
+                    {"docker_version": "V1.1", "version": "V1.1", "tooltip": ""}
                 ]
 	    },
             {
