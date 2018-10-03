@@ -239,6 +239,17 @@
                 ]
 	    },
             {
+                "app_name": "app-exomeseq",
+                "app_dispay_name": "Galaxy-seq",
+                "short_description": "Galaxy instance running DNA-seq",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Galaxy", "DNA"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+             },				
+            {
                 "app_name": "app-rna-workbench",
                 "app_dispay_name": "RNA workbench",
                 "short_description": "Galaxy instance running RNA workbench",
