@@ -584,6 +584,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
+            },	
+            {
+                "app_name": "app-rd-connect-finder",
+                "app_dispay_name": "RD-Connect Finder",
+                "short_description": "RD-Connect Finder",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Directory"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
             }
         ]
     }
