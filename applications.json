@@ -31,6 +31,7 @@
   {"name":"OwnCloud",                 		"github_name":"app-owncloud"},
   {"name":"Nextcloud",                 		"github_name":"app-nextcloud"},
   {"name":"Galaxy",                   		"github_name":"app-galaxy"} ,
+  {"name":"Galaxy-seq",                   "github_name":"app-exomeseq"} ,
   {"name":"RNA-workbench",                "github_name":"app-rna-workbench"} ,
   {"name":"Galaksio",                 		"github_name":"app-galaksio"} ,
   {"name":"YouTrack",                 		"github_name":"app-youtrack"},
