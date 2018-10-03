@@ -52,7 +52,7 @@
   {"name":"BBMRI-ERIC Negotiator",    		"github_name":"app-bbmri-eric-negotiator"},
   {"name":"BBMRI-ERIC Connectore",    		"github_name":"app-bbmri-eric-connector"},
   {"name":"Cytomine",                     "github_name":"app-cytomine"},
-  {"name":"RD-Connect Finder",            "github_name":"app-bbmri-eric-negotiator"},
+  {"name":"RD-Connect Finder",            "github_name":"app-rd-connect-finder"},
   {"name":"OpenLDAP",                     "github_name":"app-openldap"}
 ]
 
