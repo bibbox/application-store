@@ -22,6 +22,7 @@
   {"name":"Elastic Stack",            		"github_name":"app-elasticstack"},
   {"name":"MyCollab CE",              		"github_name":"app-mycollab"}, 
   {"name":"OrientDB",                 		"github_name":"app-orientdb"}, 
+  {"name":"PostgreSQL",                 	"github_name":"app-postgres"}, 
   {"name":"LimeSurvey CE",            		"github_name":"app-limesurvey"},
   {"name":"DbNinja",                  		"github_name":"app-dbninja"},
   {"name":"Adminer",                  		"github_name":"app-adminer"},

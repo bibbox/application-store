@@ -301,6 +301,17 @@
                 ]
             },
             {
+                "app_name": "app-postrges",
+                "app_dispay_name": "PostgreSQL",
+                "short_description": "PostgreSQL is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Database"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-wordpress",
                 "app_dispay_name": "Wordpress",
                 "short_description": "Blog, Simple Webportal",
