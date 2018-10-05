@@ -303,7 +303,7 @@
             {
                 "app_name": "app-postgres",
                 "app_dispay_name": "PostgreSQL",
-                "short_description": "PostgreSQL is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
+                "short_description": "Object-relational database management system (ORDBMS)",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Database"],
