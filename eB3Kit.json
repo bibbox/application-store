@@ -617,6 +617,17 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-video-score",
+                "app_dispay_name": "Video Score",
+                "short_description": "Video Score",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Video"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
             }
         ]
     }
