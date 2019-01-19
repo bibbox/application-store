@@ -10,7 +10,8 @@
                 "decoration": "new",
                 "tags": ["Sample Management", "LIMS"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""},
+		    {"docker_version": "https", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
