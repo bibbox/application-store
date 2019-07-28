@@ -56,7 +56,8 @@
   {"name":"Cytomine",                     "github_name":"app-cytomine"},
   {"name":"RD-Connect Finder",            "github_name":"app-rd-connect-finder"},
   {"name":"OpenLDAP",                     "github_name":"app-openldap"},
-  {"name":"Video Score",               "github_name":"app-video-score"}   
+  {"name":"Video Score",               "github_name":"app-video-score"},
+  {"name":"Jenkins",               "github_name":"app-jenkins"}
 ]
 
 
