@@ -67,7 +67,7 @@
                 "short_description": "A data collection server",
                 "installable": true,
                 "decoration": "",
-                "tags": ["Data Collection", "Data Management", ],
+                "tags": ["Data Collection", "Data Management" ],
                 "versions": [
                     {"docker_version": "development", "version": "v0.1", "tooltip": ""}
                 ]
@@ -413,7 +413,18 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            } 
+            },	
+            {
+                "app_name": "app-jenkins",
+                "app_dispay_name": "Jenkins",
+                "short_description": "Build great things at any scale",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Development", "Build tool"],
+                "versions": [
+                    {"docker_version": "development", "version": "v2.176.2", "tooltip": ""}
+                ]
+            }
 
         ]
     },
