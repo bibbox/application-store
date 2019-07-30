@@ -11,8 +11,8 @@
   },
   "context": {
     "machine_id": "§§MACHINE_ID",
-    "cpus": "§§CPUS",
-    "memory": "§§MEMORY",
-    "storage": "§§STORAGE"
+    "cpus": §§CPUS,
+    "memory": §§MEMORY,
+    "storage": §§STORAGE
   }
 }
