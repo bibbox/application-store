@@ -644,8 +644,8 @@
             },
             {
                 "app_name": "app-app-sst-mysql",
-                "app_dispay_name": "MySql Test Simon",
-                "short_description": "MySql Test Simon",
+                "app_dispay_name": "MySql Simon",
+                "short_description": "MySql Simon",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Test"],
