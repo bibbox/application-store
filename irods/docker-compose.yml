@@ -50,12 +50,12 @@ services:
     image: bibbox/irods-appstack-data
     container_name: irods-appstack-data
     volumes:
-      - /srv/java:/opt/java
-      - /srv/tomcat:/opt/tomcat
-      - /srv/pgsql:/var/lib/pgsql/9.3/data
-      - /srv/irods:/home/irods
-      - /srv/etc_irods:/etc/irods
-      - /srv/.secret:/root/.secret
-      - /srv/conf:/conf
-      - /srv/log:/var/log
-      - /srv/backup:/var/backup
+      - ./srv/java:/opt/java
+      - ./srv/tomcat:/opt/tomcat
+      - ./srv/pgsql:/var/lib/pgsql/9.3/data
+      - ./srv/irods:/home/irods
+      - ./srv/etc_irods:/etc/irods
+      - ./srv/.secret:/root/.secret
+      - ./srv/conf:/conf
+      - ./srv/log:/var/log
+      - ./srv/backup:/var/backup

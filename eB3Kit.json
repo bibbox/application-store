@@ -641,6 +641,50 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-app-sst-mysql",
+                "app_dispay_name": "MySql Test Simon",
+                "short_description": "MySql Test Simon",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-app-pfa-mysql",
+                "app_dispay_name": "MySQL Philipp",
+                "short_description": "MySQL Philipp",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-app-sch-mysql",
+                "app_dispay_name": "MySQL Christian",
+                "short_description": "MySQL Christian",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-app-acb-mysql",
+                "app_dispay_name": "MySQL Anja",
+                "short_description": "MySQL Anja",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
             }
         ]
     }

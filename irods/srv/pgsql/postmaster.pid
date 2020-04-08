@@ -1,0 +1,7 @@
+1
+/var/lib/pgsql/9.3/data
+1586336896
+5432
+/var/run/postgresql
+*
+  5432001    622592
