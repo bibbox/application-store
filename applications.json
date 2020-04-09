@@ -57,12 +57,12 @@
   {"name":"RD-Connect Finder",            "github_name":"app-rd-connect-finder"},
   {"name":"OpenLDAP",                     "github_name":"app-openldap"},
   {"name":"Video Score",                  "github_name":"app-video-score"},
-  {"name":"Jenkins",                      "github_name":"app-sst-mysql", 
-  {"name":"MySQL Simon",                  "github_name":"app-app-sst-mysql", 
-  {"name":"MySQL Philipp",                "github_name":"app-app-pfa-mysql", 
-  {"name":"MySQL Christian",              "github_name":"app-app-sch-mysql", 
-  {"name":"MySQL Anja",                   "github_name":"app-app-acb-mysql"  
-  }
+  {"name":"TeamPass",                      "github_name":"app-teampass"},
+  {"name":"Jenkins",                      "github_name":"app-jenkins"}, 
+  {"name":"MySQL Simon",                  "github_name":"app-sst-mysql"}, 
+  {"name":"MySQL Philipp",                "github_name":"app-pfa-mysql"}, 
+  {"name":"MySQL Christian",              "github_name":"app-sch-mysql"}, 
+  {"name":"MySQL Anja",                   "github_name":"app-acb-mysql"},
 ]
 
 
