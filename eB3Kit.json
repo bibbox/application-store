@@ -152,7 +152,7 @@
                 "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1", "tooltip": ""},
 		    {"docker_version": "v-5-6-0", "version": "v5.6.0", "tooltip": ""}
                 ]
             },
@@ -426,7 +426,7 @@
                 "versions": [
                     {"docker_version": "development", "version": "v?", "tooltip": ""}
                 ]
-            }
+            },
             {
                 "app_name": "app-jenkins",
                 "app_dispay_name": "Jenkins",
