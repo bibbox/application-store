@@ -348,6 +348,17 @@
                 ]
             }, 
             {
+                "app_name": "app-taiga",
+                "app_dispay_name": "TAIGA",
+                "short_description": "Project management tool for multi-functional agile teams",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Project Management", "Issue Tracking"],
+                "versions": [
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-plone",
                 "app_dispay_name": "Plone",
                 "short_description": "Content Management System",
@@ -638,50 +649,6 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Video"],
-                "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-app-sst-mysql",
-                "app_dispay_name": "MySql Simon",
-                "short_description": "MySql Simon",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Test"],
-                "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-app-pfa-mysql",
-                "app_dispay_name": "MySQL Philipp",
-                "short_description": "MySQL Philipp",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Test"],
-                "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-app-sch-mysql",
-                "app_dispay_name": "MySQL Christian",
-                "short_description": "MySQL Christian",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Test"],
-                "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-app-acb-mysql",
-                "app_dispay_name": "MySQL Anja",
-                "short_description": "MySQL Anja",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Test"],
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
