@@ -21,10 +21,11 @@
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Sample Management"],
-				"versions": [
-                    {"docker_version": "development", "version": "v2-1-5", "tooltip": ""},
+		"versions": [
+                    {"docker_version": "development", "version": "v6.3.x", "tooltip": ""},
 		    {"docker_version": "v6-2-10", "version": "v6.2.x", "tooltip": ""},
-		    {"docker_version": "v2-1-5", "version": "v4.2.9", "tooltip": ""}
+		    {"docker_version": "v2-1-5", "version": "v4.2.9", "tooltip": ""},
+		    {"docker_version": "v7-0-x", "version": "v7.0.x", "tooltip": ""}
                 ]
             },
             {
@@ -34,7 +35,7 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Integration"],
-				"versions": [
+		"versions": [
                     {"docker_version": "development", "version": "v3.0.1", "tooltip": ""},
                     {"docker_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
                 ]
@@ -152,7 +153,8 @@
                 "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1", "tooltip": ""},
+		    {"docker_version": "v-5-6-0", "version": "v5.6.0", "tooltip": ""}
                 ]
             },
             {
@@ -348,17 +350,6 @@
                 ]
             }, 
             {
-                "app_name": "app-taiga",
-                "app_dispay_name": "TAIGA",
-                "short_description": "Project management tool for multi-functional agile teams",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Project Management", "Issue Tracking"],
-                "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-plone",
                 "app_dispay_name": "Plone",
                 "short_description": "Content Management System",
@@ -425,7 +416,18 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },	
+            },
+{
+                "app_name": "app-teampass",
+                "app_dispay_name": "TeamPass",
+                "short_description": "Easy centralized Password Mangement",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Password Management", "Password database"],
+                "versions": [
+                    {"docker_version": "development", "version": "v?", "tooltip": ""}
+                ]
+            },
             {
                 "app_name": "app-jenkins",
                 "app_dispay_name": "Jenkins",
@@ -496,7 +498,7 @@
                 "tags": ["Search"],
                 "versions": [
                     {"docker_version": "V1-0-2",      "version": "5.6.3",   "tooltip":  "stable version"},
-       		        {"docker_version": "development", "version": "6.0 RC2", "tooltip":  "Not for production"}
+       		    {"docker_version": "development", "version": "6.0 RC2", "tooltip":  "Not for production"}
                 ]
             },
             {
@@ -649,6 +651,50 @@
                 "installable": true,
                 "decoration": "",
                 "tags": ["Video"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-sst-mysql",
+                "app_dispay_name": "MySql Simon",
+                "short_description": "MySql Simon",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-pfa-mysql",
+                "app_dispay_name": "MySQL Philipp",
+                "short_description": "MySQL Philipp",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-sch-mysql",
+                "app_dispay_name": "MySQL Christian",
+                "short_description": "MySQL Christian",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
+                "versions": [
+                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-acb-mysql",
+                "app_dispay_name": "MySQL Anja",
+                "short_description": "MySQL Anja",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Test"],
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
