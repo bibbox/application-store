@@ -281,15 +281,14 @@
 		"group_name": "Helper Applications",
 		"group_members": [
             {
-                "app_name": "app-liferay",
-                "app_dispay_name": "Liferay",
-                "short_description": "Portal Framework & EMS",
-                "installable": false,
+                "app_name": "app-taiga",
+                "app_dispay_name": "TAIGA",
+                "short_description": "Project management tool for multi-functional agile teams",
+                "installable": true,
                 "decoration": "",
-                "tags": ["Framework", "CMS", "Document Management"],
+                "tags": ["Project Management", "Tool"],
                 "versions": [
-                    {"docker_version": "development", "version": "v6.2. GA6", "tooltip": ""},
-                    {"docker_version": "v0.2-alpha", "version": "v6.2 GA6", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
