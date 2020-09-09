@@ -50,7 +50,7 @@
   {"name":"i2b2box",                  		"github_name":"app-i2b2box"},
   {"name":"girder",                   		"github_name":"app-girder"},
   {"name":"HistomicsTK",              		"github_name":"app-histomicstk"},
-  {"name":"BBMRI-ERIC Directory",     		"github_name":"app-bbmri-eric-dir"},
+  {"name":"BBMRI-ERIC Dir",     		      "github_name":"app-bbmri-eric-dir"},
   {"name":"BBMRI-ERIC Directory",     		"github_name":"app-bbmri-eric-directory"},
   {"name":"BBMRI-ERIC Negotiator",    		"github_name":"app-bbmri-eric-negotiator"},
   {"name":"BBMRI-ERIC Connectore",    		"github_name":"app-bbmri-eric-connector"},
