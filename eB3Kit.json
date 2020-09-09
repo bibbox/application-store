@@ -96,17 +96,6 @@
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
-	    {
-                "app_name": "app-bbmri-eric-dir",
-                "app_dispay_name": "BBMRI-ERIC Dir-Update",
-                "short_description": "BBMRI-ERIC Dir-Update",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Directory", "Biobank", "Data Management"],
-                "versions": [
-                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
-                ]
-            },
             {
                 "app_name": "app-bbmri-eric-directory",
                 "app_dispay_name": "BBMRI-ERIC Directory",
