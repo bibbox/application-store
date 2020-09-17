@@ -8,7 +8,6 @@
   {"name":"Agate",                    		"github_name":"app-agate"},
   {"name":"Omero",                    		"github_name":"app-omero"},
   {"name":"Molgenis",                 		"github_name":"app-molgenis"},
-  {"name":"Molgenis-Up",                 		"github_name":"app-molgenis-update"},
   {"name":"Wordpress",                		"github_name":"app-wordpress"},
   {"name":"Liferay",                  		"github_name":"app-liferay"},
   {"name":"BIBBOX Monitoring",        		"github_name":"app-bibbox-monitoring"},
