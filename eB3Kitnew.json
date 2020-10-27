@@ -15,7 +15,7 @@
                 ]
             },
             {
-                "app_name": "app-openspecimen",
+                "app_name": "app-openspecimenTNG",
                 "app_dispay_name": "Open Specimen",
                 "short_description": "Sample Management",
                 "installable": true,
