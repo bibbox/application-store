@@ -415,7 +415,7 @@
                 "decoration": "",
                 "tags": ["Storage"],
                 "versions": [
-                    {"docker_version": "v14-0-x", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -426,7 +426,7 @@
                 "decoration": "",
                 "tags": ["Storage"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "v14-0-x", "version": "v1.0", "tooltip": ""}
                 ]
             },
 {
