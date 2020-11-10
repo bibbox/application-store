@@ -15,8 +15,8 @@
                 ]
             },
             {
-                "app_name": "app-openspecimen",
-                "app_dispay_name": "Open Specimen",
+                "app_name": "app-openspecimenTNG",
+                "app_dispay_name": "OpenSpecimen",
                 "short_description": "Sample Management",
                 "installable": true,
                 "decoration": "new",
@@ -203,7 +203,7 @@
                 ]
             },
             {
-                "app_name": "app-seeddms",
+                "app_name": "app-seeddmsTNG",
                 "app_dispay_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
                 "installable": true,
@@ -395,7 +395,7 @@
                 ]
             },
             {
-                "app_name": "app-seeddms",
+                "app_name": "app-seeddmsTNG",
                 "app_dispay_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
                 "installable": true,
@@ -426,7 +426,7 @@
                 "decoration": "",
                 "tags": ["Storage"],
                 "versions": [
-                    {"docker_version": "v14-0-x", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
 {
