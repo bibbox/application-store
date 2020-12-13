@@ -27,7 +27,7 @@
 		    {"docker_version": "v2-1-5", "version": "v4.2.9", "tooltip": ""},
 		    {"docker_version": "v7-0-x", "version": "v7.0.x", "tooltip": ""},
 		    {"docker_version": "v7-1-x", "version": "v7.1.x", "tooltip": ""},
-		    {"docker_version": "v7-2-x", "version": "v7.1.x", "tooltip": ""}
+		    {"docker_version": "v7-2-x", "version": "v7.2.x", "tooltip": ""}
                 ]
             },
             {
