@@ -335,7 +335,7 @@
                 "decoration": "",
                 "tags": ["Blog", "CMS"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"docker_version": "V4", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
             
