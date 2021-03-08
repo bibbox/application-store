@@ -1,60 +1,60 @@
 [
      {
-		"group_name": "Biobank Applications",
-		"group_members": [
+        "group_name": "Biobank Applications",
+        "group_members": [
             {
                 "app_name": "app-baobab",
-                "app_dispay_name": "Baobab",
+                "app_display_name": "Baobab",
                 "short_description": "Biobank Information Management System (BIMS)",
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Sample Management", "LIMS"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""},
-		    {"docker_version": "https", "version": "v1.0", "tooltip": ""}
+            {"docker_version": "https", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
                 "app_name": "app-openspecimenTNG",
-                "app_dispay_name": "OpenSpecimen",
+                "app_display_name": "OpenSpecimen",
                 "short_description": "Sample Management",
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Sample Management"],
-		"versions": [
+        "versions": [
                     {"docker_version": "development", "version": "v6.3.x", "tooltip": ""},
-		    {"docker_version": "v6-2-10", "version": "v6.2.x", "tooltip": ""},
-		    {"docker_version": "v2-1-5", "version": "v4.2.9", "tooltip": ""},
-		    {"docker_version": "v7-0-x", "version": "v7.0.x", "tooltip": ""}
+            {"docker_version": "v6-2-10", "version": "v6.2.x", "tooltip": ""},
+            {"docker_version": "v2-1-5", "version": "v4.2.9", "tooltip": ""},
+            {"docker_version": "v7-0-x", "version": "v7.0.x", "tooltip": ""}
                 ]
             },
             {
                 "app_name": "app-molgenis",
-                "app_dispay_name": "Molgenis",
+                "app_display_name": "Molgenis",
                 "short_description": "EXCEL in the Web",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Integration"],
-		"versions": [
+        "versions": [
                     {"docker_version": "development", "version": "v8.1.8", "tooltip": ""},
                     {"docker_version": "v1-0-1",  "version": "v8.1.8", "tooltip": ""}
                 ]
             },
             {
                 "app_name": "app-phenotips",
-                "app_dispay_name": "PhenoTips",
+                "app_display_name": "PhenoTips",
                 "short_description": "Phenotype Editor for the HPO ontology",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
                     {"docker_version": "V1-0-10",      "version": "v1.2.6", "tooltip": "stable version"},
-       		        {"docker_version": "development", "version": "v1.4.9", "tooltip":  "V 1.3 with Pedigrees"}
+                    {"docker_version": "development", "version": "v1.4.9", "tooltip":  "V 1.3 with Pedigrees"}
                 ]
             },
             {
                 "app_name": "app-azizi-amp",
-                "app_dispay_name": "Azizi AMP",
+                "app_display_name": "Azizi AMP",
                 "short_description": "A downstream mobile data processing solution",
                 "installable": true,
                 "decoration": "",
@@ -65,7 +65,7 @@
             },
             {
                 "app_name": "app-azizi-onadata",
-                "app_dispay_name": "Azizi ODK Server",
+                "app_display_name": "Azizi ODK Server",
                 "short_description": "A data collection server",
                 "installable": true,
                 "decoration": "",
@@ -76,7 +76,7 @@
             },
             {
                 "app_name": "app-redcap",
-                "app_dispay_name": "RedCap",
+                "app_display_name": "RedCap",
                 "short_description": "Survey Management System",
                 "installable": true,
                 "decoration": "",
@@ -87,7 +87,7 @@
             },
             {
                 "app_name": "app-i2b2",
-                "app_dispay_name": "i2b2",
+                "app_display_name": "i2b2",
                 "short_description": "Data Warehouse",
                 "installable": true,
                 "decoration": "",
@@ -96,9 +96,9 @@
                     {"docker_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
-	    {
+        {
                 "app_name": "app-bbmri-eric-dir",
-                "app_dispay_name": "BBMRI-ERIC Dir-Update",
+                "app_display_name": "BBMRI-ERIC Dir-Update",
                 "short_description": "BBMRI-ERIC Dir-Update",
                 "installable": true,
                 "decoration": "",
@@ -109,7 +109,7 @@
             },
             {
                 "app_name": "app-bbmri-eric-directory",
-                "app_dispay_name": "BBMRI-ERIC Directory",
+                "app_display_name": "BBMRI-ERIC Directory",
                 "short_description": "BBMRI-ERIC Directory",
                 "installable": true,
                 "decoration": "",
@@ -120,7 +120,7 @@
             },
             {
                 "app_name": "app-bbmri-eric-negotiator",
-                "app_dispay_name": "BBMRI-ERIC Negotiator",
+                "app_display_name": "BBMRI-ERIC Negotiator",
                 "short_description": "BBMRI-ERIC Negotiator",
                 "installable": true,
                 "decoration": "",
@@ -131,7 +131,7 @@
             },
             {
                 "app_name": "app-bbmri-eric-connector",
-                "app_dispay_name": "BBMRI-ERIC Connector",
+                "app_display_name": "BBMRI-ERIC Connector",
                 "short_description": "BBMRI-ERIC Connector",
                 "installable": true,
                 "decoration": "",
@@ -143,11 +143,11 @@
         ]
     },
      {
-		"group_name": "Digital Pathology Applications",
-		"group_members": [
+        "group_name": "Digital Pathology Applications",
+        "group_members": [
             {
                 "app_name": "app-girder",
-                "app_dispay_name": "Girder",
+                "app_display_name": "Girder",
                 "short_description": "Data management platform for the web, developed by Kitware",
                 "installable": true,
                 "decoration": "",
@@ -155,22 +155,22 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "app-omero",
-                "app_dispay_name": "Omero",
+                "app_display_name": "Omero",
                 "short_description": "Digital Microscopy",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""},
-		    {"docker_version": "v-5-6-0", "version": "v5.6.0", "tooltip": ""}
+            {"docker_version": "v-5-6-0", "version": "v5.6.0", "tooltip": ""}
                 ]
             },
             {
                 "app_name": "app-histomicstk",
-                "app_dispay_name": "Histomics TK",
+                "app_display_name": "Histomics TK",
                 "short_description": "Toolkit for the analysis of Histopathology images in association with clinical and genomic data developed by Kitware",
                 "installable": false,
                 "decoration": "announced",
@@ -181,7 +181,7 @@
             },
             {
                 "app_name": "app-xnat",
-                "app_dispay_name": "XNAT",
+                "app_display_name": "XNAT",
                 "short_description": "Open Source Imaging Framework",
                 "installable": true,
                 "decoration": "",
@@ -192,38 +192,38 @@
             },
             {
                 "app_name": "app-molgenis",
-                "app_dispay_name": "Molgenis",
+                "app_display_name": "Molgenis",
                 "short_description": "EXCEL in the Web",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Data Integration"],
-				"versions": [
+                "versions": [
                     {"docker_version": "development", "version": "v3.0.1", "tooltip": ""},
                     {"docker_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
                 ]
             },
             {
                 "app_name": "app-seeddmsTNG",
-                "app_dispay_name": "SeedDMS",
+                "app_display_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-   		    {"docker_version": "5-1-5", "version": "5.1.5", "tooltip": "development version (5.1.5)"},
-		    {"docker_version": "5-1-18", "version": "5.1.18", "tooltip": "development version (5.1.18)"},
-		    {"docker_version": "6-0-11", "version": "6.0.11", "tooltip": "development version (6.0.11)"}
+            {"docker_version": "5-1-5", "version": "5.1.5", "tooltip": "development version (5.1.5)"},
+            {"docker_version": "5-1-18", "version": "5.1.18", "tooltip": "development version (5.1.18)"},
+            {"docker_version": "6-0-11", "version": "6.0.11", "tooltip": "development version (6.0.11)"}
                 ]
             }
         ]
     },
     {
-		"group_name": "Bioinformatics Applications",
-		"group_members": [
+        "group_name": "Bioinformatics Applications",
+        "group_members": [
            
             {
                 "app_name": "app-stategraems",
-                "app_dispay_name": "STATegraEMS",
+                "app_display_name": "STATegraEMS",
                  "short_description": "Experiment Management",
                 "installable": true,
                 "decoration": "",
@@ -234,7 +234,7 @@
             },
             {
                 "app_name": "app-galaksio",
-                "app_dispay_name": "Galaksio",
+                "app_display_name": "Galaksio",
                 "short_description": "Galaksio",
                 "installable": true,
                 "decoration": "new",
@@ -245,7 +245,7 @@
             },
             {
                 "app_name": "app-galaxy",
-                "app_dispay_name": "Galaxy",
+                "app_display_name": "Galaxy",
                 "short_description": "Galaxy",
                 "installable": true,
                 "decoration": "",
@@ -254,10 +254,10 @@
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""},
                     {"docker_version": "development", "version": "V1.1", "tooltip": ""}
                 ]
-	    },
+        },
             {
                 "app_name": "app-exomeseq",
-                "app_dispay_name": "Galaxy-seq",
+                "app_display_name": "Galaxy-seq",
                 "short_description": "Galaxy instance running DNA-seq",
                 "installable": true,
                 "decoration": "",
@@ -265,10 +265,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-             },				
+             },             
             {
                 "app_name": "app-rna-workbench",
-                "app_dispay_name": "RNA workbench",
+                "app_display_name": "RNA workbench",
                 "short_description": "Galaxy instance running RNA workbench",
                 "installable": true,
                 "decoration": "",
@@ -276,26 +276,26 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-             },	
+             }, 
              {
                 "app_name": "app-scaleus",
-                "app_dispay_name": "Scaleus",
+                "app_display_name": "Scaleus",
                 "short_description": "Semantic Web Services Integration for Biomedical Applications",
                 "installable": false,
                 "decoration": "announced",
                 "tags": ["Data Management", "Linked Data"],
-				"versions": [
+                "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }
         ]
     },
     {
-		"group_name": "Helper Applications",
-		"group_members": [
+        "group_name": "Helper Applications",
+        "group_members": [
             {
                 "app_name": "app-taiga",
-                "app_dispay_name": "TAIGA",
+                "app_display_name": "TAIGA",
                 "short_description": "Project management tool for multi-functional agile teams",
                 "installable": true,
                 "decoration": "",
@@ -306,19 +306,19 @@
             },
             {
                 "app_name": "app-orientdb",
-                "app_dispay_name": "OrientDB",
+                "app_display_name": "OrientDB",
                 "short_description": "NoSQL Graph/ Document Database",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Database", "NoSQL", "Graph Database"],
                 "versions": [
                     {"docker_version": "development", "version": "2.2.17", "tooltip": ""},
-		    		{"docker_version": "V2-1-25-01", "version": "v2.1.25", "tooltip": ""}
+                    {"docker_version": "V2-1-25-01", "version": "v2.1.25", "tooltip": ""}
                 ]
             },
             {
                 "app_name": "app-postgres",
-                "app_dispay_name": "PostgreSQL",
+                "app_display_name": "PostgreSQL",
                 "short_description": "Object-relational database management system (ORDBMS)",
                 "installable": true,
                 "decoration": "",
@@ -329,7 +329,7 @@
             },
             {
                 "app_name": "app-wordpress",
-                "app_dispay_name": "Wordpress",
+                "app_display_name": "Wordpress",
                 "short_description": "Blog, Simple Webportal",
                 "installable": true,
                 "decoration": "",
@@ -341,7 +341,7 @@
             
             {
                 "app_name": "app-mycollab",
-                "app_dispay_name": "MyCollab CE",
+                "app_display_name": "MyCollab CE",
                 "short_description": "Project Management System",
                 "installable": true,
                 "decoration": "",
@@ -352,7 +352,7 @@
             }, 
             {
                 "app_name": "app-youtrack",
-                "app_dispay_name": "YouTrack",
+                "app_display_name": "YouTrack",
                 "short_description": "Project management and issue tracking",
                 "installable": true,
                 "decoration": "",
@@ -363,7 +363,7 @@
             }, 
             {
                 "app_name": "app-plone",
-                "app_dispay_name": "Plone",
+                "app_display_name": "Plone",
                 "short_description": "Content Management System",
                 "installable": true,
                 "decoration": "new",
@@ -374,7 +374,7 @@
             }, 
             {
                 "app_name": "app-drupal",
-                "app_dispay_name": "Drupal",
+                "app_display_name": "Drupal",
                 "short_description": "Content Management System",
                 "installable": true,
                 "decoration": "new",
@@ -385,7 +385,7 @@
             },
                       {
                 "app_name": "app-limesurvey",
-                "app_dispay_name": "LimeSurvey",
+                "app_display_name": "LimeSurvey",
                 "short_description": "LimeSurvey 2.63.1",
                 "installable": true,
                 "decoration": "",
@@ -396,20 +396,20 @@
             },
             {
                 "app_name": "app-seeddmsTNG",
-                "app_dispay_name": "SeedDMS",
+                "app_display_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-   		    {"docker_version": "development", "version": "v5.1.6", "tooltip": "development version"},
+            {"docker_version": "development", "version": "v5.1.6", "tooltip": "development version"},
                     {"docker_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"}
                     
                 ]
             }, 
             {
                 "app_name": "app-owncloud",
-                "app_dispay_name": "OwnCloud",
+                "app_display_name": "OwnCloud",
                 "short_description": "File sync and share server",
                 "installable": true,
                 "decoration": "",
@@ -420,7 +420,7 @@
             },
             {
                 "app_name": "app-nextcloud",
-                "app_dispay_name": "Nextcloud",
+                "app_display_name": "Nextcloud",
                 "short_description": "File sync and share server",
                 "installable": true,
                 "decoration": "",
@@ -431,7 +431,7 @@
             },
 {
                 "app_name": "app-teampass",
-                "app_dispay_name": "TeamPass",
+                "app_display_name": "TeamPass",
                 "short_description": "Easy centralized Password Mangement",
                 "installable": true,
                 "decoration": "new",
@@ -442,7 +442,7 @@
             },
             {
                 "app_name": "app-jenkins",
-                "app_dispay_name": "Jenkins",
+                "app_display_name": "Jenkins",
                 "short_description": "Build great things at any scale",
                 "installable": true,
                 "decoration": "new",
@@ -455,11 +455,11 @@
         ]
     },
     {
-		"group_name": "Admin Dashboard",
-		"group_members": [
+        "group_name": "Admin Dashboard",
+        "group_members": [
             {
                 "app_name": "app-openldap",
-                "app_dispay_name": "OpenLDAP",
+                "app_display_name": "OpenLDAP",
                 "short_description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol",
                 "installable": true,
                 "decoration": "",
@@ -470,7 +470,7 @@
             },
              {
                 "app_name": "app-jupyter-datascience-notebook",
-                "app_dispay_name": "Jupyter Notebook",
+                "app_display_name": "Jupyter Notebook",
                 "short_description": "Interactive data science and scientific computing",
                 "installable": true,
                 "decoration": "",
@@ -481,7 +481,7 @@
             },
             {
                 "app_name": "app-bibbox-monitoring",
-                "app_dispay_name": "Monitoring",
+                "app_display_name": "Monitoring",
                 "short_description": "Monitoring of Apps and Containers",
                 "installable": true,
                 "decoration": "",
@@ -492,7 +492,7 @@
             },
             {
                 "app_name": "app-bacula",
-                "app_dispay_name": "Backup",
+                "app_display_name": "Backup",
                 "short_description": "Backup BIBBOX apps",
                 "installable": false,
                 "decoration": "announced",
@@ -503,19 +503,19 @@
             }, 
             {
                 "app_name": "app-elasticstack",
-                "app_dispay_name": "Elastic Stack",
+                "app_display_name": "Elastic Stack",
                 "short_description": "Elastic Search Stack",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Search"],
                 "versions": [
                     {"docker_version": "V1-0-2",      "version": "5.6.3",   "tooltip":  "stable version"},
-       		    {"docker_version": "development", "version": "6.0 RC2", "tooltip":  "Not for production"}
+                {"docker_version": "development", "version": "6.0 RC2", "tooltip":  "Not for production"}
                 ]
             },
             {
                 "app_name": "app-dbninja",
-                "app_dispay_name": "DbNinja for MySQL",
+                "app_display_name": "DbNinja for MySQL",
                 "short_description": "DbNinja",
                 "installable": true,
                 "decoration": "",
@@ -523,10 +523,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "app-adminer",
-                "app_dispay_name": "Adminer",
+                "app_display_name": "Adminer",
                 "short_description": "Adminer",
                 "installable": true,
                 "decoration": "",
@@ -534,10 +534,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "app-mantis",
-                "app_dispay_name": "Mantis",
+                "app_display_name": "Mantis",
                 "short_description": "Mantis Bugtracker",
                 "installable": true,
                 "decoration": "",
@@ -545,10 +545,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "dev-app-checker",
-                "app_dispay_name": "App Checker",
+                "app_display_name": "App Checker",
                 "short_description": "App Checkcer",
                 "installable": true,
                 "decoration": "new",
@@ -556,15 +556,15 @@
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            }		
+            }       
         ]
     },
    {
-		"group_name": "Training",
-		"group_members": [
+        "group_name": "Training",
+        "group_members": [
              {
                 "app_name": "app-training",
-                "app_dispay_name": "B3Africa Training",
+                "app_display_name": "B3Africa Training",
                 "short_description": "B3Africa Trainings Platform",
                 "installable": true,
                 "decoration": "",
@@ -576,11 +576,11 @@
         ]
     },
    {
-		"group_name": "Development and Testing (NOT FOR PRODUCTION)",
-		"group_members": [
+        "group_name": "Development and Testing (NOT FOR PRODUCTION)",
+        "group_members": [
              {
                 "app_name": "app-template",
-                "app_dispay_name": "Application Template",
+                "app_display_name": "Application Template",
                 "short_description": "A Template of an APP, can not be installed",
                 "installable": false,
                 "decoration": "",
@@ -591,7 +591,7 @@
             },
             {
                 "app_name": "app-i2b2box",
-                "app_dispay_name": "i2b2box",
+                "app_display_name": "i2b2box",
                 "short_description": "lightweight deployment of i2b2 hive",
                 "installable": true,
                 "decoration": "",
@@ -603,7 +603,7 @@
             
             {
                 "app_name": "app-querytree",
-                "app_dispay_name": "Query Tree",
+                "app_display_name": "Query Tree",
                 "short_description": "Ad-hoc reporting tool",
                 "installable": true,
                 "decoration": "",
@@ -611,10 +611,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "app-girder",
-                "app_dispay_name": "Girder",
+                "app_display_name": "Girder",
                 "short_description": "Data management platform for the web, developed by Kitware",
                 "installable": true,
                 "decoration": "",
@@ -622,10 +622,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "app-knowage",
-                "app_dispay_name": "Knowage",
+                "app_display_name": "Knowage",
                 "short_description": "Open Source Business Analytics",
                 "installable": true,
                 "decoration": "",
@@ -633,10 +633,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "app-cytomine",
-                "app_dispay_name": "Cytomine",
+                "app_display_name": "Cytomine",
                 "short_description": "Open-source rich internet application for collaborative analysis of multi-gigapixel images using machine learning.",
                 "installable": true,
                 "decoration": "",
@@ -644,10 +644,10 @@
                 "versions": [
                     {"docker_version": "development", "version": "latest", "tooltip": ""}
                 ]
-            },	
+            },  
             {
                 "app_name": "app-rd-connect-finder",
-                "app_dispay_name": "RD-Connect Finder",
+                "app_display_name": "RD-Connect Finder",
                 "short_description": "RD-Connect Finder",
                 "installable": true,
                 "decoration": "",
@@ -658,7 +658,7 @@
             },
             {
                 "app_name": "app-video-score",
-                "app_dispay_name": "Video Score",
+                "app_display_name": "Video Score",
                 "short_description": "Video Score",
                 "installable": true,
                 "decoration": "",
