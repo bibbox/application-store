@@ -22,7 +22,7 @@
                 "decoration": "new",
                 "tags": ["Sample Management"],
 		"versions": [
-                    {"docker_version": "development", "version": "v6.3.x", "tooltip": ""},
+                    {"docker_version": "development", "version": "v7.2.x", "tooltip": ""},
 		    {"docker_version": "v6-3-x", "version": "v6.3.x", "tooltip": ""},
 		    {"docker_version": "v7-0-x", "version": "v7.0.x", "tooltip": ""},
 		    {"docker_version": "v7-1-x", "version": "v7.1.x", "tooltip": ""},
@@ -59,7 +59,7 @@
                 "app_dispay_name": "Azizi AMP",
                 "short_description": "A downstream mobile data processing solution",
                 "installable": true,
-                "decoration": "",
+                "decoration": "",GMgPPazS7isck4d6R$LO
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
