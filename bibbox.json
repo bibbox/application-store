@@ -165,7 +165,7 @@
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"docker_version": "development", "version": "v1", "tooltip": ""},
-            {"docker_version": "v-5-6-x", "version": "v5.6.x", "tooltip": ""}
+            {"docker_version": "v5-6-x", "version": "v5.6.x", "tooltip": ""}
                 ]
             },
             {
