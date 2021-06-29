@@ -220,7 +220,7 @@
     {
         "group_name": "Bioinformatics Applications",
         "group_members": [
-           
+             
             {
                 "app_name": "app-stategraems",
                 "app_display_name": "STATegraEMS",
@@ -302,6 +302,17 @@
                 "tags": ["Project Management", "Tool"],
                 "versions": [
                     {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-dspace",
+                "app_display_name": "DSpace",
+                "short_description": "Fluid modern Document Management with flexible data structure",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Collection", "Data Management" ],
+                "versions": [
+                    {"docker_version": "development", "version": "v7.0", "tooltip": ""}
                 ]
             },
             {
