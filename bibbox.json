@@ -10,8 +10,8 @@
                 "decoration": "new",
                 "tags": ["Sample Management", "LIMS"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""},
-            {"docker_version": "https", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""},
+            {"app_version": "https", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -22,8 +22,8 @@
                 "decoration": "new",
                 "tags": ["Sample Management"],
         "versions": [
-                    {"docker_version": "development", "version": "v6.3.x", "tooltip": ""},
-                    {"docker_version": "v8.4", "version": "Version_8.4_(Vanessa)", "tooltip": ""}
+                    {"app_version": "development", "version": "v6.3.x", "tooltip": ""},
+                    {"app_version": "v8.4", "version": "Version_8.4_(Vanessa)", "tooltip": ""}
                 ]
             },
             {
@@ -34,8 +34,8 @@
                 "decoration": "",
                 "tags": ["Data Integration"],
         "versions": [
-                    {"docker_version": "development", "version": "v8.1.8", "tooltip": ""},
-                    {"docker_version": "v1-0-1",  "version": "v8.1.8", "tooltip": ""}
+                    {"app_version": "development", "version": "v8.1.8", "tooltip": ""},
+                    {"app_version": "v1-0-1",  "version": "v8.1.8", "tooltip": ""}
                 ]
             },
             {
@@ -46,8 +46,8 @@
                 "decoration": "",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
-                    {"docker_version": "V1-0-10",      "version": "v1.2.6", "tooltip": "stable version"},
-                    {"docker_version": "development", "version": "v1.4.9", "tooltip":  "V 1.3 with Pedigrees"}
+                    {"app_version": "V1-0-10",      "version": "v1.2.6", "tooltip": "stable version"},
+                    {"app_version": "development", "version": "v1.4.9", "tooltip":  "V 1.3 with Pedigrees"}
                 ]
             },
             {
@@ -58,7 +58,7 @@
                 "decoration": "",
                 "tags": ["Data Management", "Data Integration", "Data Collection"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -69,7 +69,7 @@
                 "decoration": "",
                 "tags": ["Data Collection", "Data Management" ],
                 "versions": [
-                    {"docker_version": "development", "version": "v0.1", "tooltip": ""}
+                    {"app_version": "development", "version": "v0.1", "tooltip": ""}
                 ]
             },
             {
@@ -80,7 +80,7 @@
                 "decoration": "",
                 "tags": ["Survey"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -91,7 +91,7 @@
                 "decoration": "",
                 "tags": ["Data Warehouse"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                    {"app_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
         {
@@ -102,7 +102,7 @@
                 "decoration": "",
                 "tags": ["Directory", "Biobank", "Data Management"],
                 "versions": [
-                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v0.0", "tooltip": ""}
                 ]
             },
             {
@@ -113,7 +113,7 @@
                 "decoration": "",
                 "tags": ["Directory", "Biobank", "Data Management"],
                 "versions": [
-                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v0.0", "tooltip": ""}
                 ]
             },
             {
@@ -124,7 +124,7 @@
                 "decoration": "",
                 "tags": ["Biobank", "Data Management"],
                 "versions": [
-                    {"docker_version": "development", "version": "dev", "tooltip": ""}
+                    {"app_version": "development", "version": "dev", "tooltip": ""}
                 ]
             },
             {
@@ -135,7 +135,7 @@
                 "decoration": "",
                 "tags": ["Biobank", "Data Management"],
                 "versions": [
-                    {"docker_version": "development", "version": "dev", "tooltip": ""}
+                    {"app_version": "development", "version": "dev", "tooltip": ""}
                 ]
             }      
         ]
@@ -151,7 +151,7 @@
                 "decoration": "",
                 "tags": ["Data Management", "Digital Pathology"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             },  
             {
@@ -162,8 +162,8 @@
                 "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""},
-            {"docker_version": "v5-6-x", "version": "v5.6.x", "tooltip": ""}
+                    {"app_version": "development", "version": "v1", "tooltip": ""},
+            {"app_version": "v5-6-x", "version": "v5.6.x", "tooltip": ""}
                 ]
             },
             {
@@ -174,7 +174,7 @@
                 "decoration": "announced",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                    {"app_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
             {
@@ -185,7 +185,7 @@
                 "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1", "tooltip": ""}
+                    {"app_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
             {
@@ -196,8 +196,8 @@
                 "decoration": "",
                 "tags": ["Data Integration"],
                 "versions": [
-                    {"docker_version": "development", "version": "v3.0.1", "tooltip": ""},
-                    {"docker_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
+                    {"app_version": "development", "version": "v3.0.1", "tooltip": ""},
+                    {"app_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
                 ]
             },
             {
@@ -208,9 +208,9 @@
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-            {"docker_version": "5-1-5", "version": "5.1.5", "tooltip": "development version (5.1.5)"},
-            {"docker_version": "5-1-18", "version": "5.1.18", "tooltip": "development version (5.1.18)"},
-            {"docker_version": "6-0-11", "version": "6.0.11", "tooltip": "development version (6.0.11)"}
+            {"app_version": "5-1-5", "version": "5.1.5", "tooltip": "development version (5.1.5)"},
+            {"app_version": "5-1-18", "version": "5.1.18", "tooltip": "development version (5.1.18)"},
+            {"app_version": "6-0-11", "version": "6.0.11", "tooltip": "development version (6.0.11)"}
                 ]
             }
         ]
@@ -227,7 +227,7 @@
                 "decoration": "",
                 "tags": ["Experiment Management System", "Bioinformatics"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0.0", "tooltip": ""}
                 ]
             },
             {
@@ -238,7 +238,7 @@
                 "decoration": "new",
                 "tags": ["Galaxy"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -249,8 +249,8 @@
                 "decoration": "",
                 "tags": ["Galaxy"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""},
-                    {"docker_version": "development", "version": "V1.1", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""},
+                    {"app_version": "development", "version": "V1.1", "tooltip": ""}
                 ]
         },
             {
@@ -261,7 +261,7 @@
                 "decoration": "",
                 "tags": ["Galaxy", "DNA"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
              },             
             {
@@ -272,7 +272,7 @@
                 "decoration": "",
                 "tags": ["Galaxy", "RNA"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
              }, 
              {
@@ -283,7 +283,7 @@
                 "decoration": "announced",
                 "tags": ["Data Management", "Linked Data"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }
         ]
@@ -299,7 +299,7 @@
                 "decoration": "",
                 "tags": ["Project Management", "Tool"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -310,7 +310,7 @@
                 "decoration": "",
                 "tags": ["Data Collection", "Data Management" ],
                 "versions": [
-                    {"docker_version": "development", "version": "v7.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v7.0", "tooltip": ""}
                 ]
             },
             {
@@ -321,8 +321,8 @@
                 "decoration": "",
                 "tags": ["Database", "NoSQL", "Graph Database"],
                 "versions": [
-                    {"docker_version": "development", "version": "2.2.17", "tooltip": ""},
-                    {"docker_version": "V2-1-25-01", "version": "v2.1.25", "tooltip": ""}
+                    {"app_version": "development", "version": "2.2.17", "tooltip": ""},
+                    {"app_version": "V2-1-25-01", "version": "v2.1.25", "tooltip": ""}
                 ]
             },
             {
@@ -333,7 +333,7 @@
                 "decoration": "",
                 "tags": ["Database"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             },
             {
@@ -344,7 +344,7 @@
                 "decoration": "",
                 "tags": ["Blog", "CMS"],
                 "versions": [
-                    {"docker_version": "V4", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "V4", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
             
@@ -356,7 +356,7 @@
                 "decoration": "",
                 "tags": ["Project Management"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
             {
@@ -367,7 +367,7 @@
                 "decoration": "",
                 "tags": ["Project Management", "Issue Tracking"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
             {
@@ -378,7 +378,7 @@
                 "decoration": "new",
                 "tags": ["CMS"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
             {
@@ -389,7 +389,7 @@
                 "decoration": "new",
                 "tags": ["CMS"],
                 "versions": [
-                    {"docker_version": "development", "version": "v8.3.2", "tooltip": ""}
+                    {"app_version": "development", "version": "v8.3.2", "tooltip": ""}
                 ]
             },
                       {
@@ -400,7 +400,7 @@
                 "decoration": "",
                 "tags": ["Survey"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -411,8 +411,8 @@
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-            {"docker_version": "development", "version": "v5.1.6", "tooltip": "development version"},
-                    {"docker_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"}
+            {"app_version": "development", "version": "v5.1.6", "tooltip": "development version"},
+                    {"app_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"}
                     
                 ]
             }, 
@@ -424,7 +424,7 @@
                 "decoration": "",
                 "tags": ["Storage"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -435,7 +435,7 @@
                 "decoration": "",
                 "tags": ["Storage"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
 {
@@ -446,7 +446,7 @@
                 "decoration": "new",
                 "tags": ["Password Management", "Password database"],
                 "versions": [
-                    {"docker_version": "development", "version": "v?", "tooltip": ""}
+                    {"app_version": "development", "version": "v?", "tooltip": ""}
                 ]
             },
             {
@@ -457,7 +457,7 @@
                 "decoration": "new",
                 "tags": ["Development", "Build tool"],
                 "versions": [
-                    {"docker_version": "development", "version": "v2.176.2", "tooltip": ""}
+                    {"app_version": "development", "version": "v2.176.2", "tooltip": ""}
                 ]
             }
 
@@ -474,7 +474,7 @@
                 "decoration": "",
                 "tags": ["User Integration", "Administration"],
                 "versions": [
-                    {"docker_version": "development", "version": "vx.x", "tooltip": ""}
+                    {"app_version": "development", "version": "vx.x", "tooltip": ""}
                 ]
             },
              {
@@ -485,7 +485,7 @@
                 "decoration": "",
                 "tags": ["Data Integration", "Data Analysis"],
                 "versions": [
-                    {"docker_version": "development", "version": "v4.2", "tooltip": ""}
+                    {"app_version": "development", "version": "v4.2", "tooltip": ""}
                 ]
             },
             {
@@ -496,7 +496,7 @@
                 "decoration": "",
                 "tags": ["Admin"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
@@ -507,7 +507,7 @@
                 "decoration": "announced",
                 "tags": ["Backup", "Admin"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
             {
@@ -518,8 +518,8 @@
                 "decoration": "",
                 "tags": ["Search"],
                 "versions": [
-                    {"docker_version": "V1-0-2",      "version": "5.6.3",   "tooltip":  "stable version"},
-                {"docker_version": "development", "version": "6.0 RC2", "tooltip":  "Not for production"}
+                    {"app_version": "V1-0-2",      "version": "5.6.3",   "tooltip":  "stable version"},
+                {"app_version": "development", "version": "6.0 RC2", "tooltip":  "Not for production"}
                 ]
             },
             {
@@ -530,7 +530,7 @@
                 "decoration": "",
                 "tags": ["Database", "Administration"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },  
             {
@@ -541,7 +541,7 @@
                 "decoration": "",
                 "tags": ["Database", "Administration"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },  
             {
@@ -552,7 +552,7 @@
                 "decoration": "",
                 "tags": ["Bugtracker", "Administration"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             },  
             {
@@ -563,7 +563,7 @@
                 "decoration": "new",
                 "tags": ["Development", "Administration"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }       
         ]
@@ -579,7 +579,7 @@
                 "decoration": "",
                 "tags": ["trainings"],
                 "versions": [
-                    {"docker_version": "development", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }
         ]
@@ -595,7 +595,7 @@
                 "decoration": "",
                 "tags": ["Development"],
                 "versions": [
-                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v0.0", "tooltip": ""}
                 ]
             },
             {
@@ -606,7 +606,7 @@
                 "decoration": "",
                 "tags": ["Development"],
                 "versions": [
-                    {"docker_version": "development", "version": "v0.0", "tooltip": ""}
+                    {"app_version": "development", "version": "v0.0", "tooltip": ""}
                 ]
             },
             
@@ -618,7 +618,7 @@
                 "decoration": "",
                 "tags": ["Database", "Visualization"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             },  
             {
@@ -629,7 +629,7 @@
                 "decoration": "",
                 "tags": ["Data Management"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             },  
             {
@@ -640,7 +640,7 @@
                 "decoration": "",
                 "tags": ["Database", "BI"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             },  
             {
@@ -651,7 +651,7 @@
                 "decoration": "",
                 "tags": ["Digital Pathology", "Slide Storage"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             },  
             {
@@ -662,7 +662,7 @@
                 "decoration": "",
                 "tags": ["Directory"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             },
             {
@@ -673,7 +673,7 @@
                 "decoration": "",
                 "tags": ["Video"],
                 "versions": [
-                    {"docker_version": "development", "version": "latest", "tooltip": ""}
+                    {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
             }
             
