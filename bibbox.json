@@ -58,11 +58,11 @@
                 "app_display_name": "OpenSpecimen",
                 "short_description": "Sample Management",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Sample Management"],
         "versions": [
                     {"app_version": "development", "version": "v6.3.x", "tooltip": ""},
-                    {"app_version": "v8.4", "version": "Version_8.4_(Vanessa)", "tooltip": ""}
+                    {"app_version": "v8.4", "version": "Version 8.4 (Vanessa)", "tooltip": ""}
                 ]
             },
             {
@@ -188,7 +188,7 @@
                 "app_display_name": "Histomics TK",
                 "short_description": "Toolkit for the analysis of Histopathology images in association with clinical and genomic data developed by Kitware",
                 "installable": false,
-                "decoration": "announced",
+                "decoration": "",
                 "tags": ["Imaging", "Digital Pathology"],
                 "versions": [
                     {"app_version": "development", "version": "v1", "tooltip": ""}
@@ -275,7 +275,7 @@
                 "app_display_name": "Scaleus",
                 "short_description": "Semantic Web Services Integration for Biomedical Applications",
                 "installable": false,
-                "decoration": "announced",
+                "decoration": "",
                 "tags": ["Data Management", "Linked Data"],
                 "versions": [
                     {"app_version": "development", "version": "v1.0", "tooltip": ""}
@@ -417,7 +417,7 @@
                 "app_display_name": "TeamPass",
                 "short_description": "Easy centralized Password Mangement",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Password Management", "Password database"],
                 "versions": [
                     {"app_version": "development", "version": "v?", "tooltip": ""}
@@ -428,7 +428,7 @@
                 "app_display_name": "Jenkins",
                 "short_description": "Build great things at any scale",
                 "installable": true,
-                "decoration": "new",
+                "decoration": "",
                 "tags": ["Development", "Build tool"],
                 "versions": [
                     {"app_version": "development", "version": "v2.176.2", "tooltip": ""}
@@ -478,7 +478,7 @@
                 "app_display_name": "Backup",
                 "short_description": "Backup BIBBOX apps",
                 "installable": false,
-                "decoration": "announced",
+                "decoration": "",
                 "tags": ["Backup", "Admin"],
                 "versions": [
                     {"app_version": "development", "version": "v1.0", "tooltip": ""}
