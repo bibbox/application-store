@@ -48,7 +48,7 @@
                 "versions": [
                     {"app_version": "development", "version": "v7.0", "tooltip": ""}
                 ]
-            },
+            }
         ]
       
      },     
@@ -530,7 +530,7 @@
                 "versions": [
                     {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },      
+            }   
         ]
     },
    {
