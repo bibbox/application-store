@@ -25,7 +25,7 @@
                       {"app_version": "5-1-18", "version": "5.1.18", "tooltip": "development version (5.1.18)"},
                       {"app_version": "6-0-11", "version": "6.0.11", "tooltip": "development version (6.0.11)"}
                 ]
-            }
+            },
             {
                 "app_name": "app-openspecimen",
                 "app_display_name": "OpenSpecimen",
