@@ -1,19 +1,60 @@
 [
      {
-        "group_name": "Biobank Applications",
-        "group_members": [
+       "group_name": "v4 Testapps",
+       "group_members": [
             {
-                "app_name": "app-baobab",
-                "app_display_name": "Baobab",
-                "short_description": "Biobank Information Management System (BIMS)",
+                "app_name": "app-wordpress",
+                "app_display_name": "Wordpress",
+                "short_description": "Blog, Simple Webportal",
                 "installable": true,
                 "decoration": "new",
-                "tags": ["Sample Management", "LIMS"],
+                "tags": ["Blog", "CMS"],
                 "versions": [
-                    {"app_version": "development", "version": "v1.0", "tooltip": ""},
-            {"app_version": "https", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "V4", "version": "v1.0", "tooltip": ""}
                 ]
             },
+            {
+                "app_name": "app-seeddmsTNG",
+                "app_display_name": "SeedDMS",
+                "short_description": "Self-hosted file storage",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Files", "Storage"],
+                "versions": [
+                      {"app_version": "5-1-5", "version": "5.1.5", "tooltip": "development version (5.1.5)"},
+                      {"app_version": "5-1-18", "version": "5.1.18", "tooltip": "development version (5.1.18)"},
+                      {"app_version": "6-0-11", "version": "6.0.11", "tooltip": "development version (6.0.11)"}
+                ]
+            }
+            {
+                "app_name": "app-openspecimen",
+                "app_display_name": "OpenSpecimen",
+                "short_description": "Sample Management",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Sample Management"],
+                "versions": [
+                    {"app_version": "development", "version": "v6.3.x", "tooltip": ""},
+                    {"app_version": "v8.4", "version": "Version_8.4_(Vanessa)", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-dspace",
+                "app_display_name": "DSpace",
+                "short_description": "Fluid modern Document Management with flexible data structure",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Collection", "Data Management" ],
+                "versions": [
+                    {"app_version": "development", "version": "v7.0", "tooltip": ""}
+                ]
+            },
+        ]
+      
+     }     
+     {
+        "group_name": "Biobank Applications",
+        "group_members": [
             {
                 "app_name": "app-openspecimen",
                 "app_display_name": "OpenSpecimen",
@@ -51,28 +92,6 @@
                 ]
             },
             {
-                "app_name": "app-azizi-amp",
-                "app_display_name": "Azizi AMP",
-                "short_description": "A downstream mobile data processing solution",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Management", "Data Integration", "Data Collection"],
-                "versions": [
-                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-azizi-onadata",
-                "app_display_name": "Azizi ODK Server",
-                "short_description": "A data collection server",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Collection", "Data Management" ],
-                "versions": [
-                    {"app_version": "development", "version": "v0.1", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-redcap",
                 "app_display_name": "RedCap",
                 "short_description": "Survey Management System",
@@ -94,7 +113,7 @@
                     {"app_version": "development", "version": "v1", "tooltip": ""}
                 ]
             },
-        {
+           {
                 "app_name": "app-bbmri-eric-dir",
                 "app_display_name": "BBMRI-ERIC Dir-Update",
                 "short_description": "BBMRI-ERIC Dir-Update",
@@ -218,29 +237,7 @@
     {
         "group_name": "Bioinformatics Applications",
         "group_members": [
-             
-            {
-                "app_name": "app-stategraems",
-                "app_display_name": "STATegraEMS",
-                 "short_description": "Experiment Management",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Experiment Management System", "Bioinformatics"],
-                "versions": [
-                    {"app_version": "development", "version": "v1.0.0", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-galaksio",
-                "app_display_name": "Galaksio",
-                "short_description": "Galaksio",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Galaxy"],
-                "versions": [
-                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            },
+           
             {
                 "app_name": "app-galaxy",
                 "app_display_name": "Galaxy",
@@ -370,29 +367,8 @@
                     {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
             }, 
-            {
-                "app_name": "app-plone",
-                "app_display_name": "Plone",
-                "short_description": "Content Management System",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["CMS"],
-                "versions": [
-                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-drupal",
-                "app_display_name": "Drupal",
-                "short_description": "Content Management System",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["CMS"],
-                "versions": [
-                    {"app_version": "development", "version": "v8.3.2", "tooltip": ""}
-                ]
-            },
-                      {
+
+           {
                 "app_name": "app-limesurvey",
                 "app_display_name": "LimeSurvey",
                 "short_description": "LimeSurvey 2.63.1",
@@ -554,34 +530,7 @@
                 "versions": [
                     {"app_version": "development", "version": "v1.0", "tooltip": ""}
                 ]
-            },  
-            {
-                "app_name": "dev-app-checker",
-                "app_display_name": "App Checker",
-                "short_description": "App Checkcer",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Development", "Administration"],
-                "versions": [
-                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }       
-        ]
-    },
-   {
-        "group_name": "Training",
-        "group_members": [
-             {
-                "app_name": "app-training",
-                "app_display_name": "B3Africa Training",
-                "short_description": "B3Africa Trainings Platform",
-                "installable": true,
-                "decoration": "",
-                "tags": ["trainings"],
-                "versions": [
-                    {"app_version": "development", "version": "v1.0", "tooltip": ""}
-                ]
-            }
+            },      
         ]
     },
    {
@@ -622,34 +571,12 @@
                 ]
             },  
             {
-                "app_name": "app-girder",
-                "app_display_name": "Girder",
-                "short_description": "Data management platform for the web, developed by Kitware",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Management"],
-                "versions": [
-                    {"app_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },  
-            {
                 "app_name": "app-knowage",
                 "app_display_name": "Knowage",
                 "short_description": "Open Source Business Analytics",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Database", "BI"],
-                "versions": [
-                    {"app_version": "development", "version": "latest", "tooltip": ""}
-                ]
-            },  
-            {
-                "app_name": "app-cytomine",
-                "app_display_name": "Cytomine",
-                "short_description": "Open-source rich internet application for collaborative analysis of multi-gigapixel images using machine learning.",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Digital Pathology", "Slide Storage"],
                 "versions": [
                     {"app_version": "development", "version": "latest", "tooltip": ""}
                 ]
