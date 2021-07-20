@@ -218,7 +218,7 @@
                 ]
             },
             {
-                "app_name": "app-seeddmsTNG",
+                "app_name": "app-seeddms",
                 "app_display_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
                 "installable": true,
