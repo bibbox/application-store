@@ -10,7 +10,8 @@
                 "decoration": "new",
                 "tags": ["Blog", "CMS"],
                 "versions": [
-                    {"app_version": "V4", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "V4", "version": "v1.0", "tooltip": ""},
+                    {"app_version": "V4-LukasTest", "version": "delete later vXY", "tooltip": ""}
                 ]
             },
             {
