@@ -225,9 +225,7 @@
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-            {"app_version": "5-1-5", "version": "5.1.5", "tooltip": "development version (5.1.5)"},
-            {"app_version": "5-1-18", "version": "5.1.18", "tooltip": "development version (5.1.18)"},
-            {"app_version": "6-0-11", "version": "6.0.11", "tooltip": "development version (6.0.11)"}
+                     {"app_version": "v6.0.15", "version": "v6.0.15", "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"}
                 ]
             }
         ]
@@ -378,16 +376,14 @@
                 ]
             },
             {
-                "app_name": "app-seeddmsTNG",
+                "app_name": "app-seeddms",
                 "app_display_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-            {"app_version": "development", "version": "v5.1.6", "tooltip": "development version"},
-                    {"app_version": "V5_1_5_1",    "version": "v5.1.5",  "tooltip": "stable version"}
-                    
+                    {"app_version": "v6.0.15", "version": "v6.0.15", "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"}
                 ]
             }, 
             {
