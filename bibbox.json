@@ -14,6 +14,17 @@
                 ]
             },
             {
+                "app_name": "app-limesurvey",
+                "app_display_name": "LimeSurvey",
+                "short_description": "LimeSurvey 2.63.1",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+                "versions": [
+                    {"app_version": "development", "version": "v1.0", "tooltip": "v4 Test"}
+                ]
+            },
+            {
                 "app_name": "app-seeddms",
                 "app_display_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
