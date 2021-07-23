@@ -21,7 +21,7 @@
                 "decoration": "new",
                 "tags": ["Survey"],
                 "versions": [
-                    {"app_version": "development", "version": "v5.0.10", "tooltip": "LimeSurvey v5.0.10 for BBv4"},
+                    {"app_version": "development", "version": "v5.0.10", "tooltip": "LimeSurvey v5.0.10 for BBv4"}
                 ]
             },
             {
