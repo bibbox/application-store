@@ -15,10 +15,10 @@
             },
             {
                 "app_name": "app-limesurvey",
-                "app_display_name": "LimeSurvey",
-                "short_description": "LimeSurvey 5.0.10",
+                "app_display_name": "LimeSurvey v5.0.10",
+                "short_description": "statistical survey web app",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Survey"],
                 "versions": [
                     {"app_version": "development", "version": "v5.0.10", "tooltip": "LimeSurvey v5.0.10 for BBv4"}
