@@ -16,7 +16,7 @@
             {
                 "app_name": "app-limesurvey",
                 "app_display_name": "LimeSurvey",
-                "short_description": "statistical survey web app",
+                "short_description": "statistical survey web app. v5.0.10",
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Survey"],
@@ -378,7 +378,7 @@
            {
                 "app_name": "app-limesurvey",
                 "app_display_name": "LimeSurvey",
-                "short_description": "statistical survey web app \n v5.0.10",
+                "short_description": "statistical survey web app. v5.0.10",
                 "installable": true,
                 "decoration": "new",
                 "tags": ["Survey"],
