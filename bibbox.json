@@ -57,6 +57,17 @@
                 "versions": [
                     {"app_version": "development", "version": "v7.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-jupyter",
+                "app_display_name": "Jupyter Notebook",
+                "short_description": "Interactive data science and scientific computing",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration", "Data Analysis"],
+                "versions": [
+                    {"app_version": "development", "version": "?", "tooltip": "unstable_debug_version_lukas"}
+                ]
             }
         ]
       
