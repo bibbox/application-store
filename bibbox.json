@@ -63,10 +63,10 @@
                 "app_display_name": "Jupyter Notebook",
                 "short_description": "Interactive data science and scientific computing",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Data Integration", "Data Analysis"],
                 "versions": [
-                    {"app_version": "development", "version": "MVP", "tooltip": "Minimum viable product lukas"}
+                    {"app_version": "development", "version": "latest", "tooltip": "Latest Jupyter Datascience Image from official repo."}
                 ]
             }
         ]
