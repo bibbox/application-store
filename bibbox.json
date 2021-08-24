@@ -48,6 +48,17 @@
                 ]
             },
             {
+                "app_name": "app-patho-catalogue",
+                "app_display_name": "DSpace-Catalogue-Test",
+                "short_description": "Fluid modern Document Management with flexible data structure",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Collection", "Data Management" ],
+                "versions": [
+                    {"app_version": "development", "version": "v7.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-dspace",
                 "app_display_name": "DSpace",
                 "short_description": "Fluid modern Document Management with flexible data structure",
