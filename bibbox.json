@@ -69,17 +69,6 @@
                     {"app_version": "development", "version": "v7.0", "tooltip": ""}
                 ]
             },
-                        {
-                "app_name": "app-molgenis",
-                "app_display_name": "Molgenis",
-                "short_description": "EXCEL in the Web",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Integration"],
-        	"versions": [
-                    {"app_version": "v8.7.x", "version": "v8.7.2_bibboxTest_Emilian", "tooltip": ""},
-                ]
-            },
             {
                 "app_name": "app-jupyter",
                 "app_display_name": "Jupyter Notebook",
