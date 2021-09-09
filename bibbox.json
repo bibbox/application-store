@@ -78,7 +78,7 @@
                 "tags": ["Data Integration"],
         "versions": [
                     {"app_version": "development", "version": "v8.1.8", "tooltip": ""},
-                    {"app_version": "v8.7.x", "version": "v8.7.2_bibboxTest_Emilian", "tooltip": ""},
+                    {"app_version": "v8.7.x", "version": "v8.7.2_bibbox_dev(Emilian)", "tooltip": ""},
                     {"app_version": "dev-8-4-2", "version": "v8.4.2", "tooltip": ""},
                     {"app_version": "v1-0-1",  "version": "v3.0.1", "tooltip": ""}
                 ]
