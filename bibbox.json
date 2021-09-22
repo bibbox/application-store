@@ -25,6 +25,17 @@
                 ]
             },
             {
+                "app_name": "app-omero",
+                "app_display_name": "Omero",
+                "short_description": "Digital Microscopy",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Imaging", "Digital Pathology"],
+                "versions": [
+                    {"app_version": "v5-6-x", "version": "v5.6.x", "tooltip": "Omero Server and Web v5.6.x"}
+                ]
+            },
+            {
                 "app_name": "app-seeddms",
                 "app_display_name": "SeedDMS",
                 "short_description": "Self-hosted file storage",
