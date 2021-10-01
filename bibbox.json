@@ -95,6 +95,17 @@
                 ]
             },
             {
+                "app_name": "app-molgenis-emx2",
+                "app_display_name": "Molgenis-emx2",
+                "short_description": "EXCEL in the Web",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration"],
+                "versions": [
+                    {"app_version": "master", "version": "Version_8.4_(Vanessa)", "tooltip": ""},
+                ]
+            },
+            {
                 "app_name": "app-jupyter",
                 "app_display_name": "Jupyter Notebook",
                 "short_description": "Interactive data science and scientific computing",
