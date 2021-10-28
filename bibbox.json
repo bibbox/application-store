@@ -46,7 +46,7 @@
                 "decoration": "",
                 "tags": ["Files", "Storage"],
                 "versions": [
-                      {"app_version": "developement", "version": "latest", "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"},
+                      {"app_version": "development", "version": "latest", "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"},
                       {"app_version": "6.0.11-biboxxrel001", "version": "6.0.11-biboxxrel001_tag", "tooltip": "SeedDMS v6.0.15, BBv4.0"}
                 ]
             },
@@ -116,7 +116,7 @@
                 "decoration": "new",
                 "tags": ["Data Integration", "Data Analysis"],
                 "versions": [
-                     {"app_version": "developement", "version": "latest", "tooltip": "Latest Jupyter Datascience Image from official repo."},
+                     {"app_version": "development", "version": "latest", "tooltip": "Latest Jupyter Datascience Image from official repo."},
                      {"app_version": "notebook-6.4.5-bibboxrel001", "version": "notebook-6.4.5-bibboxrel001_tag", "tooltip": "Latest Jupyter Datascience Image from official repo."}
                 ]
             }
