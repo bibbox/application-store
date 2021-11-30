@@ -1,4 +1,5 @@
 [ 
+  {"name":"HAPI-FHIR",                	  "github_name":"app-hapi-fhir"},
   {"name":"OpenSpecimen",            		  "github_name":"app-openspecimen"},
   {"name":"Molgenis-emx2",            		"github_name":"app-molgenis-emx2"}
   {"name":"Phenotips",                		"github_name":"app-phenotips"},
