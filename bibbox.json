@@ -120,6 +120,17 @@
                      {"app_version": "latest", "version": "latest", "tooltip": "Latest Jupyter Datascience Image from official repo."},
                      {"app_version": "notebook-6.4.5-bibboxrel001", "version": "notebook-6.4.5-bibboxrel001_tag", "tooltip": "Latest Jupyter Datascience Image from official repo."}
                 ]
+            },
+            {
+                "app_name": "app-hapi-fhir",
+                "app_display_name": "HAPI-FHIR",
+                "short_description": "HAPI FHIR is a complete implementation of the HL7 FHIR",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Collection", "Data Management" ],
+                "versions": [
+                    {"app_version": "v5.6.x", "version": "v5.6.0", "tooltip": ""}
+                ]
             }
         ]   
      },     
