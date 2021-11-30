@@ -126,7 +126,7 @@
                 "app_display_name": "HAPI-FHIR",
                 "short_description": "HAPI FHIR is a complete implementation of the HL7 FHIR",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Data Collection", "Data Management" ],
                 "versions": [
                     {"app_version": "v5.6.x", "version": "v5.6.0", "tooltip": ""}
