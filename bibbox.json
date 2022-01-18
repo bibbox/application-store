@@ -131,6 +131,17 @@
                 "versions": [
                     {"app_version": "v5.6.x", "version": "v5.6.0", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-elabftw",
+                "app_display_name": "elabftw",
+                "short_description": "elabftw TODO",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["TODO" ],
+                "versions": [
+                    {"app_version": "v4.2.x", "version": "v4.2.4", "tooltip": ""}
+                ]
             }
         ]   
      },     
