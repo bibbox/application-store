@@ -135,10 +135,10 @@
             {
                 "app_name": "app-elabftw",
                 "app_display_name": "elabftw",
-                "short_description": "elabftw TODO",
+                "short_description": "Electronic Lab Notebook",
                 "installable": true,
                 "decoration": "new",
-                "tags": ["TODO" ],
+                "tags": ["Documentation" ],
                 "versions": [
                     {"app_version": "v4.2.x", "version": "v4.2.4", "tooltip": ""}
                 ]
