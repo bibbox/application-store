@@ -140,6 +140,7 @@
                 "decoration": "new",
                 "tags": ["Documentation" ],
                 "versions": [
+                    {"app_version": "latest", "version": "v4.2.4", "tooltip": "Lastest stale ElabFTW version for bibbox."},
                     {"app_version": "v4.2.x", "version": "v4.2.4", "tooltip": ""}
                 ]
             }
