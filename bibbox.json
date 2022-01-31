@@ -144,6 +144,17 @@
                     {"app_version": "v4.2.4_bibboxrel001", "version": "stable_v4.2.4_bibboxrel001", "tooltip": ""},
                     {"app_version": "v4.2.x", "version": "def_v4.2.4", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-phenotips",
+                "app_display_name": "PhenoTips",
+                "short_description": "Phenotype Editor for the HPO ontology",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Phenotyping", "Genetic Disorders"],
+                "versions": [
+                    {"app_version": "v1.4.9",      "version": "v1.4.9", "tooltip": "stable version for BIBBOXv4"}
+                ]
             }
         ]   
      },     
