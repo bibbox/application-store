@@ -98,6 +98,17 @@
                 ]
             },
             {
+                "app_name": "app-rd-connect",
+                "app_display_name": "Molgenis RD-Finder Version",
+                "short_description": "rd-finder with ejprd image",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration"],
+        "versions": [
+                    {"app_version": "rd-finder-dev", "version": "v0.9.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-molgenis-emx2",
                 "app_display_name": "Molgenis-emx2",
                 "short_description": "EXCEL in the Web",
