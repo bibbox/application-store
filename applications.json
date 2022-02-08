@@ -3,6 +3,7 @@
   {"name":"HAPI-FHIR",                	  "github_name":"app-hapi-fhir"},
   {"name":"OpenSpecimen",            		  "github_name":"app-openspecimen"},
   {"name":"Molgenis-emx2",            		"github_name":"app-molgenis-emx2"},
+  {"name":"Molgenis-EJPRD",            		"github_name":"app-rd-connect"},
   {"name":"Phenotips",                		"github_name":"app-phenotips"},
   {"name":"BIKA",                     		"github_name":"app-bika"},
   {"name":"Opal",                     		"github_name":"app-opal"},
