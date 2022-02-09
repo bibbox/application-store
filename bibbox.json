@@ -168,6 +168,17 @@
                 "versions": [
                     {"app_version": "v1.4.9",      "version": "v1.4.9", "tooltip": "stable version for BIBBOXv4"}
                 ]
+            },
+            {
+                "app_name": "app-galaxy",
+                "app_display_name": "Galaxy",
+                "short_description": "Galaxy",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Galaxy"],
+                "versions": [
+                    {"app_version": "v20.x", "version": "develeopment", "tooltip": ""}
+                ]
             }
         ]   
      },     
