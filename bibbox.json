@@ -94,7 +94,8 @@
                 "tags": ["Data Integration"],
         "versions": [
                     {"app_version": "latest", "version": "latest", "tooltip": ""},
-                    {"app_version": "v8.7.2_bibboxrel001", "version": "v8.7.2_bibboxrel001_tag", "tooltip": ""}
+                    {"app_version": "v8.7.2_bibboxrel001", "version": "v8.7.2_bibboxrel001_tag", "tooltip": ""},
+                    {"app_version": "v8.7.x", "version": "dev_v8.7.x", "tooltip": ""}
                 ]
             },
             {
