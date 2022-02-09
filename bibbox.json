@@ -175,7 +175,7 @@
                 "short_description": "Galaxy",
                 "installable": true,
                 "decoration": "",
-                "tags": ["Galaxy"],
+                "tags": ["Data Analysis"],
                 "versions": [
                     {"app_version": "v20.x", "version": "develeopment", "tooltip": ""}
                 ]
