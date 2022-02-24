@@ -188,7 +188,7 @@
                 "decoration": "",
                 "tags": ["Survey"],
                 "versions": [
-                    {"app_version": "dev-v4", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "dev-v4", "version": "dev-v4", "tooltip": ""}
                 ]
             }
         ]   
