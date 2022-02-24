@@ -179,6 +179,17 @@
                 "versions": [
                     {"app_version": "v20.x", "version": "develeopment", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-redcap",
+                "app_display_name": "RedCap",
+                "short_description": "Survey Management System",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Survey"],
+                "versions": [
+                    {"app_version": "dev-v4", "version": "v1.0", "tooltip": ""}
+                ]
             }
         ]   
      },     
