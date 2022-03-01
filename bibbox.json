@@ -191,7 +191,7 @@
                     {"app_version": "dev-v4", "version": "dev-v4", "tooltip": ""}
                 ]
             },
-                        {
+            {
                 "app_name": "app-taiga",
                 "app_display_name": "TAIGA",
                 "short_description": "Project management tool for multi-functional agile teams",
