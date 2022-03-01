@@ -387,7 +387,7 @@
                 "decoration": "",
                 "tags": ["Project Management", "Tool"],
                 "versions": [
-                    {"app_version": "latest", "version": "v1.0", "tooltip": ""}
+                    {"app_version": "v6.5.x", "version": "v6.5.x_branche", "tooltip": ""}
                 ]
             },
             {
