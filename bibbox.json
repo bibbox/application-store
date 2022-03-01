@@ -190,6 +190,17 @@
                 "versions": [
                     {"app_version": "dev-v4", "version": "dev-v4", "tooltip": ""}
                 ]
+            },
+                        {
+                "app_name": "app-taiga",
+                "app_display_name": "TAIGA",
+                "short_description": "Project management tool for multi-functional agile teams",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Project Management", "Tool"],
+                "versions": [
+                    {"app_version": "v6.5.x", "version": "v6.5.x_branch", "tooltip": ""}
+                ]
             }
         ]   
      },     
@@ -387,7 +398,7 @@
                 "decoration": "",
                 "tags": ["Project Management", "Tool"],
                 "versions": [
-                    {"app_version": "v6.5.x", "version": "v6.5.x_branche", "tooltip": ""}
+                    {"app_version": "latest", "version": "v1.0", "tooltip": ""}
                 ]
             },
             {
