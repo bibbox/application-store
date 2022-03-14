@@ -65,7 +65,8 @@
   {"name":"Jenkins",                      "github_name":"app-jenkins"},
   {"name":"MySQL Philipp",                "github_name":"app-pfa-mysql"},
   {"name":"MySQL Christian",              "github_name":"app-sch-mysql"},
-  {"name":"MySQL Anja",                   "github_name":"app-acb-mysql"}
+  {"name":"MySQL Anja",                   "github_name":"app-acb-mysql"},
+  {"name":"Shiny Server",                 "github_name":"app-shiny-server"}
 ]
 
 
