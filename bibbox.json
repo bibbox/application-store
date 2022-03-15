@@ -224,6 +224,17 @@
                 "versions": [
                     {"app_version": "v4.1.x", "version": "version 4.1.2", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-rstudio-server-open-source-edition",
+                "app_display_name": "RStudio Server",
+                "short_description": "RStudio Server",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Analysis"],
+                "versions": [
+                    {"app_version": "v2022.02.0-443", "version": "version 2022.02.0-443 ", "tooltip": ""}
+                ]
             }
         ]   
      },     
