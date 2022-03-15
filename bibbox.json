@@ -3,6 +3,18 @@
        "group_name": "v4 Testapps",
        "group_members": [
             {
+                "app_name": "app-elasticstack",
+                "app_display_name": "Elastic Stack",
+                "short_description": "Elastic Search Stack",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Search"],
+                "versions": [
+                    {"app_version": "v8.1.0", "version": "v8.1.0",   "tooltip":  "stable version"},
+                    {"app_version": "latest", "version": "6.0 RC2", "tooltip":  "Not for production"}
+                ]
+            },
+            {
                 "app_name": "app-wordpress",
                 "app_display_name": "Wordpress",
                 "short_description": "Blog, Simple Webportal",
@@ -549,18 +561,6 @@
                 "tags": ["Backup", "Admin"],
                 "versions": [
                     {"app_version": "latest", "version": "v1.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-elasticstack",
-                "app_display_name": "Elastic Stack",
-                "short_description": "Elastic Search Stack",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Search"],
-                "versions": [
-                    {"app_version": "V1-0-2",      "version": "5.6.3",   "tooltip":  "stable version"},
-                {"app_version": "latest", "version": "6.0 RC2", "tooltip":  "Not for production"}
                 ]
             },
             {
