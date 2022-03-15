@@ -66,7 +66,8 @@
   {"name":"MySQL Philipp",                "github_name":"app-pfa-mysql"},
   {"name":"MySQL Christian",              "github_name":"app-sch-mysql"},
   {"name":"MySQL Anja",                   "github_name":"app-acb-mysql"},
-  {"name":"Shiny Server",                 "github_name":"app-shiny-server"}
+  {"name":"Shiny Server",                 "github_name":"app-shiny-server"},
+  {"name":"RStudio Server",               "github_name":"app-rstudio-server-open-source-edition"}
 ]
 
 
