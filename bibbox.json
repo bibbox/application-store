@@ -231,7 +231,7 @@
                 "app_display_name": "Shiny Server",
                 "short_description": "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required.",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Data Visualization"],
                 "versions": [
                     {"app_version": "v4.1.x", "version": "version 4.1.2", "tooltip": ""}
@@ -242,7 +242,7 @@
                 "app_display_name": "RStudio Server",
                 "short_description": "RStudio Server",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Data Analysis"],
                 "versions": [
                     {"app_version": "v2022.02.0-443", "version": "version 2022.02.0-443 ", "tooltip": ""}
@@ -253,11 +253,22 @@
                 "app_display_name": "Varapp",
                 "short_description": "Varapp: filter genetic variants",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Bioinformatics", "Variant filtering"],
                 "versions": [
                     {"app_version": "latest", "version": "version 2.0.3", "tooltip": ""},
                     {"app_version": "v2.0.x", "version": "version 2.0.3", "tooltip": ""}
+                ]
+            },
+            {
+                "app_name": "app-moodle",
+                "app_display_name": "Moodle",
+                "short_description": "Learning Management System",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Learning", "Teaching","LMS"],
+                "versions": [
+                    {"app_version": "v3.11.x", "version": "version 3.11.6", "tooltip": ""}
                 ]
             }
         ]   
