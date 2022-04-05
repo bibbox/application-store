@@ -15,6 +15,17 @@
                 ]
             },
             {
+                "app_name": "app-mattermost",
+                "app_display_name": "Mattermost",
+                "short_description": "Mattermost",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Search"],
+                "versions": [
+                    {"app_version": "latest", "version": "6.3", "tooltip":  "Not for production"}
+                ]
+            },
+            {
                 "app_name": "app-wordpress",
                 "app_display_name": "Wordpress",
                 "short_description": "Blog, Simple Webportal",
