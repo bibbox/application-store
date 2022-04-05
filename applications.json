@@ -1,4 +1,5 @@
 [ 
+  {"name":"moodle",                	  "github_name":"app-moodle"},
   {"name":"varapp",                	  "github_name":"app-varapp"},
   {"name":"elabftw",                	  "github_name":"app-elabftw"},
   {"name":"HAPI-FHIR",                	  "github_name":"app-hapi-fhir"},
