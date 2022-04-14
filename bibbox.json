@@ -3,6 +3,18 @@
        "group_name": "v4 Testapps",
        "group_members": [
             {
+                "app_name": "app-mantis",
+                "app_display_name": "Mantis",
+                "short_description": "Mantis Bugtracker",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Bugtracker", "Administration"],
+                "versions": [
+                    {"app_version": "latest", "version": "v1.0", "tooltip": ""},
+                    {"app_version": "v2.25.0_bibboxrel001", "version": "v2.25.0", "tooltip": ""}
+                ]
+            }, 
+            {
                 "app_name": "app-elasticstack",
                 "app_display_name": "Elastic Stack",
                 "short_description": "Elastic Search Stack",
