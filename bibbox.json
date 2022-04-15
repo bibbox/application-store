@@ -340,7 +340,7 @@
         ]
     },
     {
-        "group_name": "Legacy BIBBOXv4 Applications",
+        "group_name": "Legacy BIBBOXv3 Applications",
         "group_members": [
                     {
                 "app_name": "app-phenotips",
