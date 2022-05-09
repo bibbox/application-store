@@ -339,6 +339,22 @@
             }
         ]
     },
+     {
+       "group_name": "FAIRified Apps",
+       "group_members": [
+            {
+                "app_name": "app-phenotips-fair",
+                "app_display_name": "PhenoTips-FAIR",
+                "short_description": "Phenotype Editor for the HPO ontology",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Phenotyping", "Genetic Disorders"],
+                "versions": [
+                    {"app_version": "latest", "version": "v1.4.9", "tooltip":  "V 1.4.9 with FDP extension"}
+                ]
+            },
+        ]   
+     },   
     {
         "group_name": "Legacy BIBBOXv3 Applications",
         "group_members": [
