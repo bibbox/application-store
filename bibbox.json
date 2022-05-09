@@ -4,10 +4,10 @@
        "group_members": [
             {
                 "app_name": "app-phenotips-fair",
-                "app_display_name": "PhenoTips-FAIR",
+                "app_display_name": "PhenoTips FAIR",
                 "short_description": "Phenotype Editor for the HPO ontology",
                 "installable": true,
-                "decoration": "",
+                "decoration": "new",
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
                     {"app_version": "latest",      "version": "v1.4.9", "tooltip": "stable version for BIBBOXv4 with FDP Extension"}
