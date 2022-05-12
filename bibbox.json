@@ -190,18 +190,6 @@
                 ]
             },
             {
-                "app_name": "app-molgenis-fair",
-                "app_display_name": "Molgenis-FAIR",
-                "short_description": "EXCEL in the Web with FAIR Data Point",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Integration", "FAIR Data Point"],
-        "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": ""},
-                    {"app_version": "v8.7.x", "version": "dev_v8.7.x", "tooltip": ""}
-                ]
-            },
-            {
                 "app_name": "app-rd-connect",
                 "app_display_name": "Molgenis RD-Finder Version",
                 "short_description": "rd-finder with ejprd image",
@@ -374,6 +362,18 @@
                 "tags": ["Phenotyping", "Genetic Disorders"],
                 "versions": [
                     {"app_version": "latest", "version": "v1.4.9", "tooltip":  "V 1.4.9 with FDP extension"}
+                ]
+            },
+                        {
+                "app_name": "app-molgenis-fair",
+                "app_display_name": "Molgenis-FAIR",
+                "short_description": "EXCEL in the Web with FAIR Data Point",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data Integration", "FAIR Data Point"],
+        "versions": [
+                    {"app_version": "latest", "version": "latest", "tooltip": ""},
+                    {"app_version": "v8.7.x", "version": "dev_v8.7.x", "tooltip": ""}
                 ]
             }
         ]   
