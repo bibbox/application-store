@@ -353,7 +353,7 @@
                 ]
             },           
             {
-                "app_name": "app-openspecimen-fair",
+                "app_name": "app-openspecimen-fdp",
                 "app_display_name": "OpenSpecimenFAIR",
                 "short_description": "Sample Management",
                 "installable": true,
