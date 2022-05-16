@@ -1,6 +1,7 @@
 [ 
   {"name":"PhenoTips-FAIR",                	  "github_name":"app-phenotips-fair"},
   {"name":"Molgenis-FAIR",                	  "github_name":"app-molgenis-fair"},
+  {"name":"Openspecimen-FAIR",                	  "github_name":"app-openspecimen-fdp"},
   {"name":"moodle",                	  "github_name":"app-moodle"},
   {"name":"varapp",                	  "github_name":"app-varapp"},
   {"name":"elabftw",                	  "github_name":"app-elabftw"},
