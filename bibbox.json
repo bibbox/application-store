@@ -351,6 +351,18 @@
                 "versions": [
                     {"app_version": "latest", "version": "v1.4.9", "tooltip":  "V 1.4.9 with FDP extension"}
                 ]
+            },           
+            {
+                "app_name": "app-openspecimen-fair",
+                "app_display_name": "OpenSpecimenFAIR",
+                "short_description": "Sample Management",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Sample Management"],
+                "versions": [
+                    {"app_version": "latest", "version": "latest", "tooltip": "Openspecimen Bibbox Development version"},
+                    {"app_version": "v8.2.RC2-bibboxrel001", "version": "v8.2.RC2-bibboxrel001_tag", "tooltip": "Openspecimen Bibbox release version"}
+                ]
             },
                         {
                 "app_name": "app-molgenis-fair",
