@@ -105,6 +105,17 @@
                 "versions": [
                     {"app_version": "v2022.02.0-443", "version": "version 2022.02.0-443 ", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-open-cravat",
+                "app_display_name": "Open Cravat",
+                "short_description": "Open Cravat a web-tool for varaiant annotaions",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Data Analysis","Genomic","Bioinformatics","Variants"],
+                "versions": [
+                    {"app_version": "v2.2.x", "version": "version 2.2.x", "tooltip": ""}
+                ]
             }
             
             
