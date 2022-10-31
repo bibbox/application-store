@@ -158,6 +158,18 @@
                       {"app_version": "latest", "version": "latest", "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"},
                       {"app_version": "6.0.11-biboxxrel001", "version": "6.0.11-biboxxrel001_tag", "tooltip": "SeedDMS v6.0.15, BBv4.0"}
                 ]
+            },
+              {
+                "app_name": "app-labelstudio",
+                "app_display_name": "Label Studio",
+                "short_description": "Data annotation tool",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Data annotation"],
+                "versions": [
+                      {"app_version": "1.6.0", "version": "1.6.0", "tooltip": ""},
+                      {"app_version": "1.6.0", "version": "1.6.0", "tooltip": ""}
+                ]
             }
         ]
     },
