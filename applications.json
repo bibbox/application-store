@@ -74,7 +74,8 @@
   {"name":"MySQL Anja",                   "github_name":"app-acb-mysql"},
   {"name":"Shiny Server",                 "github_name":"app-shiny-server"},
   {"name":"RStudio Server",               "github_name":"app-rstudio-server-open-source-edition"},
-  {"name":"cBioPortal",                   "github_name":"app-cBioPortal"}
+  {"name":"cBioPortal",                   "github_name":"app-cBioPortal"},
+  {"name":"Label Studio",                 "github_name":"app-labelstudio"}
 ]
 
 
