@@ -167,8 +167,7 @@
                 "decoration": "",
                 "tags": ["Data annotation"],
                 "versions": [
-                      {"app_version": "1.6.0", "version": "1.6.0", "tooltip": ""},
-                      {"app_version": "1.6.0", "version": "1.6.0", "tooltip": ""}
+                      {"app_version": "latest", "version": "1.6.0", "tooltip": ""}
                 ]
             }
         ]
