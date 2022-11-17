@@ -379,6 +379,17 @@
                 "versions": [
                     {"app_version": "v3.11.x", "version": "version 3.11.6", "tooltip": ""}
                 ]
+            },
+            {
+                "app_name": "app-solitaire",
+                "app_display_name": "Solitaire",
+                "short_description": "Solitaire card game",
+                "installable": true,
+                "decoration": "new",
+                "tags": ["Solitaire"],
+                "versions": [
+                    {"app_version": "master", "version": "version 1.0.0", "tooltip": ""}
+                ]
             }
         ]
     },
