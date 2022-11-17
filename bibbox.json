@@ -65,7 +65,7 @@
                 "versions": [
                     {"app_version": "v1.4.9",      "version": "v1.4.9", "tooltip": "stable version for BIBBOXv4"}
                 ]
-            }
+            },
              
              {
                 "app_name": "app-heapdemo",
