@@ -1,4 +1,5 @@
 [ 
+  {"name":"Solitaire",                	  "github_name":"app-solitaire"},
   {"name":"Open Cravat",                	  "github_name":"app-open-cravat"},
   {"name":"PhenoTips-FAIR",                	  "github_name":"app-phenotips-fair"},
   {"name":"Molgenis-FAIR",                	  "github_name":"app-molgenis-fair"},
