@@ -67,7 +67,7 @@
   {"name":"RD-Connect Finder",            "github_name":"app-rd-connect-finder"},
   {"name":"OpenLDAP",                     "github_name":"app-openldap"},
   {"name":"Video Score",                  "github_name":"app-video-score"},
-  {"name":"TeamPass",                      "github_name":"app-teampass"},
+  {"name":"TeamPass",                     "github_name":"app-teampass"},
   {"name":"Jenkins",                      "github_name":"app-jenkins"},
   {"name":"MySQL Philipp",                "github_name":"app-pfa-mysql"},
   {"name":"MySQL Christian",              "github_name":"app-sch-mysql"},
@@ -75,7 +75,8 @@
   {"name":"Shiny Server",                 "github_name":"app-shiny-server"},
   {"name":"RStudio Server",               "github_name":"app-rstudio-server-open-source-edition"},
   {"name":"cBioPortal",                   "github_name":"app-cBioPortal"},
-  {"name":"Label Studio",                 "github_name":"app-labelstudio"}
+  {"name":"Label Studio",                 "github_name":"app-labelstudio"},
+  {"name":"HEAP Demo APP",                "github_name":"app-heapdemo"}
 ]
 
 
