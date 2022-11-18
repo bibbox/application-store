@@ -332,7 +332,7 @@
                 "decoration": "",
                 "tags": ["automate"],
                 "versions": [
-                    {"app_version": "development/version-for-bibboxv4", "version": "lts",   "tooltip":  "stable version"}
+                    {"app_version": "development-version-for-bibboxv4", "version": "lts",   "tooltip":  "stable version"}
                 ]
             }
         ]
