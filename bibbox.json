@@ -374,6 +374,17 @@
                      {"app_version": "latest", "version": "latest", "tooltip": "Latest Jupyter Datascience Image from official repo."},
                      {"app_version": "notebook-6.4.5-bibboxrel001", "version": "notebook-6.4.5-bibboxrel001_tag", "tooltip": "Latest Jupyter Datascience Image from official repo."}
                 ]
+            },
+             {
+                "app_name": "app-nocodb",
+                "app_display_name": "NocoDB",
+                "short_description": "NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Project Management", "Tool"],
+                "versions": [
+                    {"app_version": "latest", "version": "v1.0", "tooltip": ""}
+                ]
             }
         ]
     },
@@ -618,17 +629,6 @@
                 "app_name": "app-taiga",
                 "app_display_name": "TAIGA",
                 "short_description": "Project management tool for multi-functional agile teams",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Project Management", "Tool"],
-                "versions": [
-                    {"app_version": "latest", "version": "v1.0", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-nocodb",
-                "app_display_name": "NocoDB",
-                "short_description": "NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet",
                 "installable": true,
                 "decoration": "",
                 "tags": ["Project Management", "Tool"],
