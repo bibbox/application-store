@@ -626,7 +626,7 @@
                 ]
             },
             {
-                "app_name": "app-nocopdb",
+                "app_name": "app-nocodb",
                 "app_display_name": "NocoDB",
                 "short_description": "NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet",
                 "installable": true,
