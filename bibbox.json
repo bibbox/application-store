@@ -626,6 +626,17 @@
                 ]
             },
             {
+                "app_name": "app-nocopdb",
+                "app_display_name": "NocoDB",
+                "short_description": "NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet",
+                "installable": true,
+                "decoration": "",
+                "tags": ["Project Management", "Tool"],
+                "versions": [
+                    {"app_version": "latest", "version": "v1.0", "tooltip": ""}
+                ]
+            },
+            {
                 "app_name": "app-orientdb",
                 "app_display_name": "OrientDB",
                 "short_description": "NoSQL Graph/ Document Database",
