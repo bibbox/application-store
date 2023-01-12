@@ -66,17 +66,17 @@
                     {"app_version": "v1.4.9",      "version": "v1.4.9", "tooltip": "stable version for BIBBOXv4"}
                 ]
             },
-            {
-                "app_name": "app-heapdemo",
-                "app_display_name": "HEAP DEMO",
-                "short_description": "HEAP DEMO: GUI + Databank",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Databank"],
-                "versions": [
-                    {"app_version": "v1.1",      "version": "v1.1", "tooltip": ""}
-                ]
-            }
+            #{
+             #   "app_name": "app-heapdemo",
+             #   "app_display_name": "HEAP DEMO",
+              #  "short_description": "HEAP DEMO: GUI + Databank",
+               # "installable": true,
+               # "decoration": "",
+                #"tags": ["Databank"],
+                #"versions": [
+                #    {"app_version": "v1.1",      "version": "v1.1", "tooltip": ""}
+                #]
+            #}
             
         ]
     },
