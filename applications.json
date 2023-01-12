@@ -78,8 +78,8 @@
   {"name":"RStudio Server",               "github_name":"app-rstudio-server-open-source-edition"},
   {"name":"cBioPortal",                   "github_name":"app-cBioPortal"},
   {"name":"Label Studio",                 "github_name":"app-labelstudio"},
-  {"name":"NocoDB",                       "github_name":"app-nocodb"},
-  {"name":"HEAP Demo APP",                "github_name":"app-heapdemo"}
+  {"name":"NocoDB",                       "github_name":"app-nocodb"}
+  #{"name":"HEAP Demo APP",                "github_name":"app-heapdemo"}
 ]
 
 
