@@ -279,7 +279,7 @@
                 "decoration": "",
                 "tags": ["Search"],
                 "versions": [
-                    {"app_version": "latest", "version": "6.3", "tooltip":  "Not for production"}
+                    {"app_version": "latest", "version": "7.7", "tooltip":  "Not for production"}
                 ]
             },
             {
