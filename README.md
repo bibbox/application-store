@@ -1,4 +1,13 @@
-![alt text](http://bibbox.org/image/layout_set_logo?img_id=99523&t=1466419185262 "Logo BiBBoX")
+<img src="./img/silicolab_logo.png" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="60" height="60">
 # App Catalogue
-This repository is the catalogue for BIBBOX Apps currently used within the eB3Kit od B3Africa
-![alt text](http://demo.bibbox.org/image/layout_set_logo?img_id=31474&t=1466415820003 "Logo B3Africa")
+
+This repository is the catalogue for BIBBOX Apps.
+
+## Register an App
+For the registration of an app two configuration files have to be extended:
+
+- `applications.json` maps a Github repository to a human readable name of the App
+
+- `bibbox.json` puts the App into a specific kit. A kit defines ta group of Apps together with metadata, which are then displayed in the App store and can be installed in a BIBBOX instance.
+
