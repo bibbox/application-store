@@ -1,394 +1,619 @@
 [
-     {
-       "group_name": "v4 Testapps",
-       "group_members": [
-        ]   
-     },     
-     {
-        "group_name": "Biobank Applications",
-        "group_members": [
-           {
-                "app_name": "app-openspecimen",
-                "app_display_name": "OpenSpecimen",
-                "short_description": "Sample Management",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Sample Management"],
-                "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": "Openspecimen Bibbox Development version"},
-                    {"app_version": "v8.0.x-bibboxrel001", "version": "v8.0.x-bibboxrel001_tag", "tooltip": "Openspecimen Bibbox release version"},
-                    {"app_version": "v8.1.RC8-bibboxrel001", "version": "v8.1.RC8-bibboxrel001_tag", "tooltip": "Openspecimen Bibbox release version"},
-                    {"app_version": "v8.2.RC2-bibboxrel001", "version": "v8.2.RC2-bibboxrel001_tag", "tooltip": "Openspecimen Bibbox release version"}
-                ]
-            },
-            {
-                "app_name": "app-redcap",
-                "app_display_name": "RedCap",
-                "short_description": "Survey Management System",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Survey"],
-                "versions": [
-                    {"app_version": "dev-v4", "version": "dev-v4", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-limesurvey",
-                "app_display_name": "LimeSurvey",
-                "short_description": "statistical survey web app. v5.0.10",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Survey"],
-                "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": "LimeSurvey v5.0.10 for BBv4 testversion"},
-                    {"app_version": "v5.0.10-bibboxrel001", "version": "v5.0.10-bibboxrel001_tag", "tooltip": "LimeSurvey v5.0.10 for BBv4"}
-                ]
-            },
-            {
-                "app_name": "app-phenotips",
-                "app_display_name": "PhenoTips",
-                "short_description": "Phenotype Editor for the HPO ontology",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Phenotyping", "Genetic Disorders"],
-                "versions": [
-                    {"app_version": "v1.4.9",      "version": "v1.4.9", "tooltip": "stable version for BIBBOXv4"}
-                ]
-            }
-
-        ]
-    },
-    {
-        "group_name": "Bioinformatics Applications",
-        "group_members": [
-           {
-                "app_name": "app-galaxy",
-                "app_display_name": "Galaxy",
-                "short_description": "Galaxy",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Analysis"],
-                "versions": [
-                    {"app_version": "v20.x", "version": "develeopment", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-varapp",
-                "app_display_name": "Varapp",
-                "short_description": "Varapp: filter genetic variants",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Bioinformatics", "Variant filtering"],
-                "versions": [
-                    {"app_version": "latest", "version": "version 2.0.3", "tooltip": ""},
-                    {"app_version": "v2.0.x", "version": "version 2.0.3", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-rstudio-server-open-source-edition",
-                "app_display_name": "RStudio Server",
-                "short_description": "RStudio Server",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Data Analysis"],
-                "versions": [
-                    {"app_version": "v2022.07.2-576", "version": "version 2022.07.2-576 ", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-open-cravat",
-                "app_display_name": "Open Cravat",
-                "short_description": "Open Cravat a web-tool for varaiant annotaions",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Data Analysis","Genomic","Bioinformatics","Variants"],
-                "versions": [
-                    {"app_version": "v2.2.x", "version": "version 2.2.x", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-cBioPortal",
-                "app_display_name": "cBioPortal",
-                "short_description": "The cBioPortal for Cancer Genomics is a resource for interactive exploration of multidimensional cancer genomics data sets.",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Data Analysis","Genomic","Bioinformatics"],
-                "versions": [
-                    {"app_version": "latest", "version": "version 4.1.13", "tooltip": ""}
-                ]
-            }
-            
-            
-        ]
-    },
-    {
-        "group_name": "Digital Pathology Applications",
-        "group_members": [
-            {
-                "app_name": "app-omero",
-                "app_display_name": "Omero",
-                "short_description": "Digital Microscopy",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Imaging", "Digital Pathology"],
-                "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": "Omero Server and Web v5.6.x"},
-                    {"app_version": "v5.6.0-bibboxrel001", "version": "v5.6.0-bibboxrel001", "tooltip": "Omero Server and Web v5.6.x"}
-                ]
-            },
-            {
-                "app_name": "app-seeddms",
-                "app_display_name": "SeedDMS",
-                "short_description": "Self-hosted file storage",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Files", "Storage"],
-                "versions": [
-                      {"app_version": "latest", "version": "latest", "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"},
-                      {"app_version": "6.0.11-biboxxrel001", "version": "6.0.11-biboxxrel001_tag", "tooltip": "SeedDMS v6.0.15, BBv4.0"}
-                ]
-            },
-              {
-                "app_name": "app-labelstudio",
-                "app_display_name": "Label Studio",
-                "short_description": "Data annotation tool",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data annotation"],
-                "versions": [
-                      {"app_version": "latest", "version": "1.6.0", "tooltip": ""}
-                ]
-            }
-        ]
-    },
-    {
-        "group_name": "(FAIR) Cataloguing Applications",
-        "group_members": [
-
-            {
-                "app_name": "app-molgenis",
-                "app_display_name": "Molgenis",
-                "short_description": "EXCEL in the Web",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Integration"],
+  {
+    "group_name": "v4 Testapps",
+    "group_members": [
+    ]
+  },
+  {
+    "group_name": "Biobank & Bioinformatics Applications",
+    "group_members": [
+      {
+        "app_name": "app-openspecimen",
+        "app_display_name": "OpenSpecimen",
+        "short_description": "Sample Management",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Sample Management"
+        ],
         "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": ""},
-                    {"app_version": "v8.7.2_bibboxrel001", "version": "v8.7.2_bibboxrel001_tag", "tooltip": ""},
-                    {"app_version": "v8.7.x", "version": "dev_v8.7.x", "tooltip": ""}
-                ]
-            },
-
-            {
-                "app_name": "app-molgenis-emx2",
-                "app_display_name": "Molgenis-emx2",
-                "short_description": "EXCEL in the Web",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Data Integration"],
-                "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": ""},
-                    {"app_version": "v8.17.0-bibboxrel001", "version": "v8.17.0_bibboxrel001_tag", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-hapi-fhir",
-                "app_display_name": "HAPI-FHIR",
-                "short_description": "HAPI FHIR is a complete implementation of the HL7 FHIR",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Data Collection", "Data Management" ],
-                "versions": [
-                    {"app_version": "v5.6.x", "version": "v5.6.0", "tooltip": ""}
-                ]
-            }
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "Openspecimen Bibbox Development version"
+          },
+          {
+            "app_version": "v8.0.x-bibboxrel001",
+            "version": "v8.0.x-bibboxrel001_tag",
+            "tooltip": "Openspecimen Bibbox release version"
+          },
+          {
+            "app_version": "v8.1.RC8-bibboxrel001",
+            "version": "v8.1.RC8-bibboxrel001_tag",
+            "tooltip": "Openspecimen Bibbox release version"
+          },
+          {
+            "app_version": "v8.2.RC2-bibboxrel001",
+            "version": "v8.2.RC2-bibboxrel001_tag",
+            "tooltip": "Openspecimen Bibbox release version"
+          }
         ]
-    },
-    {
-        "group_name": "Project Management and Communication Applications",
-        "group_members": [
-            {
-                "app_name": "app-taiga",
-                "app_display_name": "TAIGA",
-                "short_description": "Project management tool for multi-functional agile teams",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Project Management", "Tool"],
-                "versions": [
-                    {"app_version": "v6.5.x", "version": "v6.5.x_branch", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-mantis",
-                "app_display_name": "Mantis",
-                "short_description": "Mantis Bugtracker",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Bugtracker", "Administration"],
-                "versions": [
-                    {"app_version": "v2.25.0_bibboxrel001", "version": "v2.25.0", "tooltip": ""}
-                ]
-            }, 
-            {
-                "app_name": "app-mattermost",
-                "app_display_name": "Mattermost",
-                "short_description": "Mattermost",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Search"],
-                "versions": [
-                    {"app_version": "latest", "version": "7.7", "tooltip":  "Not for production"}
-                ]
-            },
-            {
-                "app_name": "app-elabftw",
-                "app_display_name": "elabftw",
-                "short_description": "Electronic Lab Notebook",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Documentation" ],
-                "versions": [
-                    {"app_version": "latest", "version": "v4.2.4", "tooltip": "Lastest stable ElabFTW version for bibbox."},
-                    {"app_version": "v4.2.4_bibboxrel001", "version": "stable_v4.2.4_bibboxrel001", "tooltip": ""},
-                    {"app_version": "v4.2.x", "version": "dev_v4.2.4", "tooltip": ""},
-                    {"app_version": "v4.2.x-https", "version": "dev_https_v4.2.4", "tooltip": "development"}
-                ]
-            }
-        ]
-    },
-    {
-        "group_name": "Helper Applications",
-        "group_members": [
-          
-            {
-                "app_name": "app-jenkins",
-                "app_display_name": "Jenkins",
-                "short_description": "Automatization app",
-                "installable": true,
-                "decoration": "",
-                "tags": ["automate"],
-                "versions": [
-                    {"app_version": "development-version-for-bibboxv4", "version": "lts",   "tooltip":  "stable version"}
-                ]
-            }
-        ]
-    },
-   {
-        "group_name": "(Web) Development Applications",
-        "group_members": [
-             {
-                "app_name": "app-wordpress",
-                "app_display_name": "Wordpress",
-                "short_description": "Blog, Simple Webportal",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Blog", "CMS"],
-                "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": "Developement Bibbox version of Wordpress"},
-                    {"app_version": "php7.4-bibboxrel001", "version": "php7.4-bibboxrel001_tag", "tooltip": "Developement Bibbox version of Wordpress"}
-                ]
-            },
-            {
-                "app_name": "app-shiny-server",
-                "app_display_name": "Shiny Server",
-                "short_description": "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required.",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Data Visualization"],
-                "versions": [
-                    {"app_version": "v4.1.x", "version": "version 4.1.2", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-jupyter",
-                "app_display_name": "Jupyter Notebook",
-                "short_description": "Interactive data science and scientific computing",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Data Integration", "Data Analysis"],
-                "versions": [
-                     {"app_version": "latest", "version": "latest", "tooltip": "Latest Jupyter Datascience Image from official repo."},
-                     {"app_version": "notebook-6.4.5-bibboxrel001", "version": "notebook-6.4.5-bibboxrel001_tag", "tooltip": "Latest Jupyter Datascience Image from official repo."}
-                ]
-            },
-             {
-                "app_name": "app-nocodb",
-                "app_display_name": "NocoDB",
-                "short_description": "NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet",
-                "installable": true,
-                "decoration": "",
-                "tags": ["Project Management", "Tool"],
-                "versions": [
-                    {"app_version": "latest", "version": "v1.0", "tooltip": ""}
-                ]
-            }
-        ]
-    },
-    {
-        "group_name": "Teaching and Learing Applications",
-        "group_members": [
-           {
-                "app_name": "app-moodle",
-                "app_display_name": "Moodle",
-                "short_description": "Learning Management System",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Learning", "Teaching","LMS"],
-                "versions": [
-                    {"app_version": "v3.11.x", "version": "version 3.11.6", "tooltip": ""}
-                ]
-            },
-            {
-                "app_name": "app-solitaire",
-                "app_display_name": "Solitaire",
-                "short_description": "Solitaire card game",
-                "installable": true,
-                "decoration": "new",
-                "tags": ["Solitaire"],
-                "versions": [
-                    {"app_version": "master", "version": "version 1.0.0", "tooltip": ""}
-                ]
-            }
-        ]
-    },
-     {
-       "group_name": "FAIRified Apps",
-       "group_members": [
-            {
-                "app_name": "app-phenotips-fair",
-                "app_display_name": "PhenoTips-FAIR",
-                "short_description": "Phenotype Editor for the HPO ontology",
-                "installable": true,
-                "decoration": "FAIR",
-                "tags": ["Phenotyping", "Genetic Disorders"],
-                "versions": [
-                    {"app_version": "latest", "version": "v1.4.9", "tooltip":  "V 1.4.9 with FDP extension"}
-                ]
-            },           
-            {
-                "app_name": "app-openspecimen-fair",
-                "app_display_name": "OpenSpecimenFAIR",
-                "short_description": "Sample Management",
-                "installable": true,
-                "decoration": "FAIR",
-                "tags": ["Sample Management"],
-                "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": "Openspecimen Bibbox Development version"},
-                    {"app_version": "v8.2.RC2-bibboxrel001", "version": "v8.2.RC2-bibboxrel001_tag", "tooltip": "Openspecimen Bibbox release version"}
-                ]
-            },
-                        {
-                "app_name": "app-molgenis-fair",
-                "app_display_name": "Molgenis-FAIR",
-                "short_description": "EXCEL in the Web with FAIR Data Point",
-                "installable": true,
-                "decoration": "FAIR",
-                "tags": ["Data Integration", "FAIR Data Point"],
+      },
+      {
+        "app_name": "app-redcap",
+        "app_display_name": "RedCap",
+        "short_description": "Survey Management System",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Survey"
+        ],
         "versions": [
-                    {"app_version": "latest", "version": "latest", "tooltip": ""},
-                    {"app_version": "v8.7.x", "version": "dev_v8.7.x", "tooltip": ""}
-                ]
-            }
-        ]   
-     }
+          {
+            "app_version": "dev-v4",
+            "version": "dev-v4",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-limesurvey",
+        "app_display_name": "LimeSurvey",
+        "short_description": "statistical survey web app. v5.0.10",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Survey"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "LimeSurvey v5.0.10 for BBv4 testversion"
+          },
+          {
+            "app_version": "v5.0.10-bibboxrel001",
+            "version": "v5.0.10-bibboxrel001_tag",
+            "tooltip": "LimeSurvey v5.0.10 for BBv4"
+          }
+        ]
+      },
+      {
+        "app_name": "app-phenotips",
+        "app_display_name": "PhenoTips",
+        "short_description": "Phenotype Editor for the HPO ontology",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Phenotyping",
+          "Genetic Disorders"
+        ],
+        "versions": [
+          {
+            "app_version": "v1.4.9",
+            "version": "v1.4.9",
+            "tooltip": "stable version for BIBBOXv4"
+          }
+        ]
+      },
+      {
+        "app_name": "app-galaxy",
+        "app_display_name": "Galaxy",
+        "short_description": "Galaxy",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Data Analysis"
+        ],
+        "versions": [
+          {
+            "app_version": "v20.x",
+            "version": "develeopment",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-varapp",
+        "app_display_name": "Varapp",
+        "short_description": "Varapp: filter genetic variants",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Bioinformatics",
+          "Variant filtering"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "version 2.0.3",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v2.0.x",
+            "version": "version 2.0.3",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-rstudio-server-open-source-edition",
+        "app_display_name": "RStudio Server",
+        "short_description": "RStudio Server",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Data Analysis"
+        ],
+        "versions": [
+          {
+            "app_version": "v2022.07.2-576",
+            "version": "version 2022.07.2-576 ",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-open-cravat",
+        "app_display_name": "Open Cravat",
+        "short_description": "Open Cravat a web-tool for varaiant annotaions",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Data Analysis",
+          "Genomic",
+          "Bioinformatics",
+          "Variants"
+        ],
+        "versions": [
+          {
+            "app_version": "v2.2.x",
+            "version": "version 2.2.x",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-cBioPortal",
+        "app_display_name": "cBioPortal",
+        "short_description": "The cBioPortal for Cancer Genomics is a resource for interactive exploration of multidimensional cancer genomics data sets.",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Data Analysis",
+          "Genomic",
+          "Bioinformatics"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "version 4.1.13",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-omero",
+        "app_display_name": "Omero",
+        "short_description": "Digital Microscopy",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Imaging",
+          "Digital Pathology"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "Omero Server and Web v5.6.x"
+          },
+          {
+            "app_version": "v5.6.0-bibboxrel001",
+            "version": "v5.6.0-bibboxrel001",
+            "tooltip": "Omero Server and Web v5.6.x"
+          }
+        ]
+      },
+      {
+        "app_name": "app-molgenis",
+        "app_display_name": "Molgenis",
+        "short_description": "EXCEL in the Web",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Data Integration"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v8.7.2_bibboxrel001",
+            "version": "v8.7.2_bibboxrel001_tag",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v8.7.x",
+            "version": "dev_v8.7.x",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-molgenis-emx2",
+        "app_display_name": "Molgenis-emx2",
+        "short_description": "EXCEL in the Web",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Data Integration"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v8.17.0-bibboxrel001",
+            "version": "v8.17.0_bibboxrel001_tag",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-hapi-fhir",
+        "app_display_name": "HAPI-FHIR",
+        "short_description": "HAPI FHIR is a complete implementation of the HL7 FHIR",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Data Collection",
+          "Data Management"
+        ],
+        "versions": [
+          {
+            "app_version": "v5.6.x",
+            "version": "v5.6.0",
+            "tooltip": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group_name": "Helper Applications",
+    "group_members": [
+      {
+        "app_name": "app-taiga",
+        "app_display_name": "TAIGA",
+        "short_description": "Project management tool for multi-functional agile teams",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Project Management",
+          "Tool"
+        ],
+        "versions": [
+          {
+            "app_version": "v6.5.x",
+            "version": "v6.5.x_branch",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-mantis",
+        "app_display_name": "Mantis",
+        "short_description": "Mantis Bugtracker",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Bugtracker",
+          "Administration"
+        ],
+        "versions": [
+          {
+            "app_version": "v2.25.0_bibboxrel001",
+            "version": "v2.25.0",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-mattermost",
+        "app_display_name": "Mattermost",
+        "short_description": "Mattermost",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Search"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "7.7",
+            "tooltip": "Not for production"
+          }
+        ]
+      },
+      {
+        "app_name": "app-elabftw",
+        "app_display_name": "elabftw",
+        "short_description": "Electronic Lab Notebook",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Documentation"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "v4.2.4",
+            "tooltip": "Lastest stable ElabFTW version for bibbox."
+          },
+          {
+            "app_version": "v4.2.4_bibboxrel001",
+            "version": "stable_v4.2.4_bibboxrel001",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v4.2.x",
+            "version": "dev_v4.2.4",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v4.2.x-https",
+            "version": "dev_https_v4.2.4",
+            "tooltip": "development"
+          }
+        ]
+      },
+      {
+        "app_name": "app-seeddms",
+        "app_display_name": "SeedDMS",
+        "short_description": "Self-hosted file storage",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Files",
+          "Storage"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"
+          },
+          {
+            "app_version": "6.0.11-biboxxrel001",
+            "version": "6.0.11-biboxxrel001_tag",
+            "tooltip": "SeedDMS v6.0.15, BBv4.0"
+          }
+        ]
+      },
+      {
+        "app_name": "app-labelstudio",
+        "app_display_name": "Label Studio",
+        "short_description": "Data annotation tool",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Data annotation"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "1.6.0",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-jenkins",
+        "app_display_name": "Jenkins",
+        "short_description": "Automatization app",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "automate"
+        ],
+        "versions": [
+          {
+            "app_version": "development-version-for-bibboxv4",
+            "version": "lts",
+            "tooltip": "stable version"
+          }
+        ]
+      },
+      {
+        "app_name": "app-wordpress",
+        "app_display_name": "Wordpress",
+        "short_description": "Blog, Simple Webportal",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Blog",
+          "CMS"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "Developement Bibbox version of Wordpress"
+          },
+          {
+            "app_version": "php7.4-bibboxrel001",
+            "version": "php7.4-bibboxrel001_tag",
+            "tooltip": "Developement Bibbox version of Wordpress"
+          }
+        ]
+      },
+      {
+        "app_name": "app-shiny-server",
+        "app_display_name": "Shiny Server",
+        "short_description": "Easily build rich and productive interactive web apps in R — no HTML/CSS/JavaScript required.",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Data Visualization"
+        ],
+        "versions": [
+          {
+            "app_version": "v4.1.x",
+            "version": "version 4.1.2",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-jupyter",
+        "app_display_name": "Jupyter Notebook",
+        "short_description": "Interactive data science and scientific computing",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Data Integration",
+          "Data Analysis"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "Latest Jupyter Datascience Image from official repo."
+          },
+          {
+            "app_version": "notebook-6.4.5-bibboxrel001",
+            "version": "notebook-6.4.5-bibboxrel001_tag",
+            "tooltip": "Latest Jupyter Datascience Image from official repo."
+          }
+        ]
+      },
+      {
+        "app_name": "app-nocodb",
+        "app_display_name": "NocoDB",
+        "short_description": "NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet",
+        "installable": true,
+        "decoration": "",
+        "tags": [
+          "Project Management",
+          "Tool"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "v1.0",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-moodle",
+        "app_display_name": "Moodle",
+        "short_description": "Learning Management System",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Learning",
+          "Teaching",
+          "LMS"
+        ],
+        "versions": [
+          {
+            "app_version": "v3.11.x",
+            "version": "version 3.11.6",
+            "tooltip": ""
+          }
+        ]
+      },
+      {
+        "app_name": "app-solitaire",
+        "app_display_name": "Solitaire",
+        "short_description": "Solitaire card game",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Solitaire"
+        ],
+        "versions": [
+          {
+            "app_version": "master",
+            "version": "version 1.0.0",
+            "tooltip": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group_name": "FAIRified Apps",
+    "group_members": [
+      {
+        "app_name": "app-phenotips-fair",
+        "app_display_name": "PhenoTips-FAIR",
+        "short_description": "Phenotype Editor for the HPO ontology",
+        "installable": true,
+        "decoration": "FAIR",
+        "tags": [
+          "Phenotyping",
+          "Genetic Disorders"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "v1.4.9",
+            "tooltip": "V 1.4.9 with FDP extension"
+          }
+        ]
+      },
+      {
+        "app_name": "app-openspecimen-fair",
+        "app_display_name": "OpenSpecimenFAIR",
+        "short_description": "Sample Management",
+        "installable": true,
+        "decoration": "FAIR",
+        "tags": [
+          "Sample Management"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "Openspecimen Bibbox Development version"
+          },
+          {
+            "app_version": "v8.2.RC2-bibboxrel001",
+            "version": "v8.2.RC2-bibboxrel001_tag",
+            "tooltip": "Openspecimen Bibbox release version"
+          }
+        ]
+      },
+      {
+        "app_name": "app-molgenis-fair",
+        "app_display_name": "Molgenis-FAIR",
+        "short_description": "EXCEL in the Web with FAIR Data Point",
+        "installable": true,
+        "decoration": "FAIR",
+        "tags": [
+          "Data Integration",
+          "FAIR Data Point"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v8.7.x",
+            "version": "dev_v8.7.x",
+            "tooltip": ""
+          }
+        ]
+      }
+    ]
+  }
 ]
