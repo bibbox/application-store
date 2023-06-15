@@ -189,6 +189,11 @@
             "app_version": "latest",
             "version": "version 4.1.13",
             "tooltip": ""
+          },
+          {
+            "app_version": "v5.3.11",
+            "version": "version 5.3.11",
+            "tooltip": ""
           }
         ]
       },
