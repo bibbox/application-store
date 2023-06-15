@@ -583,12 +583,13 @@
             "app_version": "latest",
             "version": "latest",
             "tooltip": "Openspecimen Bibbox Development version"
-          },
-          {
-            "app_version": "v8.2.RC2-bibboxrel001",
-            "version": "v8.2.RC2-bibboxrel001_tag",
-            "tooltip": "Openspecimen Bibbox release version"
           }
+          #,
+          #{
+          #  "app_version": "v8.2.RC2-bibboxrel001",
+          #  "version": "v8.2.RC2-bibboxrel001_tag",
+          #  "tooltip": "Openspecimen Bibbox release version"
+          #}
         ]
       },
       {
