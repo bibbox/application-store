@@ -186,7 +186,7 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
+            "app_version": "v4.1.13",
             "version": "version 4.1.13",
             "tooltip": ""
           },
