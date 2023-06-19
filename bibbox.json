@@ -236,6 +236,11 @@
             "tooltip": ""
           },
           {
+            "app_version": "v10.x",
+            "version": "dev_v10.x",
+            "tooltip": ""
+          },
+          {
             "app_version": "v8.7.2_bibboxrel001",
             "version": "v8.7.2_bibboxrel001_tag",
             "tooltip": ""
