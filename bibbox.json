@@ -439,8 +439,8 @@
         "versions": [
           {
             "app_version": "development-version-for-bibboxv4",
-            "version": "lts",
-            "tooltip": "stable version"
+            "version": "2.411",
+            "tooltip": "version 2.411"
           }
         ]
       },
