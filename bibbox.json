@@ -317,6 +317,11 @@
             "app_version": "v6.6.0",
             "version": "v6.6.0_branch",
             "tooltip": ""
+          },
+           {
+            "app_version": "dev-v6.7.0",
+            "version": "dev-v6.7.0_branch",
+            "tooltip": ""
           }
         ]
       },
