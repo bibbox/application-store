@@ -68,7 +68,7 @@
         "versions": [
           {
             "app_version": "v5.6.0",
-            "version": "5.6.0",
+            "version": "v5.6.0",
             "tooltip": "LimeSurvey v5.6.0 for BBv4 testversion"
           },
           {
