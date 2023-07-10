@@ -59,7 +59,7 @@
       {
         "app_name": "app-limesurvey",
         "app_display_name": "LimeSurvey",
-        "short_description": "statistical survey web app. v5.6.0",
+        "short_description": "Statistical survey web app",
         "installable": true,
         "decoration": "new",
         "tags": [
@@ -67,9 +67,14 @@
         ],
         "versions": [
           {
+            "app_version": "latest",
+            "version": "latest",
+            "tooltip": "LimeSurvey v5.6.0 for BBv4 testversion"
+          },
+          {
             "app_version": "v5.6.0",
             "version": "v5.6.0",
-            "tooltip": "LimeSurvey v5.6.0 for BBv4 testversion"
+            "tooltip": "LimeSurvey v5.6.0 for BBv4"
           },
           {
             "app_version": "v5.0.10-bibboxrel001",
