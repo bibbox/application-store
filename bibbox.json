@@ -377,8 +377,13 @@
         "versions": [
           {
             "app_version": "latest",
-            "version": "v4.7.0-dev",
+            "version": "stable_v4.2.4_bibboxrel001",
             "tooltip": "Lastest stable ElabFTW version for bibbox."
+          },
+          {
+          "app_version": "v4.7.0-dev",
+          "version": "v4.7.0-dev",
+          "tooltip": ""
           },
           {
             "app_version": "v4.2.4_bibboxrel001",
