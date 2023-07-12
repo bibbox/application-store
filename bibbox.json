@@ -377,7 +377,7 @@
         "versions": [
           {
             "app_version": "latest",
-            "version": "v4.2.4",
+            "version": "v4.7.0-dev",
             "tooltip": "Lastest stable ElabFTW version for bibbox."
           },
           {
