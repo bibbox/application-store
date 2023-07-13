@@ -521,6 +521,11 @@
             "tooltip": "Latest Jupyter Datascience Image from official repo."
           },
           {
+            "app_version": " notebook-v6.5.4_bibboxrel001",
+            "version": " notebook-v6.5.4_bibboxrel001",
+            "tooltip": "Latest Jupyter Datascience Image from official repo."
+          },
+          {
             "app_version": "notebook-6.4.5-bibboxrel001",
             "version": "notebook-6.4.5-bibboxrel001_tag",
             "tooltip": "Latest Jupyter Datascience Image from official repo."
