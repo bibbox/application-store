@@ -563,15 +563,13 @@
         ],
         "versions": [
           {
-            "app_version": "v3.11.x",
-            "version": "version 3.11.6",
-            "tooltip": ""
-          }
-        ],
-         "versions": [
-          {
             "app_version": "v4.0.9",
             "version": "v4.0.9",
+            "tooltip": ""
+          },
+          {
+            "app_version": "v3.11.x",
+            "version": "version 3.11.6",
             "tooltip": ""
           }
         ]
