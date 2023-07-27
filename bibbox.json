@@ -112,8 +112,8 @@
         ],
         "versions": [
           {
-            "app_version": "v20.x",
-            "version": "develeopment",
+            "app_version": "latest",
+            "version": "v20.09",
             "tooltip": ""
           }
         ]
