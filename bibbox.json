@@ -264,17 +264,7 @@
         "versions": [
           {
             "app_version": "latest",
-            "version": "latest",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v8.203.0",
-            "version": "v8.203.0 - development version",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v8.17.0-bibboxrel001",
-            "version": "v8.17.0_bibboxrel001_tag",
+            "version": "v8.203.0",
             "tooltip": ""
           }
         ]
