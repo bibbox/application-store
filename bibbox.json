@@ -50,8 +50,8 @@
         ],
         "versions": [
           {
-            "app_version": "dev-v4",
-            "version": "dev-v4",
+            "app_version": "latest",
+            "version": "latest",
             "tooltip": ""
           }
         ]
