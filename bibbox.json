@@ -491,6 +491,11 @@
             "app_version": "php7.4-bibboxrel001",
             "version": "php7.4-bibboxrel001_tag",
             "tooltip": "Developement Bibbox version of Wordpress"
+          },
+          {
+            "app_version": "v8.2",
+            "version": "v8.2",
+            "tooltip": "Developement Bibbox version 8.2 of Wordpress"
           }
         ]
       },
