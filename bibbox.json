@@ -587,7 +587,8 @@
         "installable": true,
         "decoration": "new",
         "tags": [
-          "Solitaire"
+          "Solitaire",
+          "Card game"
         ],
         "versions": [
           {
