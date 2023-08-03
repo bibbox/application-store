@@ -515,12 +515,12 @@
         ],
         "versions": [
           {
-            "app_version": "v4.1.x",
+            "app_version": "latest",
             "version": "version 4.1.2",
             "tooltip": ""
           },
           {
-            "app_version": "v4.3.x",
+            "app_version": "v4.3.1",
             "version": "version 4.3.1",
             "tooltip": ""
           }
