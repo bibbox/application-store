@@ -259,7 +259,9 @@
         "installable": true,
         "decoration": "",
         "tags": [
-          "Data Integration"
+          "Data Integration",
+          "Data Warehouse",
+          "Data catalogue"
         ],
         "versions": [
           {
