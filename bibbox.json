@@ -104,7 +104,7 @@
       {
         "app_name": "app-galaxy",
         "app_display_name": "Galaxy",
-        "short_description": "Galaxy",
+        "short_description": "platform for FAIR data analysis",
         "installable": true,
         "decoration": "",
         "tags": [
