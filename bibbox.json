@@ -352,7 +352,10 @@
         "installable": true,
         "decoration": "",
         "tags": [
-          "Social"
+          "Social",
+          "Collaboration",
+          "Team messaging",
+          "Audio & Screen Sharing"
         ],
         "versions": [
           {
