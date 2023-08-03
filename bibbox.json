@@ -10,11 +10,12 @@
       {
         "app_name": "app-openspecimen",
         "app_display_name": "OpenSpecimen",
-        "short_description": "Sample Management",
+        "short_description": "Highly Configurable Biospecimen Management System",
         "installable": true,
         "decoration": "",
         "tags": [
-          "Sample Management"
+          "Sample Management",
+          "Biobanking"
         ],
         "versions": [
           {
