@@ -348,7 +348,7 @@
       {
         "app_name": "app-mattermost",
         "app_display_name": "Mattermost",
-        "short_description": "Mattermost",
+        "short_description": "Secure collaboration for technical teams",
         "installable": true,
         "decoration": "",
         "tags": [
