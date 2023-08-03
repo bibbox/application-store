@@ -363,6 +363,11 @@
             "app_version": "latest",
             "version": "7.7",
             "tooltip": "Not for production"
+          },
+          {
+            "app_version": "v8.0.2",
+            "version": "v8.0.2",
+            "tooltip": "Not for production"
           }
         ]
       },
