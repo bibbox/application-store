@@ -513,6 +513,11 @@
             "app_version": "v4.1.x",
             "version": "version 4.1.2",
             "tooltip": ""
+          },
+          {
+            "app_version": "v4.3.x",
+            "version": "version 4.3.1",
+            "tooltip": ""
           }
         ]
       },
