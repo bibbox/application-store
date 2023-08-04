@@ -640,6 +640,23 @@
 
         ]
       },
+{
+        "app_name": "app-postgres",
+        "app_display_name": "PostgreSQL",
+        "short_description": "Object-relational database management system (ORDBMS)",
+        "installable": true,
+        "decoration": "new",
+        "tags": [
+          "Database"
+        ],
+        "versions": [
+          {
+            "app_version": "latest",
+            "version": "version 2.x",
+            "tooltip": ""
+          }
+        ]
+      },
       {
         "app_name": "app-molgenis-fair",
         "app_display_name": "Molgenis-FAIR",
