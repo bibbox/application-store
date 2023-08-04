@@ -233,22 +233,12 @@
         "versions": [
           {
             "app_version": "latest",
-            "version": "latest",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v10.x",
-            "version": "dev_v10.x",
+            "version": "v10.x",
             "tooltip": ""
           },
           {
             "app_version": "v8.7.2_bibboxrel001",
             "version": "v8.7.2_bibboxrel001_tag",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v8.7.x",
-            "version": "dev_v8.7.x",
             "tooltip": ""
           }
         ]
@@ -312,13 +302,8 @@
         ],
         "versions": [
           {
-            "app_version": "v6.5.x",
-            "version": "v6.5.x_branch",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v6.6.0",
-            "version": "v6.6.0_branch",
+            "app_version": "latest",
+            "version": "v6.7.0",
             "tooltip": ""
           },
            {
