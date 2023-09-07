@@ -116,6 +116,11 @@
             "app_version": "latest",
             "version": "v20.09",
             "tooltip": ""
+          },
+          {
+            "app_version": "v23.0-anvil",
+            "version": "v23.0",
+            "tooltip": ""
           }
         ]
       },
