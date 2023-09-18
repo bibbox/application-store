@@ -511,12 +511,12 @@
         "versions": [
           {
             "app_version": "latest",
-            "version": "version 4.1.2",
+            "version": "version 4.3.1",
             "tooltip": ""
           },
           {
             "app_version": "v4.3.1",
-            "version": "version 4.3.1",
+            "version": "version 4.3.1_dev",
             "tooltip": ""
           }
         ]
