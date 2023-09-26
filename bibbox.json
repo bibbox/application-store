@@ -670,8 +670,7 @@
             "version": "version 16.0",
             "tooltip": ""
            }
-        ]
-      },
+        ],
       {
         "app_name": "app-molgenis-fair",
         "app_display_name": "Molgenis-FAIR",
