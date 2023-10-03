@@ -163,11 +163,6 @@
         ],
         "versions": [
           {
-            "app_version": "v2022.07.2-576",
-            "version": "version 2022.07.2-576 ",
-            "tooltip": ""
-          },
-          {
             "app_version": "v4.3",
             "version": "version 4.3",
             "tooltip": ""
