@@ -163,7 +163,7 @@
         ],
         "versions": [
           {
-            "app_version": "v4.3",
+            "app_version": "latest",
             "version": "version 4.3",
             "tooltip": ""
           }
