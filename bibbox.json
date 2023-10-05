@@ -416,11 +416,6 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
-            "tooltip": "SeedDMS v6.0.15, BBv4.0 Testversion"
-          },
-          {
             "app_version": "v6.0.19",
             "version": "v6.0.19",
             "tooltip": "SeedDMS v6.0.19, BBv4.0 test"
