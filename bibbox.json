@@ -19,8 +19,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
+            "app_version": "9-0-RC2",
+            "version": "9-0-RC2",
             "tooltip": "Openspecimen Bibbox Development version"
           },
           {
@@ -68,11 +68,6 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
-            "tooltip": "LimeSurvey v5.0.10 for BBv4 testversion"
-          },
-          {
             "app_version": "v5.6.0",
             "version": "v5.6.0",
             "tooltip": "LimeSurvey v5.6.0 for BBv4"
@@ -113,8 +108,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "v20.09",
+            "app_version": "v23.0",
+            "version": "v23.0",
             "tooltip": ""
           },
           {
@@ -141,12 +136,7 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "version 2.0.3",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v2.0.x",
+            "app_version": "v2.0.3",
             "version": "version 2.0.3",
             "tooltip": ""
           }
@@ -163,7 +153,7 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
+            "app_version": "v4.3",
             "version": "version 4.3",
             "tooltip": ""
           }
@@ -183,8 +173,8 @@
         ],
         "versions": [
           {
-            "app_version": "v2.2.x",
-            "version": "version 2.2.x",
+            "app_version": "v2.2.7",
+            "version": "version 2.2.7",
             "tooltip": ""
           }
         ]
@@ -202,7 +192,7 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
+            "app_version": "v5.3.8",
             "version": "version 5.3.8",
             "tooltip": ""
           }
@@ -220,13 +210,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "5.6",
-            "tooltip": "Omero Server and Web v5.6.x"
-          },
-          {
-            "app_version": "v5.6.0-bibboxrel001",
-            "version": "v5.6.0-bibboxrel001",
+            "app_version": "v5.6",
+            "version": "v5.6",
             "tooltip": "Omero Server and Web v5.6.x"
           }
         ]
@@ -242,8 +227,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "v10.x",
+            "app_version": "v10-lts",
+            "version": "v10-lts",
             "tooltip": ""
           },
           {
@@ -266,7 +251,7 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
+            "app_version": "v8.203.0",
             "version": "v8.203.0",
             "tooltip": ""
           }
@@ -312,7 +297,7 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
+            "app_version": "v6.7.0",
             "version": "v6.7.0",
             "tooltip": ""
           },
@@ -355,8 +340,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "7.7",
+            "app_version": "v7.7",
+            "version": "v7.7",
             "tooltip": "Not for production"
           },
           {
@@ -378,9 +363,9 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "stable_v4.2.4_bibboxrel001",
-            "tooltip": "Lastest stable ElabFTW version for bibbox."
+            "app_version": "v4.2.4",
+            "version": "v4.2.4",
+            "tooltip": "Stable ElabFTW version for bibbox."
           },
           {
           "app_version": "v4.7.0-dev",
@@ -438,13 +423,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "1.9.0",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v1.6.0",
-            "version": "1.6.0",
+            "app_version": "v1.9.0",
+            "version": "v1.9.0",
             "tooltip": ""
           }
         ]
@@ -460,8 +440,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "2.411",
+            "app_version": "v2.411",
+            "version": "v2.411",
             "tooltip": "version 2.411"
           },
           {
@@ -483,8 +463,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
+            "app_version": "vphp7.4",
+            "version": "vphp7.4",
             "tooltip": "Developement Bibbox version of Wordpress"
           },
           {
@@ -510,13 +490,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "version 4.3.1",
-            "tooltip": ""
-          },
-          {
             "app_version": "v4.3.1",
-            "version": "version 4.3.1_dev",
+            "version": "version 4.3.1",
             "tooltip": ""
           }
         ]
@@ -533,8 +508,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
+            "app_version": "v6.4.5",
+            "version": "v6.4.5",
             "tooltip": "Latest Jupyter Datascience Image from official repo."
           },
           {
@@ -561,8 +536,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "v1.0",
+            "app_version": "v0.109.3",
+            "version": "v0.109.3",
             "tooltip": ""
           }
         ]
@@ -601,11 +576,6 @@
           "Database"
         ],
         "versions": [
-          {
-            "app_version": "latest",
-            "version": "version 2.x",
-            "tooltip": ""
-          },
            {
             "app_version": "dev_4bibbox4",
             "version": "version 16.0",
@@ -625,7 +595,7 @@
         ],
         "versions": [
           {
-            "app_version": "master",
+            "app_version": "v1.0",
             "version": "version 1.0.0",
             "tooltip": ""
           }
@@ -648,7 +618,7 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
+            "app_version": "v1.4.9",
             "version": "v1.4.9",
             "tooltip": "V 1.4.9 with FDP extension"
           }
@@ -665,8 +635,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
+            "app_version": "v9-0-RC2",
+            "version": "v9-0-RC2",
             "tooltip": "Openspecimen Bibbox Development version"
           }
 
@@ -684,8 +654,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
+            "app_version": "v8.7.2",
+            "version": "v8.7.2",
             "tooltip": ""
           },
           {
