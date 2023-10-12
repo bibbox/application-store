@@ -596,7 +596,7 @@
         "versions": [
           {
             "app_version": "v1.0",
-            "version": "version 1.0.0",
+            "version": "v1.0",
             "tooltip": ""
           }
         ]
