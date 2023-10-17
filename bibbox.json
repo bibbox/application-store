@@ -51,8 +51,8 @@
         ],
         "versions": [
           {
-            "app_version": "latest",
-            "version": "latest",
+            "app_version": "redcap_for_bibbox",
+            "version": "Redcap for BIBBOX",
             "tooltip": ""
           }
         ]
