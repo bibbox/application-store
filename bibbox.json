@@ -207,8 +207,8 @@
         ],
         "versions": [
           {
-            "app_version": "v10-lts",
-            "version": "v10-lts",
+            "app_version": "v10.1.0",
+            "version": "v10.1.0",
             "tooltip": ""
           },
           {
