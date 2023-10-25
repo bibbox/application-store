@@ -53,12 +53,12 @@
         ],
         "versions": [
           {
-            "app_version": "v5.6.0-bibboxrel001",
+            "app_version": "v5.6.0",
             "version": "v5.6.0-bibboxrel001_tag",
             "tooltip": "LimeSurvey v5.6.0 for BBv4"
           },
           {
-            "app_version": "v5.0.10-bibboxrel001",
+            "app_version": "v5.0.10",
             "version": "v5.0.10-bibboxrel001_tag",
             "tooltip": "LimeSurvey v5.0.10 for BBv4"
           }
