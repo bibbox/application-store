@@ -343,29 +343,14 @@
         ],
         "versions": [
           {
+          "app_version": "v4.7.0",
+          "version": "v4.7.0",
+          "tooltip": "Stable ElabFTW version for bibbox."
+          },
+          {
             "app_version": "v4.2.4",
             "version": "v4.2.4",
             "tooltip": "Stable ElabFTW version for bibbox."
-          },
-          {
-          "app_version": "v4.7.0-dev",
-          "version": "v4.7.0-dev",
-          "tooltip": ""
-          },
-          {
-            "app_version": "v4.2.4_bibboxrel001",
-            "version": "stable_v4.2.4_bibboxrel001",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v4.2.x",
-            "version": "dev_v4.2.4",
-            "tooltip": ""
-          },
-          {
-            "app_version": "v4.2.x-https",
-            "version": "dev_https_v4.2.4",
-            "tooltip": "development"
           }
         ]
       },
