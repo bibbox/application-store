@@ -19,8 +19,8 @@
         ],
         "versions": [
           {
-            "app_version": "v9-0-RC2",
-            "version": "v9-0-RC2",
+            "app_version": "v9.0.RC2",
+            "version": "v9.0.RC2",
             "tooltip": "Openspecimen Bibbox Development version"
           }
         ]
