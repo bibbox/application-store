@@ -27,6 +27,11 @@
             "app_version": "v10.1.RC1",
             "version": "v10.1.RC1",
             "tooltip": "Openspecimen Bibbox Development version"
+          },
+          {
+            "app_version": "pr-5",
+            "version": "v10.3.1.RC4",
+            "tooltip": "Openspecimen Bibbox Development version"
           }
         ]
       },
