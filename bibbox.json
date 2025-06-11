@@ -236,6 +236,11 @@
         ],
         "versions": [
           {
+            "app_version": "v13.11.0",
+            "version": "v13.11.0",
+            "tooltip": ""
+          },
+          {
             "app_version": "v11.77.2",
             "version": "v11.77.2",
             "tooltip": ""
